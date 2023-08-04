@@ -1,0 +1,64 @@
+# Reading D:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do exercicio1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1 {C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/exercicio1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:14:02 on Aug 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1" C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/exercicio1.sv 
+# -- Compiling module exercicio1
+# 
+# Top level modules:
+# 	exercicio1
+# End time: 15:14:02 on Aug 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches {C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches/exercicio1_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:14:02 on Aug 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches" C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches/exercicio1_tb.sv 
+# -- Compiling module exercicio1_tb
+# 
+# Top level modules:
+# 	exercicio1_tb
+# End time: 15:14:03 on Aug 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc" exercicio1_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" exercicio1_tb 
+# Start time: 15:14:03 on Aug 03,2023
+# Loading sv_std.std
+# Loading work.exercicio1_tb
+# Loading work.exercicio1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Teste 1 | x = 0, z = 0
+# saidas em binario | x = 0000, z = 0000000
+# Teste 1 foi validado com o uso do assert
+# Teste 2 | x = 2, z = 4
+# saidas em binario | x = 0010, z = 0000100
+# Teste 3 | x = 4, z = 8
+# saidas em binario | x = 0100, z = 0001000
+# Teste 4 | x = 5, z = 25
+# saidas em binario | x = 0101, z = 0011001
+# Teste 5 | x = 7, z = 49
+# saidas em binario | x = 0111, z = 0110001
+# Teste 6 | x = 15, z = 97
+# saidas em binario | x = 1111, z = 1100001
+# Teste 7 | x = 1, z= 2
+# saidas em binario | x = 0001, z = 0000010
+# End time: 15:17:35 on Aug 03,2023, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 0

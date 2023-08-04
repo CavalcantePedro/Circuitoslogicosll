@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedroCavalcante/Documents/inversor/inversor.sv
+source_file = 1, C:/Users/pedroCavalcante/Documents/inversor/Testbenches/simples_testbench_tb.sv
+source_file = 1, C:/Users/pedroCavalcante/Documents/inversor/db/inversor.cbx.xml
+design_name = inversor
+instance = comp, \y[0]~output\, y[0]~output, inversor, 1
+instance = comp, \y[1]~output\, y[1]~output, inversor, 1
+instance = comp, \y[2]~output\, y[2]~output, inversor, 1
+instance = comp, \y[3]~output\, y[3]~output, inversor, 1
+instance = comp, \a[0]~input\, a[0]~input, inversor, 1
+instance = comp, \a[1]~input\, a[1]~input, inversor, 1
+instance = comp, \a[2]~input\, a[2]~input, inversor, 1
+instance = comp, \a[3]~input\, a[3]~input, inversor, 1

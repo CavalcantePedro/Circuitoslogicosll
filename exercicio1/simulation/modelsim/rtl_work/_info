@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/simulation/modelsim
+vexercicio1
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1691086442
+!i10b 1
+!s100 =HPbg_H6H`Fm<_=mUF9PA1
+Ig>Wk^U`aST25Q3W8K=EVn2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 exercicio1_sv_unit
+S1
+R0
+w1691079906
+8C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/exercicio1.sv
+FC:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/exercicio1.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1691086442.000000
+!s107 C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/exercicio1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1|C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/exercicio1.sv|
+!i113 1
+Z5 o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1
+Z6 tCvgOpt 0
+vexercicio1_tb
+R1
+!s110 1691086443
+!i10b 1
+!s100 <^8MW^aJ?UGk5;b8D77fj0
+I^ZSU[Y0Yld6`e9DF]<BeG2
+R2
+!s105 exercicio1_tb_sv_unit
+S1
+R0
+w1691086421
+8C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches/exercicio1_tb.sv
+FC:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches/exercicio1_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches/exercicio1_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches|C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches/exercicio1_tb.sv|
+!i113 1
+R5
+!s92 -sv -work work +incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/exercicio1/Testbenches
+R6
