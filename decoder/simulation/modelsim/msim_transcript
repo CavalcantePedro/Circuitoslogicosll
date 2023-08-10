@@ -1,0 +1,75 @@
+# Reading D:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do decoder_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying D:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {decoder_min_1200mv_0c_fast.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:16:34 on Aug 10,2023
+# vcom -reportprogress 300 -93 -work work decoder_min_1200mv_0c_fast.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity decoder
+# -- Compiling architecture structure of decoder
+# End time: 15:16:35 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/decoder/Testbenches {C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/decoder/Testbenches/decoder_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:16:35 on Aug 10,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/decoder/Testbenches" C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/decoder/Testbenches/decoder_tb.sv 
+# -- Compiling module decoder_tb
+# 
+# Top level modules:
+# 	decoder_tb
+# End time: 15:16:35 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=decoder_min_1200mv_0c_vhd_fast.sdo -L altera -L cycloneive -L gate_work -L work -voptargs="+acc" decoder_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -sdftyp /dut=decoder_min_1200mv_0c_vhd_fast.sdo -L altera -L cycloneive -L gate_work -L work -voptargs=""+acc"" decoder_tb 
+# Start time: 15:16:35 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.decoder_tb
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.decoder(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading instances from decoder_min_1200mv_0c_vhd_fast.sdo
+# Loading timing data from decoder_min_1200mv_0c_vhd_fast.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /decoder_tb File: C:/Users/pedroCavalcante/Documents/CircuitosLogicosll/decoder/Testbenches/decoder_tb.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# caso 1 OK: sel = 00, out = 0001
+# caso 2 OK: sel = 01, out = 0010
+# caso 3 OK: sel = 10, out = 0100
+# caso 4 OK: sel = 11, out = 1000
+# End time: 15:17:08 on Aug 10,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
