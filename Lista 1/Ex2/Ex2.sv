@@ -3,7 +3,7 @@ module Ex2
 (input logic [7:0]entrada, 
 output logic [2:0]saida_dist); //O output deve ser de 3 bits, pois a dist�ncia m�xima � 7, que � representado em bin�rio por 3 bits (111) e   O input deve ser de 8 bits, pois o vetor de bits de entrada tem 8 bits
 
-always @ * begin //O always � usdado para que o c�digo seja executado sempre que houver uma mudan�a na entrada
+always @ * begin //O always é usado para definir um bloco de código que será executado sempre que houver uma mudança nos sinais de entrada do módulo.
 saida_dist = 0; //A sa�da � inicializada com 0
 for (int i =0; i < 8; i++) begin //O for � usado para percorrer o vetor de entrada
     if (entrada[i] == 1) begin //Se o valor do vetor for 1, o primeiro 1 � encontrado
