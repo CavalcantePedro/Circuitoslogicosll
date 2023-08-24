@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/CircuitosLogicosll/mux2/simulation/modelsim
+vmux2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1692726142
+!i10b 1
+!s100 NRib42no]0oC@Aj10iToH2
+I9DS=oE^UJCf=KC;ejR0He2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 mux2_sv_unit
+S1
+R0
+w1692726048
+8D:/Documentos/CircuitosLogicosll/mux2/mux2.sv
+FD:/Documentos/CircuitosLogicosll/mux2/mux2.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1692726142.000000
+!s107 D:/Documentos/CircuitosLogicosll/mux2/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/CircuitosLogicosll/mux2|D:/Documentos/CircuitosLogicosll/mux2/mux2.sv|
+!i113 1
+Z4 o-sv -work work
+!s92 -sv -work work +incdir+D:/Documentos/CircuitosLogicosll/mux2
+Z5 tCvgOpt 0
+vmux2_tb
+R1
+!s110 1692726143
+!i10b 1
+!s100 KeZE3_imSHjon:noRK]`]2
+I42loL`kFQW^BG1Gg@UmA]0
+R2
+!s105 mux2_tb_sv_unit
+S1
+R0
+w1692725547
+8D:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv
+FD:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1692726143.000000
+!s107 D:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/CircuitosLogicosll/mux2/Testbenches|D:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv|
+!i113 1
+R4
+!s92 -sv -work work +incdir+D:/Documentos/CircuitosLogicosll/mux2/Testbenches
+R5

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/CircuitosLogicosll/mux2/simulation/modelsim
+Emux2
+Z1 w1692726417
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+R0
+Z8 8mux2_6_1200mv_85c_slow.vho
+Z9 Fmux2_6_1200mv_85c_slow.vho
+l0
+L34
+VNIINGJ8[`1@[bMb6hmAKX1
+!s100 ha4Y8;P]dOA<Ug4z@SgcH2
+Z10 OV;C;10.5b;63
+31
+Z11 !s110 1692726466
+!i10b 1
+Z12 !s108 1692726464.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|mux2_6_1200mv_85c_slow.vho|
+Z14 !s107 mux2_6_1200mv_85c_slow.vho|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 4 mux2 0 22 NIINGJ8[`1@[bMb6hmAKX1
+l95
+L63
+VEX?oGkPOgB:H41ok`HPa02
+!s100 f;PLO70H>lPOU[9c@GSQg1
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+vmux2_tb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R11
+!i10b 1
+!s100 KeZE3_imSHjon:noRK]`]2
+I42loL`kFQW^BG1Gg@UmA]0
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 mux2_tb_sv_unit
+S1
+R0
+w1692725547
+8D:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv
+FD:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv
+L0 8
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1692726466.000000
+!s107 D:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/CircuitosLogicosll/mux2/Testbenches|D:/Documentos/CircuitosLogicosll/mux2/Testbenches/mux2_tb.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+D:/Documentos/CircuitosLogicosll/mux2/Testbenches
+tCvgOpt 0
