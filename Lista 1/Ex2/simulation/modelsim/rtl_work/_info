@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documentos/CircuitosLogicosll/Lista 1/Ex2/simulation/modelsim
+vEx2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1692900732
+!i10b 1
+!s100 j8BGcUom?Xo81MjUdO:mc1
+IH5Y9J7_mbYaX8H4FL7o6h2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Ex2_sv_unit
+S1
+R0
+w1692900120
+8D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Ex2.sv
+FD:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Ex2.sv
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1692900732.000000
+!s107 D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Ex2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/CircuitosLogicosll/Lista 1/Ex2|D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Ex2.sv|
+!i113 1
+Z4 o-sv -work work
+!s92 -sv -work work {+incdir+D:/Documentos/CircuitosLogicosll/Lista 1/Ex2}
+Z5 tCvgOpt 0
+n@ex2
+vEx2_tb
+R1
+!s110 1692900733
+!i10b 1
+!s100 6RjKi_aLNolWA6:5lbEKi0
+IJM;:GC6O`QT69oB_TN]9l1
+R2
+!s105 Ex2_tb_sv_unit
+S1
+R0
+w1692900681
+8D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Testbenches/Ex2_tb.sv
+FD:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Testbenches/Ex2_tb.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1692900733.000000
+!s107 D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Testbenches/Ex2_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Testbenches|D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Testbenches/Ex2_tb.sv|
+!i113 1
+R4
+!s92 -sv -work work {+incdir+D:/Documentos/CircuitosLogicosll/Lista 1/Ex2/Testbenches}
+R5
+n@ex2_tb
