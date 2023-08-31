@@ -1,0 +1,1822 @@
+TimeQuest Timing Analyzer report for Ex5
+Thu Aug 31 10:29:16 2023
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Slow 1200mV 85C Model Setup Summary
+  7. Slow 1200mV 85C Model Hold Summary
+  8. Slow 1200mV 85C Model Recovery Summary
+  9. Slow 1200mV 85C Model Removal Summary
+ 10. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Slow 1200mV 85C Model Metastability Report
+ 14. Slow 1200mV 0C Model Fmax Summary
+ 15. Slow 1200mV 0C Model Setup Summary
+ 16. Slow 1200mV 0C Model Hold Summary
+ 17. Slow 1200mV 0C Model Recovery Summary
+ 18. Slow 1200mV 0C Model Removal Summary
+ 19. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 20. Propagation Delay
+ 21. Minimum Propagation Delay
+ 22. Slow 1200mV 0C Model Metastability Report
+ 23. Fast 1200mV 0C Model Setup Summary
+ 24. Fast 1200mV 0C Model Hold Summary
+ 25. Fast 1200mV 0C Model Recovery Summary
+ 26. Fast 1200mV 0C Model Removal Summary
+ 27. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 28. Propagation Delay
+ 29. Minimum Propagation Delay
+ 30. Fast 1200mV 0C Model Metastability Report
+ 31. Multicorner Timing Analysis Summary
+ 32. Progagation Delay
+ 33. Minimum Progagation Delay
+ 34. Board Trace Model Assignments
+ 35. Input Transition Times
+ 36. Slow Corner Signal Integrity Metrics
+ 37. Fast Corner Signal Integrity Metrics
+ 38. Clock Transfers
+ 39. Report TCCS
+ 40. Report RSKM
+ 41. Unconstrained Paths
+ 42. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                   ;
++--------------------+----------------------------------------------------------------+
+; Quartus II Version ; Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition ;
+; Revision Name      ; Ex5                                                            ;
+; Device Family      ; Cyclone IV E                                                   ;
+; Device Name        ; EP4CE6E22C6                                                    ;
+; Timing Models      ; Preliminary                                                    ;
+; Delay Model        ; Combined                                                       ;
+; Rise/Fall Delays   ; Enabled                                                        ;
++--------------------+----------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------------+
+; Propagation Delay                                                     ;
++-------------+---------------------+--------+--------+--------+--------+
+; Input Port  ; Output Port         ; RR     ; RF     ; FR     ; FF     ;
++-------------+---------------------+--------+--------+--------+--------+
+; entrada[0]  ; saida_quant_um[0]   ; 12.334 ; 12.231 ; 12.870 ; 12.767 ;
+; entrada[0]  ; saida_quant_um[1]   ; 12.180 ; 12.207 ; 12.716 ; 12.743 ;
+; entrada[0]  ; saida_quant_um[2]   ; 13.304 ; 13.298 ; 13.840 ; 13.834 ;
+; entrada[0]  ; saida_quant_um[3]   ; 15.861 ; 15.914 ; 16.397 ; 16.450 ;
+; entrada[0]  ; saida_quant_um[4]   ; 14.229 ; 14.069 ; 14.765 ; 14.605 ;
+; entrada[0]  ; saida_quant_zero[0] ; 13.403 ; 13.424 ; 13.939 ; 13.960 ;
+; entrada[0]  ; saida_quant_zero[1] ; 12.270 ; 12.255 ; 12.806 ; 12.791 ;
+; entrada[0]  ; saida_quant_zero[2] ; 12.822 ; 12.762 ; 13.358 ; 13.298 ;
+; entrada[0]  ; saida_quant_zero[3] ; 13.343 ; 13.308 ; 13.879 ; 13.844 ;
+; entrada[0]  ; saida_quant_zero[4] ; 13.772 ; 13.598 ; 14.308 ; 14.134 ;
+; entrada[1]  ; saida_quant_um[0]   ; 12.146 ; 12.043 ; 12.606 ; 12.503 ;
+; entrada[1]  ; saida_quant_um[1]   ; 11.992 ; 12.019 ; 12.452 ; 12.479 ;
+; entrada[1]  ; saida_quant_um[2]   ; 13.116 ; 13.110 ; 13.576 ; 13.570 ;
+; entrada[1]  ; saida_quant_um[3]   ; 15.673 ; 15.726 ; 16.133 ; 16.186 ;
+; entrada[1]  ; saida_quant_um[4]   ; 14.041 ; 13.881 ; 14.501 ; 14.341 ;
+; entrada[1]  ; saida_quant_zero[0] ; 13.215 ; 13.236 ; 13.675 ; 13.696 ;
+; entrada[1]  ; saida_quant_zero[1] ; 12.082 ; 12.067 ; 12.542 ; 12.527 ;
+; entrada[1]  ; saida_quant_zero[2] ; 12.634 ; 12.574 ; 13.094 ; 13.034 ;
+; entrada[1]  ; saida_quant_zero[3] ; 13.155 ; 13.120 ; 13.615 ; 13.580 ;
+; entrada[1]  ; saida_quant_zero[4] ; 13.584 ; 13.410 ; 14.044 ; 13.870 ;
+; entrada[2]  ; saida_quant_um[0]   ; 11.825 ; 11.722 ; 12.307 ; 12.204 ;
+; entrada[2]  ; saida_quant_um[1]   ; 11.671 ; 11.698 ; 12.153 ; 12.180 ;
+; entrada[2]  ; saida_quant_um[2]   ; 12.795 ; 12.789 ; 13.277 ; 13.271 ;
+; entrada[2]  ; saida_quant_um[3]   ; 15.352 ; 15.405 ; 15.834 ; 15.887 ;
+; entrada[2]  ; saida_quant_um[4]   ; 13.720 ; 13.560 ; 14.202 ; 14.042 ;
+; entrada[2]  ; saida_quant_zero[0] ; 12.894 ; 12.915 ; 13.376 ; 13.397 ;
+; entrada[2]  ; saida_quant_zero[1] ; 11.761 ; 11.746 ; 12.243 ; 12.228 ;
+; entrada[2]  ; saida_quant_zero[2] ; 12.313 ; 12.253 ; 12.795 ; 12.735 ;
+; entrada[2]  ; saida_quant_zero[3] ; 12.834 ; 12.799 ; 13.316 ; 13.281 ;
+; entrada[2]  ; saida_quant_zero[4] ; 13.263 ; 13.089 ; 13.745 ; 13.571 ;
+; entrada[3]  ; saida_quant_um[0]   ; 12.308 ; 12.205 ; 12.764 ; 12.661 ;
+; entrada[3]  ; saida_quant_um[1]   ; 11.860 ; 11.887 ; 12.316 ; 12.343 ;
+; entrada[3]  ; saida_quant_um[2]   ; 12.984 ; 12.978 ; 13.440 ; 13.434 ;
+; entrada[3]  ; saida_quant_um[3]   ; 15.541 ; 15.594 ; 15.997 ; 16.050 ;
+; entrada[3]  ; saida_quant_um[4]   ; 13.909 ; 13.749 ; 14.365 ; 14.205 ;
+; entrada[3]  ; saida_quant_zero[0] ; 13.347 ; 13.398 ; 13.803 ; 13.854 ;
+; entrada[3]  ; saida_quant_zero[1] ; 12.045 ; 11.987 ; 12.501 ; 12.443 ;
+; entrada[3]  ; saida_quant_zero[2] ; 12.504 ; 12.444 ; 12.960 ; 12.900 ;
+; entrada[3]  ; saida_quant_zero[3] ; 13.025 ; 12.990 ; 13.481 ; 13.446 ;
+; entrada[3]  ; saida_quant_zero[4] ; 13.454 ; 13.280 ; 13.910 ; 13.736 ;
+; entrada[4]  ; saida_quant_um[0]   ; 11.870 ; 11.767 ; 12.313 ; 12.210 ;
+; entrada[4]  ; saida_quant_um[1]   ; 11.422 ; 11.449 ; 11.865 ; 11.892 ;
+; entrada[4]  ; saida_quant_um[2]   ; 12.546 ; 12.540 ; 12.989 ; 12.983 ;
+; entrada[4]  ; saida_quant_um[3]   ; 15.103 ; 15.156 ; 15.546 ; 15.599 ;
+; entrada[4]  ; saida_quant_um[4]   ; 13.471 ; 13.311 ; 13.914 ; 13.754 ;
+; entrada[4]  ; saida_quant_zero[0] ; 12.909 ; 12.960 ; 13.352 ; 13.403 ;
+; entrada[4]  ; saida_quant_zero[1] ; 11.607 ; 11.549 ; 12.050 ; 11.992 ;
+; entrada[4]  ; saida_quant_zero[2] ; 12.066 ; 12.006 ; 12.509 ; 12.449 ;
+; entrada[4]  ; saida_quant_zero[3] ; 12.587 ; 12.552 ; 13.030 ; 12.995 ;
+; entrada[4]  ; saida_quant_zero[4] ; 13.016 ; 12.842 ; 13.459 ; 13.285 ;
+; entrada[5]  ; saida_quant_um[0]   ; 12.097 ; 11.994 ; 12.540 ; 12.437 ;
+; entrada[5]  ; saida_quant_um[1]   ; 11.649 ; 11.676 ; 12.092 ; 12.119 ;
+; entrada[5]  ; saida_quant_um[2]   ; 12.773 ; 12.767 ; 13.216 ; 13.210 ;
+; entrada[5]  ; saida_quant_um[3]   ; 15.330 ; 15.383 ; 15.773 ; 15.826 ;
+; entrada[5]  ; saida_quant_um[4]   ; 13.698 ; 13.538 ; 14.141 ; 13.981 ;
+; entrada[5]  ; saida_quant_zero[0] ; 13.136 ; 13.187 ; 13.579 ; 13.630 ;
+; entrada[5]  ; saida_quant_zero[1] ; 11.834 ; 11.776 ; 12.277 ; 12.219 ;
+; entrada[5]  ; saida_quant_zero[2] ; 12.293 ; 12.233 ; 12.736 ; 12.676 ;
+; entrada[5]  ; saida_quant_zero[3] ; 12.814 ; 12.779 ; 13.257 ; 13.222 ;
+; entrada[5]  ; saida_quant_zero[4] ; 13.243 ; 13.069 ; 13.686 ; 13.512 ;
+; entrada[6]  ; saida_quant_um[0]   ; 11.640 ; 11.537 ; 12.133 ; 12.030 ;
+; entrada[6]  ; saida_quant_um[1]   ; 11.116 ; 11.092 ; 11.609 ; 11.585 ;
+; entrada[6]  ; saida_quant_um[2]   ; 12.129 ; 12.152 ; 12.590 ; 12.613 ;
+; entrada[6]  ; saida_quant_um[3]   ; 14.686 ; 14.739 ; 15.147 ; 15.200 ;
+; entrada[6]  ; saida_quant_um[4]   ; 12.782 ; 12.835 ; 13.243 ; 13.296 ;
+; entrada[6]  ; saida_quant_zero[0] ; 12.702 ; 12.730 ; 13.163 ; 13.223 ;
+; entrada[6]  ; saida_quant_zero[1] ; 11.400 ; 11.342 ; 11.861 ; 11.803 ;
+; entrada[6]  ; saida_quant_zero[2] ; 11.596 ; 11.573 ; 12.089 ; 12.066 ;
+; entrada[6]  ; saida_quant_zero[3] ; 12.117 ; 12.082 ; 12.610 ; 12.575 ;
+; entrada[6]  ; saida_quant_zero[4] ; 12.196 ; 12.099 ; 12.687 ; 12.592 ;
+; entrada[7]  ; saida_quant_um[0]   ; 11.043 ; 10.940 ; 11.572 ; 11.469 ;
+; entrada[7]  ; saida_quant_um[1]   ; 10.519 ; 10.495 ; 11.048 ; 11.024 ;
+; entrada[7]  ; saida_quant_um[2]   ; 11.543 ; 11.566 ; 12.040 ; 12.063 ;
+; entrada[7]  ; saida_quant_um[3]   ; 14.100 ; 14.153 ; 14.597 ; 14.650 ;
+; entrada[7]  ; saida_quant_um[4]   ; 12.276 ; 12.249 ; 12.805 ; 12.746 ;
+; entrada[7]  ; saida_quant_zero[0] ; 12.104 ; 12.108 ; 12.633 ; 12.637 ;
+; entrada[7]  ; saida_quant_zero[1] ; 10.802 ; 10.744 ; 11.331 ; 11.273 ;
+; entrada[7]  ; saida_quant_zero[2] ; 10.947 ; 10.924 ; 11.444 ; 11.421 ;
+; entrada[7]  ; saida_quant_zero[3] ; 11.468 ; 11.433 ; 11.965 ; 11.930 ;
+; entrada[7]  ; saida_quant_zero[4] ; 11.833 ; 11.659 ; 12.361 ; 12.187 ;
+; entrada[8]  ; saida_quant_um[0]   ; 9.233  ; 9.130  ; 9.356  ; 9.253  ;
+; entrada[8]  ; saida_quant_um[1]   ; 8.709  ; 8.685  ; 8.832  ; 8.808  ;
+; entrada[8]  ; saida_quant_um[2]   ; 9.699  ; 9.722  ; 9.866  ; 9.889  ;
+; entrada[8]  ; saida_quant_um[3]   ; 12.256 ; 12.309 ; 12.423 ; 12.476 ;
+; entrada[8]  ; saida_quant_um[4]   ; 10.419 ; 10.405 ; 10.608 ; 10.572 ;
+; entrada[8]  ; saida_quant_zero[0] ; 10.294 ; 10.298 ; 10.417 ; 10.421 ;
+; entrada[8]  ; saida_quant_zero[1] ; 8.992  ; 8.934  ; 9.115  ; 9.057  ;
+; entrada[8]  ; saida_quant_zero[2] ; 9.103  ; 9.080  ; 9.270  ; 9.247  ;
+; entrada[8]  ; saida_quant_zero[3] ; 9.624  ; 9.589  ; 9.791  ; 9.756  ;
+; entrada[8]  ; saida_quant_zero[4] ; 10.016 ; 9.842  ; 10.148 ; 9.974  ;
+; entrada[9]  ; saida_quant_um[0]   ; 9.127  ; 9.024  ; 9.209  ; 9.106  ;
+; entrada[9]  ; saida_quant_um[1]   ; 8.603  ; 8.579  ; 8.685  ; 8.661  ;
+; entrada[9]  ; saida_quant_um[2]   ; 9.590  ; 9.613  ; 9.729  ; 9.752  ;
+; entrada[9]  ; saida_quant_um[3]   ; 12.147 ; 12.200 ; 12.286 ; 12.339 ;
+; entrada[9]  ; saida_quant_um[4]   ; 10.313 ; 10.296 ; 10.463 ; 10.435 ;
+; entrada[9]  ; saida_quant_zero[0] ; 10.188 ; 10.192 ; 10.270 ; 10.277 ;
+; entrada[9]  ; saida_quant_zero[1] ; 8.886  ; 8.828  ; 8.968  ; 8.910  ;
+; entrada[9]  ; saida_quant_zero[2] ; 8.994  ; 8.971  ; 9.133  ; 9.110  ;
+; entrada[9]  ; saida_quant_zero[3] ; 9.515  ; 9.480  ; 9.654  ; 9.619  ;
+; entrada[9]  ; saida_quant_zero[4] ; 9.910  ; 9.736  ; 9.999  ; 9.825  ;
+; entrada[10] ; saida_quant_um[0]   ; 10.295 ; 10.192 ; 10.708 ; 10.605 ;
+; entrada[10] ; saida_quant_um[1]   ; 9.771  ; 9.747  ; 10.184 ; 10.160 ;
+; entrada[10] ; saida_quant_um[2]   ; 10.793 ; 10.816 ; 11.215 ; 11.238 ;
+; entrada[10] ; saida_quant_um[3]   ; 13.350 ; 13.403 ; 13.772 ; 13.825 ;
+; entrada[10] ; saida_quant_um[4]   ; 11.529 ; 11.499 ; 11.943 ; 11.921 ;
+; entrada[10] ; saida_quant_zero[0] ; 11.356 ; 11.360 ; 11.769 ; 11.773 ;
+; entrada[10] ; saida_quant_zero[1] ; 10.054 ; 9.996  ; 10.467 ; 10.409 ;
+; entrada[10] ; saida_quant_zero[2] ; 10.197 ; 10.174 ; 10.619 ; 10.596 ;
+; entrada[10] ; saida_quant_zero[3] ; 10.718 ; 10.683 ; 11.140 ; 11.105 ;
+; entrada[10] ; saida_quant_zero[4] ; 11.086 ; 10.912 ; 11.501 ; 11.327 ;
+; entrada[11] ; saida_quant_um[0]   ; 10.973 ; 10.870 ; 11.430 ; 11.327 ;
+; entrada[11] ; saida_quant_um[1]   ; 10.449 ; 10.425 ; 10.906 ; 10.882 ;
+; entrada[11] ; saida_quant_um[2]   ; 11.246 ; 11.254 ; 11.760 ; 11.768 ;
+; entrada[11] ; saida_quant_um[3]   ; 13.494 ; 13.547 ; 14.041 ; 14.094 ;
+; entrada[11] ; saida_quant_um[4]   ; 11.590 ; 11.643 ; 12.137 ; 12.190 ;
+; entrada[11] ; saida_quant_zero[0] ; 11.289 ; 11.387 ; 11.789 ; 11.844 ;
+; entrada[11] ; saida_quant_zero[1] ; 9.987  ; 9.929  ; 10.487 ; 10.429 ;
+; entrada[11] ; saida_quant_zero[2] ; 10.197 ; 10.170 ; 10.654 ; 10.627 ;
+; entrada[11] ; saida_quant_zero[3] ; 10.302 ; 10.267 ; 10.696 ; 10.661 ;
+; entrada[11] ; saida_quant_zero[4] ; 10.320 ; 10.284 ; 10.777 ; 10.678 ;
+; entrada[12] ; saida_quant_um[0]   ; 10.684 ; 10.581 ; 11.136 ; 11.033 ;
+; entrada[12] ; saida_quant_um[1]   ; 10.160 ; 10.136 ; 10.612 ; 10.588 ;
+; entrada[12] ; saida_quant_um[2]   ; 10.992 ; 11.000 ; 11.453 ; 11.461 ;
+; entrada[12] ; saida_quant_um[3]   ; 13.222 ; 13.275 ; 13.723 ; 13.776 ;
+; entrada[12] ; saida_quant_um[4]   ; 11.304 ; 11.371 ; 11.819 ; 11.872 ;
+; entrada[12] ; saida_quant_zero[0] ; 11.021 ; 11.098 ; 11.482 ; 11.550 ;
+; entrada[12] ; saida_quant_zero[1] ; 9.719  ; 9.661  ; 10.180 ; 10.122 ;
+; entrada[12] ; saida_quant_zero[2] ; 9.908  ; 9.881  ; 10.360 ; 10.333 ;
+; entrada[12] ; saida_quant_zero[3] ; 10.055 ; 10.020 ; 10.402 ; 10.367 ;
+; entrada[12] ; saida_quant_zero[4] ; 10.031 ; 10.037 ; 10.483 ; 10.384 ;
+; entrada[13] ; saida_quant_um[0]   ; 11.002 ; 10.899 ; 11.450 ; 11.347 ;
+; entrada[13] ; saida_quant_um[1]   ; 10.478 ; 10.454 ; 10.926 ; 10.902 ;
+; entrada[13] ; saida_quant_um[2]   ; 11.278 ; 11.286 ; 11.770 ; 11.778 ;
+; entrada[13] ; saida_quant_um[3]   ; 13.523 ; 13.576 ; 14.057 ; 14.110 ;
+; entrada[13] ; saida_quant_um[4]   ; 11.619 ; 11.672 ; 12.153 ; 12.206 ;
+; entrada[13] ; saida_quant_zero[0] ; 11.318 ; 11.416 ; 11.799 ; 11.864 ;
+; entrada[13] ; saida_quant_zero[1] ; 10.016 ; 9.958  ; 10.497 ; 10.439 ;
+; entrada[13] ; saida_quant_zero[2] ; 10.226 ; 10.199 ; 10.674 ; 10.647 ;
+; entrada[13] ; saida_quant_zero[3] ; 10.328 ; 10.293 ; 10.716 ; 10.681 ;
+; entrada[13] ; saida_quant_zero[4] ; 10.349 ; 10.310 ; 10.797 ; 10.698 ;
+; entrada[14] ; saida_quant_um[0]   ; 8.661  ; 8.698  ; 9.164  ; 9.049  ;
+; entrada[14] ; saida_quant_um[1]   ; 7.977  ; 7.999  ; 8.640  ; 8.616  ;
+; entrada[14] ; saida_quant_um[2]   ; 8.545  ; 8.553  ; 8.990  ; 9.044  ;
+; entrada[14] ; saida_quant_um[3]   ; 10.516 ; 10.615 ; 11.179 ; 11.232 ;
+; entrada[14] ; saida_quant_um[4]   ; 8.857  ;        ;        ; 9.328  ;
+; entrada[14] ; saida_quant_zero[0] ; 9.660  ; 9.700  ; 10.077 ; 10.165 ;
+; entrada[14] ; saida_quant_zero[1] ; 8.344  ; 8.286  ; 8.558  ; 8.546  ;
+; entrada[14] ; saida_quant_zero[2] ; 8.127  ; 8.146  ; 8.559  ; 8.532  ;
+; entrada[14] ; saida_quant_zero[3] ; 8.279  ; 8.244  ; 8.493  ; 8.504  ;
+; entrada[14] ; saida_quant_zero[4] ;        ; 8.261  ; 8.681  ;        ;
+; entrada[15] ; saida_quant_um[0]   ; 8.970  ; 8.913  ; 9.218  ; 9.207  ;
+; entrada[15] ; saida_quant_um[1]   ; 7.875  ; 7.897  ; 8.341  ; 8.317  ;
+; entrada[15] ; saida_quant_um[2]   ; 8.443  ; 8.451  ; 8.691  ; 8.745  ;
+; entrada[15] ; saida_quant_um[3]   ; 10.414 ; 10.513 ; 10.880 ; 10.933 ;
+; entrada[15] ; saida_quant_um[4]   ; 8.755  ;        ;        ; 9.029  ;
+; entrada[15] ; saida_quant_zero[0] ; 9.725  ; 9.805  ; 10.424 ; 10.458 ;
+; entrada[15] ; saida_quant_zero[1] ; 8.055  ; 7.997  ; 8.536  ; 8.524  ;
+; entrada[15] ; saida_quant_zero[2] ; 7.838  ; 7.857  ; 8.537  ; 8.510  ;
+; entrada[15] ; saida_quant_zero[3] ; 7.990  ; 7.955  ; 8.471  ; 8.482  ;
+; entrada[15] ; saida_quant_zero[4] ;        ; 7.972  ; 8.659  ;        ;
++-------------+---------------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Propagation Delay                                             ;
++-------------+---------------------+--------+--------+--------+--------+
+; Input Port  ; Output Port         ; RR     ; RF     ; FR     ; FF     ;
++-------------+---------------------+--------+--------+--------+--------+
+; entrada[0]  ; saida_quant_um[0]   ; 11.442 ; 11.416 ; 12.003 ; 11.977 ;
+; entrada[0]  ; saida_quant_um[1]   ; 10.465 ; 10.473 ; 11.026 ; 11.034 ;
+; entrada[0]  ; saida_quant_um[2]   ; 11.139 ; 11.157 ; 11.700 ; 11.718 ;
+; entrada[0]  ; saida_quant_um[3]   ; 12.440 ; 12.526 ; 13.001 ; 13.087 ;
+; entrada[0]  ; saida_quant_um[4]   ; 10.927 ; 10.936 ; 11.488 ; 11.497 ;
+; entrada[0]  ; saida_quant_zero[0] ; 12.565 ; 12.635 ; 13.126 ; 13.196 ;
+; entrada[0]  ; saida_quant_zero[1] ; 10.581 ; 10.559 ; 11.142 ; 11.120 ;
+; entrada[0]  ; saida_quant_zero[2] ; 10.697 ; 10.694 ; 11.258 ; 11.255 ;
+; entrada[0]  ; saida_quant_zero[3] ; 10.194 ; 10.194 ; 10.755 ; 10.755 ;
+; entrada[0]  ; saida_quant_zero[4] ; 10.502 ; 10.503 ; 11.063 ; 11.064 ;
+; entrada[1]  ; saida_quant_um[0]   ; 11.264 ; 11.238 ; 11.750 ; 11.724 ;
+; entrada[1]  ; saida_quant_um[1]   ; 10.287 ; 10.295 ; 10.773 ; 10.781 ;
+; entrada[1]  ; saida_quant_um[2]   ; 10.961 ; 10.979 ; 11.447 ; 11.465 ;
+; entrada[1]  ; saida_quant_um[3]   ; 12.262 ; 12.348 ; 12.748 ; 12.834 ;
+; entrada[1]  ; saida_quant_um[4]   ; 10.749 ; 10.758 ; 11.235 ; 11.244 ;
+; entrada[1]  ; saida_quant_zero[0] ; 12.387 ; 12.457 ; 12.873 ; 12.943 ;
+; entrada[1]  ; saida_quant_zero[1] ; 10.403 ; 10.381 ; 10.889 ; 10.867 ;
+; entrada[1]  ; saida_quant_zero[2] ; 10.519 ; 10.516 ; 11.005 ; 11.002 ;
+; entrada[1]  ; saida_quant_zero[3] ; 10.016 ; 10.016 ; 10.502 ; 10.502 ;
+; entrada[1]  ; saida_quant_zero[4] ; 10.324 ; 10.325 ; 10.810 ; 10.811 ;
+; entrada[2]  ; saida_quant_um[0]   ; 11.048 ; 11.022 ; 11.527 ; 11.501 ;
+; entrada[2]  ; saida_quant_um[1]   ; 10.071 ; 10.079 ; 10.550 ; 10.558 ;
+; entrada[2]  ; saida_quant_um[2]   ; 10.745 ; 10.763 ; 11.224 ; 11.242 ;
+; entrada[2]  ; saida_quant_um[3]   ; 12.046 ; 12.132 ; 12.525 ; 12.611 ;
+; entrada[2]  ; saida_quant_um[4]   ; 10.533 ; 10.542 ; 11.012 ; 11.021 ;
+; entrada[2]  ; saida_quant_zero[0] ; 12.171 ; 12.241 ; 12.650 ; 12.720 ;
+; entrada[2]  ; saida_quant_zero[1] ; 10.187 ; 10.165 ; 10.666 ; 10.644 ;
+; entrada[2]  ; saida_quant_zero[2] ; 10.303 ; 10.300 ; 10.782 ; 10.779 ;
+; entrada[2]  ; saida_quant_zero[3] ; 9.800  ; 9.800  ; 10.279 ; 10.279 ;
+; entrada[2]  ; saida_quant_zero[4] ; 10.108 ; 10.109 ; 10.587 ; 10.588 ;
+; entrada[3]  ; saida_quant_um[0]   ; 11.301 ; 11.275 ; 11.758 ; 11.732 ;
+; entrada[3]  ; saida_quant_um[1]   ; 10.335 ; 10.343 ; 10.792 ; 10.800 ;
+; entrada[3]  ; saida_quant_um[2]   ; 11.009 ; 11.027 ; 11.466 ; 11.484 ;
+; entrada[3]  ; saida_quant_um[3]   ; 12.343 ; 12.429 ; 12.800 ; 12.886 ;
+; entrada[3]  ; saida_quant_um[4]   ; 10.830 ; 10.839 ; 11.287 ; 11.296 ;
+; entrada[3]  ; saida_quant_zero[0] ; 12.424 ; 12.494 ; 12.881 ; 12.951 ;
+; entrada[3]  ; saida_quant_zero[1] ; 10.439 ; 10.417 ; 10.896 ; 10.874 ;
+; entrada[3]  ; saida_quant_zero[2] ; 10.555 ; 10.552 ; 11.012 ; 11.009 ;
+; entrada[3]  ; saida_quant_zero[3] ; 10.105 ; 10.105 ; 10.562 ; 10.562 ;
+; entrada[3]  ; saida_quant_zero[4] ; 10.413 ; 10.414 ; 10.870 ; 10.871 ;
+; entrada[4]  ; saida_quant_um[0]   ; 10.969 ; 10.943 ; 11.409 ; 11.383 ;
+; entrada[4]  ; saida_quant_um[1]   ; 10.003 ; 10.011 ; 10.443 ; 10.451 ;
+; entrada[4]  ; saida_quant_um[2]   ; 10.677 ; 10.695 ; 11.117 ; 11.135 ;
+; entrada[4]  ; saida_quant_um[3]   ; 12.011 ; 12.097 ; 12.451 ; 12.537 ;
+; entrada[4]  ; saida_quant_um[4]   ; 10.498 ; 10.507 ; 10.938 ; 10.947 ;
+; entrada[4]  ; saida_quant_zero[0] ; 12.092 ; 12.162 ; 12.532 ; 12.602 ;
+; entrada[4]  ; saida_quant_zero[1] ; 10.107 ; 10.085 ; 10.547 ; 10.525 ;
+; entrada[4]  ; saida_quant_zero[2] ; 10.223 ; 10.220 ; 10.663 ; 10.660 ;
+; entrada[4]  ; saida_quant_zero[3] ; 9.773  ; 9.773  ; 10.213 ; 10.213 ;
+; entrada[4]  ; saida_quant_zero[4] ; 10.081 ; 10.082 ; 10.521 ; 10.522 ;
+; entrada[5]  ; saida_quant_um[0]   ; 11.187 ; 11.161 ; 11.588 ; 11.562 ;
+; entrada[5]  ; saida_quant_um[1]   ; 10.221 ; 10.229 ; 10.622 ; 10.630 ;
+; entrada[5]  ; saida_quant_um[2]   ; 10.895 ; 10.913 ; 11.296 ; 11.314 ;
+; entrada[5]  ; saida_quant_um[3]   ; 12.229 ; 12.315 ; 12.630 ; 12.716 ;
+; entrada[5]  ; saida_quant_um[4]   ; 10.716 ; 10.725 ; 11.117 ; 11.126 ;
+; entrada[5]  ; saida_quant_zero[0] ; 12.310 ; 12.380 ; 12.711 ; 12.781 ;
+; entrada[5]  ; saida_quant_zero[1] ; 10.325 ; 10.303 ; 10.726 ; 10.704 ;
+; entrada[5]  ; saida_quant_zero[2] ; 10.441 ; 10.438 ; 10.842 ; 10.839 ;
+; entrada[5]  ; saida_quant_zero[3] ; 9.991  ; 9.991  ; 10.392 ; 10.392 ;
+; entrada[5]  ; saida_quant_zero[4] ; 10.299 ; 10.300 ; 10.700 ; 10.701 ;
+; entrada[6]  ; saida_quant_um[0]   ; 10.898 ; 10.872 ; 11.347 ; 11.321 ;
+; entrada[6]  ; saida_quant_um[1]   ; 9.933  ; 9.941  ; 10.383 ; 10.391 ;
+; entrada[6]  ; saida_quant_um[2]   ; 10.607 ; 10.625 ; 11.057 ; 11.075 ;
+; entrada[6]  ; saida_quant_um[3]   ; 11.903 ; 11.989 ; 12.398 ; 12.484 ;
+; entrada[6]  ; saida_quant_um[4]   ; 10.390 ; 10.399 ; 10.885 ; 10.890 ;
+; entrada[6]  ; saida_quant_zero[0] ; 12.021 ; 12.091 ; 12.470 ; 12.540 ;
+; entrada[6]  ; saida_quant_zero[1] ; 10.037 ; 10.015 ; 10.484 ; 10.462 ;
+; entrada[6]  ; saida_quant_zero[2] ; 10.153 ; 10.150 ; 10.600 ; 10.597 ;
+; entrada[6]  ; saida_quant_zero[3] ; 9.673  ; 9.673  ; 10.103 ; 10.103 ;
+; entrada[6]  ; saida_quant_zero[4] ; 9.981  ; 9.977  ; 10.411 ; 10.412 ;
+; entrada[7]  ; saida_quant_um[0]   ; 10.328 ; 10.302 ; 10.813 ; 10.787 ;
+; entrada[7]  ; saida_quant_um[1]   ; 9.602  ; 9.616  ; 10.087 ; 10.101 ;
+; entrada[7]  ; saida_quant_um[2]   ; 10.099 ; 10.117 ; 10.584 ; 10.602 ;
+; entrada[7]  ; saida_quant_um[3]   ; 11.878 ; 11.964 ; 12.388 ; 12.474 ;
+; entrada[7]  ; saida_quant_um[4]   ; 10.365 ; 10.374 ; 10.875 ; 10.884 ;
+; entrada[7]  ; saida_quant_zero[0] ; 11.454 ; 11.524 ; 11.939 ; 12.009 ;
+; entrada[7]  ; saida_quant_zero[1] ; 9.699  ; 9.677  ; 10.183 ; 10.161 ;
+; entrada[7]  ; saida_quant_zero[2] ; 9.631  ; 9.637  ; 10.116 ; 10.122 ;
+; entrada[7]  ; saida_quant_zero[3] ; 9.657  ; 9.657  ; 10.166 ; 10.166 ;
+; entrada[7]  ; saida_quant_zero[4] ; 9.948  ; 9.966  ; 10.432 ; 10.456 ;
+; entrada[8]  ; saida_quant_um[0]   ; 8.504  ; 8.478  ; 8.668  ; 8.642  ;
+; entrada[8]  ; saida_quant_um[1]   ; 7.778  ; 7.792  ; 7.942  ; 7.952  ;
+; entrada[8]  ; saida_quant_um[2]   ; 8.275  ; 8.293  ; 8.437  ; 8.457  ;
+; entrada[8]  ; saida_quant_um[3]   ; 10.079 ; 10.165 ; 10.210 ; 10.296 ;
+; entrada[8]  ; saida_quant_um[4]   ; 8.566  ; 8.575  ; 8.697  ; 8.706  ;
+; entrada[8]  ; saida_quant_zero[0] ; 9.630  ; 9.700  ; 9.794  ; 9.864  ;
+; entrada[8]  ; saida_quant_zero[1] ; 7.923  ; 7.901  ; 8.040  ; 8.018  ;
+; entrada[8]  ; saida_quant_zero[2] ; 7.807  ; 7.813  ; 7.971  ; 7.977  ;
+; entrada[8]  ; saida_quant_zero[3] ; 7.857  ; 7.857  ; 7.989  ; 7.989  ;
+; entrada[8]  ; saida_quant_zero[4] ; 8.160  ; 8.147  ; 8.289  ; 8.298  ;
+; entrada[9]  ; saida_quant_um[0]   ; 8.403  ; 8.377  ; 8.527  ; 8.501  ;
+; entrada[9]  ; saida_quant_um[1]   ; 7.677  ; 7.691  ; 7.801  ; 7.811  ;
+; entrada[9]  ; saida_quant_um[2]   ; 7.693  ; 7.731  ; 7.857  ; 7.895  ;
+; entrada[9]  ; saida_quant_um[3]   ; 9.595  ; 9.681  ; 9.706  ; 9.792  ;
+; entrada[9]  ; saida_quant_um[4]   ; 8.082  ; 8.091  ; 8.193  ; 8.202  ;
+; entrada[9]  ; saida_quant_zero[0] ; 9.529  ; 9.599  ; 9.653  ; 9.723  ;
+; entrada[9]  ; saida_quant_zero[1] ; 7.823  ; 7.801  ; 7.896  ; 7.874  ;
+; entrada[9]  ; saida_quant_zero[2] ; 7.324  ; 7.330  ; 7.375  ; 7.381  ;
+; entrada[9]  ; saida_quant_zero[3] ; 7.369  ; 7.369  ; 7.470  ; 7.470  ;
+; entrada[9]  ; saida_quant_zero[4] ; 7.677  ; 7.678  ; 7.767  ; 7.776  ;
+; entrada[10] ; saida_quant_um[0]   ; 9.610  ; 9.584  ; 10.023 ; 9.997  ;
+; entrada[10] ; saida_quant_um[1]   ; 8.884  ; 8.898  ; 9.297  ; 9.308  ;
+; entrada[10] ; saida_quant_um[2]   ; 9.037  ; 9.075  ; 9.476  ; 9.514  ;
+; entrada[10] ; saida_quant_um[3]   ; 10.939 ; 11.025 ; 11.325 ; 11.411 ;
+; entrada[10] ; saida_quant_um[4]   ; 9.426  ; 9.435  ; 9.812  ; 9.821  ;
+; entrada[10] ; saida_quant_zero[0] ; 10.736 ; 10.806 ; 11.149 ; 11.219 ;
+; entrada[10] ; saida_quant_zero[1] ; 8.981  ; 8.959  ; 9.395  ; 9.373  ;
+; entrada[10] ; saida_quant_zero[2] ; 8.673  ; 8.679  ; 9.037  ; 9.043  ;
+; entrada[10] ; saida_quant_zero[3] ; 8.718  ; 8.718  ; 9.132  ; 9.132  ;
+; entrada[10] ; saida_quant_zero[4] ; 9.026  ; 9.027  ; 9.429  ; 9.438  ;
+; entrada[11] ; saida_quant_um[0]   ; 10.267 ; 10.241 ; 10.752 ; 10.726 ;
+; entrada[11] ; saida_quant_um[1]   ; 9.297  ; 9.305  ; 9.804  ; 9.806  ;
+; entrada[11] ; saida_quant_um[2]   ; 9.971  ; 9.989  ; 10.456 ; 10.496 ;
+; entrada[11] ; saida_quant_um[3]   ; 11.962 ; 12.054 ; 12.451 ; 12.537 ;
+; entrada[11] ; saida_quant_um[4]   ; 10.272 ; 10.294 ; 10.779 ; 10.775 ;
+; entrada[11] ; saida_quant_zero[0] ; 10.682 ; 10.752 ; 11.167 ; 11.237 ;
+; entrada[11] ; saida_quant_zero[1] ; 8.912  ; 8.890  ; 9.424  ; 9.400  ;
+; entrada[11] ; saida_quant_zero[2] ; 8.954  ; 8.960  ; 9.436  ; 9.442  ;
+; entrada[11] ; saida_quant_zero[3] ; 8.943  ; 8.943  ; 9.428  ; 9.428  ;
+; entrada[11] ; saida_quant_zero[4] ; 9.161  ; 9.190  ; 9.673  ; 9.664  ;
+; entrada[12] ; saida_quant_um[0]   ; 10.084 ; 10.058 ; 10.534 ; 10.508 ;
+; entrada[12] ; saida_quant_um[1]   ; 9.099  ; 9.107  ; 9.583  ; 9.585  ;
+; entrada[12] ; saida_quant_um[2]   ; 9.773  ; 9.791  ; 10.235 ; 10.275 ;
+; entrada[12] ; saida_quant_um[3]   ; 11.764 ; 11.856 ; 12.230 ; 12.316 ;
+; entrada[12] ; saida_quant_um[4]   ; 10.074 ; 10.096 ; 10.558 ; 10.554 ;
+; entrada[12] ; saida_quant_zero[0] ; 10.499 ; 10.569 ; 10.949 ; 11.019 ;
+; entrada[12] ; saida_quant_zero[1] ; 8.714  ; 8.692  ; 9.203  ; 9.179  ;
+; entrada[12] ; saida_quant_zero[2] ; 8.755  ; 8.761  ; 9.196  ; 9.202  ;
+; entrada[12] ; saida_quant_zero[3] ; 8.760  ; 8.760  ; 9.210  ; 9.210  ;
+; entrada[12] ; saida_quant_zero[4] ; 8.963  ; 8.992  ; 9.452  ; 9.443  ;
+; entrada[13] ; saida_quant_um[0]   ; 10.295 ; 10.269 ; 10.771 ; 10.745 ;
+; entrada[13] ; saida_quant_um[1]   ; 9.327  ; 9.335  ; 9.821  ; 9.823  ;
+; entrada[13] ; saida_quant_um[2]   ; 10.001 ; 10.019 ; 10.473 ; 10.513 ;
+; entrada[13] ; saida_quant_um[3]   ; 11.992 ; 12.084 ; 12.468 ; 12.554 ;
+; entrada[13] ; saida_quant_um[4]   ; 10.302 ; 10.324 ; 10.796 ; 10.792 ;
+; entrada[13] ; saida_quant_zero[0] ; 10.710 ; 10.780 ; 11.186 ; 11.256 ;
+; entrada[13] ; saida_quant_zero[1] ; 8.942  ; 8.920  ; 9.441  ; 9.417  ;
+; entrada[13] ; saida_quant_zero[2] ; 8.982  ; 8.988  ; 9.457  ; 9.463  ;
+; entrada[13] ; saida_quant_zero[3] ; 8.971  ; 8.971  ; 9.447  ; 9.447  ;
+; entrada[13] ; saida_quant_zero[4] ; 9.191  ; 9.220  ; 9.690  ; 9.681  ;
+; entrada[14] ; saida_quant_um[0]   ; 8.351  ; 8.327  ; 8.773  ; 8.721  ;
+; entrada[14] ; saida_quant_um[1]   ; 7.623  ; 7.637  ; 8.096  ; 8.081  ;
+; entrada[14] ; saida_quant_um[2]   ; 8.120  ; 8.138  ; 8.483  ; 8.530  ;
+; entrada[14] ; saida_quant_um[3]   ; 10.111 ; 10.203 ; 10.584 ; 10.647 ;
+; entrada[14] ; saida_quant_um[4]   ; 8.421  ;        ;        ; 8.802  ;
+; entrada[14] ; saida_quant_zero[0] ; 9.324  ; 9.393  ; 9.749  ; 9.781  ;
+; entrada[14] ; saida_quant_zero[1] ; 7.798  ; 7.751  ; 8.170  ; 8.152  ;
+; entrada[14] ; saida_quant_zero[2] ; 7.640  ; 7.652  ; 8.122  ; 8.105  ;
+; entrada[14] ; saida_quant_zero[3] ; 7.739  ; 7.714  ; 8.111  ; 8.115  ;
+; entrada[14] ; saida_quant_zero[4] ;        ; 7.764  ; 8.241  ;        ;
+; entrada[15] ; saida_quant_um[0]   ; 8.398  ; 8.353  ; 8.802  ; 8.786  ;
+; entrada[15] ; saida_quant_um[1]   ; 7.399  ; 7.413  ; 7.913  ; 7.898  ;
+; entrada[15] ; saida_quant_um[2]   ; 7.896  ; 7.914  ; 8.300  ; 8.347  ;
+; entrada[15] ; saida_quant_um[3]   ; 9.887  ; 9.979  ; 10.401 ; 10.464 ;
+; entrada[15] ; saida_quant_um[4]   ; 8.197  ;        ;        ; 8.619  ;
+; entrada[15] ; saida_quant_zero[0] ; 9.353  ; 9.426  ; 9.860  ; 9.904  ;
+; entrada[15] ; saida_quant_zero[1] ; 7.648  ; 7.601  ; 8.045  ; 8.027  ;
+; entrada[15] ; saida_quant_zero[2] ; 7.490  ; 7.502  ; 7.997  ; 7.980  ;
+; entrada[15] ; saida_quant_zero[3] ; 7.589  ; 7.564  ; 7.986  ; 7.990  ;
+; entrada[15] ; saida_quant_zero[4] ;        ; 7.614  ; 8.116  ;        ;
++-------------+---------------------+--------+--------+--------+--------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------------------+
+; Propagation Delay                                                     ;
++-------------+---------------------+--------+--------+--------+--------+
+; Input Port  ; Output Port         ; RR     ; RF     ; FR     ; FF     ;
++-------------+---------------------+--------+--------+--------+--------+
+; entrada[0]  ; saida_quant_um[0]   ; 11.288 ; 11.119 ; 11.740 ; 11.571 ;
+; entrada[0]  ; saida_quant_um[1]   ; 11.168 ; 11.097 ; 11.620 ; 11.549 ;
+; entrada[0]  ; saida_quant_um[2]   ; 12.130 ; 12.158 ; 12.582 ; 12.610 ;
+; entrada[0]  ; saida_quant_um[3]   ; 14.560 ; 14.529 ; 15.012 ; 14.981 ;
+; entrada[0]  ; saida_quant_um[4]   ; 12.955 ; 12.744 ; 13.407 ; 13.196 ;
+; entrada[0]  ; saida_quant_zero[0] ; 12.405 ; 12.432 ; 12.857 ; 12.884 ;
+; entrada[0]  ; saida_quant_zero[1] ; 11.240 ; 11.172 ; 11.692 ; 11.624 ;
+; entrada[0]  ; saida_quant_zero[2] ; 11.692 ; 11.637 ; 12.144 ; 12.089 ;
+; entrada[0]  ; saida_quant_zero[3] ; 12.161 ; 12.081 ; 12.613 ; 12.533 ;
+; entrada[0]  ; saida_quant_zero[4] ; 12.562 ; 12.356 ; 13.014 ; 12.808 ;
+; entrada[1]  ; saida_quant_um[0]   ; 11.127 ; 10.958 ; 11.480 ; 11.311 ;
+; entrada[1]  ; saida_quant_um[1]   ; 11.007 ; 10.936 ; 11.360 ; 11.289 ;
+; entrada[1]  ; saida_quant_um[2]   ; 11.969 ; 11.997 ; 12.322 ; 12.350 ;
+; entrada[1]  ; saida_quant_um[3]   ; 14.399 ; 14.368 ; 14.752 ; 14.721 ;
+; entrada[1]  ; saida_quant_um[4]   ; 12.794 ; 12.583 ; 13.147 ; 12.936 ;
+; entrada[1]  ; saida_quant_zero[0] ; 12.244 ; 12.271 ; 12.597 ; 12.624 ;
+; entrada[1]  ; saida_quant_zero[1] ; 11.079 ; 11.011 ; 11.432 ; 11.364 ;
+; entrada[1]  ; saida_quant_zero[2] ; 11.531 ; 11.476 ; 11.884 ; 11.829 ;
+; entrada[1]  ; saida_quant_zero[3] ; 12.000 ; 11.920 ; 12.353 ; 12.273 ;
+; entrada[1]  ; saida_quant_zero[4] ; 12.401 ; 12.195 ; 12.754 ; 12.548 ;
+; entrada[2]  ; saida_quant_um[0]   ; 10.837 ; 10.668 ; 11.247 ; 11.078 ;
+; entrada[2]  ; saida_quant_um[1]   ; 10.717 ; 10.646 ; 11.127 ; 11.056 ;
+; entrada[2]  ; saida_quant_um[2]   ; 11.679 ; 11.707 ; 12.089 ; 12.117 ;
+; entrada[2]  ; saida_quant_um[3]   ; 14.109 ; 14.078 ; 14.519 ; 14.488 ;
+; entrada[2]  ; saida_quant_um[4]   ; 12.504 ; 12.293 ; 12.914 ; 12.703 ;
+; entrada[2]  ; saida_quant_zero[0] ; 11.954 ; 11.981 ; 12.364 ; 12.391 ;
+; entrada[2]  ; saida_quant_zero[1] ; 10.789 ; 10.721 ; 11.199 ; 11.131 ;
+; entrada[2]  ; saida_quant_zero[2] ; 11.241 ; 11.186 ; 11.651 ; 11.596 ;
+; entrada[2]  ; saida_quant_zero[3] ; 11.710 ; 11.630 ; 12.120 ; 12.040 ;
+; entrada[2]  ; saida_quant_zero[4] ; 12.111 ; 11.905 ; 12.521 ; 12.315 ;
+; entrada[3]  ; saida_quant_um[0]   ; 11.270 ; 11.101 ; 11.635 ; 11.466 ;
+; entrada[3]  ; saida_quant_um[1]   ; 10.891 ; 10.820 ; 11.256 ; 11.185 ;
+; entrada[3]  ; saida_quant_um[2]   ; 11.853 ; 11.881 ; 12.218 ; 12.246 ;
+; entrada[3]  ; saida_quant_um[3]   ; 14.283 ; 14.252 ; 14.648 ; 14.617 ;
+; entrada[3]  ; saida_quant_um[4]   ; 12.678 ; 12.467 ; 13.043 ; 12.832 ;
+; entrada[3]  ; saida_quant_zero[0] ; 12.361 ; 12.414 ; 12.726 ; 12.779 ;
+; entrada[3]  ; saida_quant_zero[1] ; 11.027 ; 10.933 ; 11.392 ; 11.298 ;
+; entrada[3]  ; saida_quant_zero[2] ; 11.416 ; 11.361 ; 11.781 ; 11.726 ;
+; entrada[3]  ; saida_quant_zero[3] ; 11.885 ; 11.805 ; 12.250 ; 12.170 ;
+; entrada[3]  ; saida_quant_zero[4] ; 12.286 ; 12.080 ; 12.651 ; 12.445 ;
+; entrada[4]  ; saida_quant_um[0]   ; 10.871 ; 10.702 ; 11.236 ; 11.067 ;
+; entrada[4]  ; saida_quant_um[1]   ; 10.492 ; 10.421 ; 10.857 ; 10.786 ;
+; entrada[4]  ; saida_quant_um[2]   ; 11.454 ; 11.482 ; 11.819 ; 11.847 ;
+; entrada[4]  ; saida_quant_um[3]   ; 13.884 ; 13.853 ; 14.249 ; 14.218 ;
+; entrada[4]  ; saida_quant_um[4]   ; 12.279 ; 12.068 ; 12.644 ; 12.433 ;
+; entrada[4]  ; saida_quant_zero[0] ; 11.962 ; 12.015 ; 12.327 ; 12.380 ;
+; entrada[4]  ; saida_quant_zero[1] ; 10.628 ; 10.534 ; 10.993 ; 10.899 ;
+; entrada[4]  ; saida_quant_zero[2] ; 11.017 ; 10.962 ; 11.382 ; 11.327 ;
+; entrada[4]  ; saida_quant_zero[3] ; 11.486 ; 11.406 ; 11.851 ; 11.771 ;
+; entrada[4]  ; saida_quant_zero[4] ; 11.887 ; 11.681 ; 12.252 ; 12.046 ;
+; entrada[5]  ; saida_quant_um[0]   ; 11.071 ; 10.902 ; 11.442 ; 11.273 ;
+; entrada[5]  ; saida_quant_um[1]   ; 10.692 ; 10.621 ; 11.063 ; 10.992 ;
+; entrada[5]  ; saida_quant_um[2]   ; 11.654 ; 11.682 ; 12.025 ; 12.053 ;
+; entrada[5]  ; saida_quant_um[3]   ; 14.084 ; 14.053 ; 14.455 ; 14.424 ;
+; entrada[5]  ; saida_quant_um[4]   ; 12.479 ; 12.268 ; 12.850 ; 12.639 ;
+; entrada[5]  ; saida_quant_zero[0] ; 12.162 ; 12.215 ; 12.533 ; 12.586 ;
+; entrada[5]  ; saida_quant_zero[1] ; 10.828 ; 10.734 ; 11.199 ; 11.105 ;
+; entrada[5]  ; saida_quant_zero[2] ; 11.217 ; 11.162 ; 11.588 ; 11.533 ;
+; entrada[5]  ; saida_quant_zero[3] ; 11.686 ; 11.606 ; 12.057 ; 11.977 ;
+; entrada[5]  ; saida_quant_zero[4] ; 12.087 ; 11.881 ; 12.458 ; 12.252 ;
+; entrada[6]  ; saida_quant_um[0]   ; 10.664 ; 10.495 ; 11.088 ; 10.919 ;
+; entrada[6]  ; saida_quant_um[1]   ; 10.149 ; 10.095 ; 10.573 ; 10.515 ;
+; entrada[6]  ; saida_quant_um[2]   ; 11.091 ; 11.119 ; 11.486 ; 11.514 ;
+; entrada[6]  ; saida_quant_um[3]   ; 13.521 ; 13.490 ; 13.916 ; 13.885 ;
+; entrada[6]  ; saida_quant_um[4]   ; 11.726 ; 11.674 ; 12.121 ; 12.069 ;
+; entrada[6]  ; saida_quant_zero[0] ; 11.775 ; 11.808 ; 12.170 ; 12.232 ;
+; entrada[6]  ; saida_quant_zero[1] ; 10.441 ; 10.347 ; 10.836 ; 10.742 ;
+; entrada[6]  ; saida_quant_zero[2] ; 10.559 ; 10.513 ; 10.983 ; 10.937 ;
+; entrada[6]  ; saida_quant_zero[3] ; 11.028 ; 10.948 ; 11.452 ; 11.372 ;
+; entrada[6]  ; saida_quant_zero[4] ; 11.156 ; 10.959 ; 11.578 ; 11.383 ;
+; entrada[7]  ; saida_quant_um[0]   ; 10.136 ; 9.967  ; 10.570 ; 10.401 ;
+; entrada[7]  ; saida_quant_um[1]   ; 9.621  ; 9.563  ; 10.055 ; 9.997  ;
+; entrada[7]  ; saida_quant_um[2]   ; 10.549 ; 10.577 ; 10.954 ; 10.982 ;
+; entrada[7]  ; saida_quant_um[3]   ; 12.979 ; 12.948 ; 13.384 ; 13.353 ;
+; entrada[7]  ; saida_quant_um[4]   ; 11.230 ; 11.132 ; 11.665 ; 11.537 ;
+; entrada[7]  ; saida_quant_zero[0] ; 11.209 ; 11.259 ; 11.643 ; 11.664 ;
+; entrada[7]  ; saida_quant_zero[1] ; 9.875  ; 9.781  ; 10.309 ; 10.215 ;
+; entrada[7]  ; saida_quant_zero[2] ; 9.998  ; 9.952  ; 10.407 ; 10.357 ;
+; entrada[7]  ; saida_quant_zero[3] ; 10.467 ; 10.387 ; 10.876 ; 10.796 ;
+; entrada[7]  ; saida_quant_zero[4] ; 10.842 ; 10.636 ; 11.277 ; 11.071 ;
+; entrada[8]  ; saida_quant_um[0]   ; 8.600  ; 8.431  ; 8.758  ; 8.589  ;
+; entrada[8]  ; saida_quant_um[1]   ; 8.085  ; 8.027  ; 8.243  ; 8.185  ;
+; entrada[8]  ; saida_quant_um[2]   ; 8.984  ; 9.012  ; 9.178  ; 9.206  ;
+; entrada[8]  ; saida_quant_um[3]   ; 11.414 ; 11.383 ; 11.608 ; 11.577 ;
+; entrada[8]  ; saida_quant_um[4]   ; 9.653  ; 9.567  ; 9.869  ; 9.761  ;
+; entrada[8]  ; saida_quant_zero[0] ; 9.673  ; 9.694  ; 9.831  ; 9.888  ;
+; entrada[8]  ; saida_quant_zero[1] ; 8.339  ; 8.245  ; 8.497  ; 8.403  ;
+; entrada[8]  ; saida_quant_zero[2] ; 8.433  ; 8.387  ; 8.627  ; 8.581  ;
+; entrada[8]  ; saida_quant_zero[3] ; 8.902  ; 8.822  ; 9.096  ; 9.016  ;
+; entrada[8]  ; saida_quant_zero[4] ; 9.303  ; 9.097  ; 9.466  ; 9.260  ;
+; entrada[9]  ; saida_quant_um[0]   ; 8.484  ; 8.315  ; 8.621  ; 8.452  ;
+; entrada[9]  ; saida_quant_um[1]   ; 7.969  ; 7.911  ; 8.106  ; 8.052  ;
+; entrada[9]  ; saida_quant_um[2]   ; 8.864  ; 8.892  ; 9.048  ; 9.076  ;
+; entrada[9]  ; saida_quant_um[3]   ; 11.294 ; 11.263 ; 11.478 ; 11.447 ;
+; entrada[9]  ; saida_quant_um[4]   ; 9.536  ; 9.447  ; 9.732  ; 9.631  ;
+; entrada[9]  ; saida_quant_zero[0] ; 9.557  ; 9.574  ; 9.694  ; 9.758  ;
+; entrada[9]  ; saida_quant_zero[1] ; 8.223  ; 8.129  ; 8.360  ; 8.266  ;
+; entrada[9]  ; saida_quant_zero[2] ; 8.315  ; 8.267  ; 8.497  ; 8.451  ;
+; entrada[9]  ; saida_quant_zero[3] ; 8.784  ; 8.704  ; 8.966  ; 8.886  ;
+; entrada[9]  ; saida_quant_zero[4] ; 9.185  ; 8.979  ; 9.327  ; 9.121  ;
+; entrada[10] ; saida_quant_um[0]   ; 9.452  ; 9.283  ; 9.797  ; 9.628  ;
+; entrada[10] ; saida_quant_um[1]   ; 8.937  ; 8.879  ; 9.282  ; 9.224  ;
+; entrada[10] ; saida_quant_um[2]   ; 9.863  ; 9.891  ; 10.216 ; 10.244 ;
+; entrada[10] ; saida_quant_um[3]   ; 12.293 ; 12.262 ; 12.646 ; 12.615 ;
+; entrada[10] ; saida_quant_um[4]   ; 10.547 ; 10.446 ; 10.893 ; 10.799 ;
+; entrada[10] ; saida_quant_zero[0] ; 10.525 ; 10.573 ; 10.870 ; 10.926 ;
+; entrada[10] ; saida_quant_zero[1] ; 9.191  ; 9.097  ; 9.536  ; 9.442  ;
+; entrada[10] ; saida_quant_zero[2] ; 9.312  ; 9.266  ; 9.665  ; 9.619  ;
+; entrada[10] ; saida_quant_zero[3] ; 9.781  ; 9.701  ; 10.134 ; 10.054 ;
+; entrada[10] ; saida_quant_zero[4] ; 10.159 ; 9.953  ; 10.506 ; 10.300 ;
+; entrada[11] ; saida_quant_um[0]   ; 10.100 ; 9.938  ; 10.477 ; 10.336 ;
+; entrada[11] ; saida_quant_um[1]   ; 9.585  ; 9.527  ; 9.962  ; 9.914  ;
+; entrada[11] ; saida_quant_um[2]   ; 10.350 ; 10.316 ; 10.774 ; 10.740 ;
+; entrada[11] ; saida_quant_um[3]   ; 12.466 ; 12.435 ; 12.906 ; 12.875 ;
+; entrada[11] ; saida_quant_um[4]   ; 10.671 ; 10.619 ; 11.111 ; 11.059 ;
+; entrada[11] ; saida_quant_zero[0] ; 10.512 ; 10.600 ; 10.936 ; 10.977 ;
+; entrada[11] ; saida_quant_zero[1] ; 9.178  ; 9.084  ; 9.602  ; 9.508  ;
+; entrada[11] ; saida_quant_zero[2] ; 9.346  ; 9.285  ; 9.723  ; 9.662  ;
+; entrada[11] ; saida_quant_zero[3] ; 9.481  ; 9.401  ; 9.772  ; 9.692  ;
+; entrada[11] ; saida_quant_zero[4] ; 9.467  ; 9.412  ; 9.851  ; 9.703  ;
+; entrada[12] ; saida_quant_um[0]   ; 9.837  ; 9.680  ; 10.218 ; 10.069 ;
+; entrada[12] ; saida_quant_um[1]   ; 9.322  ; 9.264  ; 9.703  ; 9.647  ;
+; entrada[12] ; saida_quant_um[2]   ; 10.118 ; 10.084 ; 10.507 ; 10.473 ;
+; entrada[12] ; saida_quant_um[3]   ; 12.228 ; 12.197 ; 12.626 ; 12.595 ;
+; entrada[12] ; saida_quant_um[4]   ; 10.408 ; 10.381 ; 10.831 ; 10.779 ;
+; entrada[12] ; saida_quant_zero[0] ; 10.280 ; 10.337 ; 10.669 ; 10.718 ;
+; entrada[12] ; saida_quant_zero[1] ; 8.946  ; 8.852  ; 9.335  ; 9.241  ;
+; entrada[12] ; saida_quant_zero[2] ; 9.083  ; 9.022  ; 9.464  ; 9.403  ;
+; entrada[12] ; saida_quant_zero[3] ; 9.259  ; 9.179  ; 9.506  ; 9.426  ;
+; entrada[12] ; saida_quant_zero[4] ; 9.210  ; 9.190  ; 9.585  ; 9.437  ;
+; entrada[13] ; saida_quant_um[0]   ; 10.119 ; 9.957  ; 10.497 ; 10.349 ;
+; entrada[13] ; saida_quant_um[1]   ; 9.604  ; 9.546  ; 9.982  ; 9.927  ;
+; entrada[13] ; saida_quant_um[2]   ; 10.373 ; 10.339 ; 10.787 ; 10.753 ;
+; entrada[13] ; saida_quant_um[3]   ; 12.485 ; 12.454 ; 12.923 ; 12.892 ;
+; entrada[13] ; saida_quant_um[4]   ; 10.690 ; 10.638 ; 11.128 ; 11.076 ;
+; entrada[13] ; saida_quant_zero[0] ; 10.535 ; 10.619 ; 10.949 ; 10.997 ;
+; entrada[13] ; saida_quant_zero[1] ; 9.201  ; 9.107  ; 9.615  ; 9.521  ;
+; entrada[13] ; saida_quant_zero[2] ; 9.365  ; 9.304  ; 9.743  ; 9.682  ;
+; entrada[13] ; saida_quant_zero[3] ; 9.498  ; 9.418  ; 9.789  ; 9.709  ;
+; entrada[13] ; saida_quant_zero[4] ; 9.486  ; 9.429  ; 9.868  ; 9.720  ;
+; entrada[14] ; saida_quant_um[0]   ; 8.031  ; 7.982  ; 8.436  ; 8.254  ;
+; entrada[14] ; saida_quant_um[1]   ; 7.378  ; 7.360  ; 7.923  ; 7.865  ;
+; entrada[14] ; saida_quant_um[2]   ; 7.900  ; 7.866  ; 8.249  ; 8.255  ;
+; entrada[14] ; saida_quant_um[3]   ; 9.816  ; 9.825  ; 10.361 ; 10.330 ;
+; entrada[14] ; saida_quant_um[4]   ; 8.188  ;        ;        ; 8.514  ;
+; entrada[14] ; saida_quant_zero[0] ; 9.051  ; 9.082  ; 9.381  ; 9.455  ;
+; entrada[14] ; saida_quant_zero[1] ; 7.705  ; 7.611  ; 7.861  ; 7.807  ;
+; entrada[14] ; saida_quant_zero[2] ; 7.503  ; 7.482  ; 7.855  ; 7.794  ;
+; entrada[14] ; saida_quant_zero[3] ; 7.652  ; 7.572  ; 7.808  ; 7.768  ;
+; entrada[14] ; saida_quant_zero[4] ;        ; 7.583  ; 7.975  ;        ;
+; entrada[15] ; saida_quant_um[0]   ; 8.291  ; 8.157  ; 8.485  ; 8.391  ;
+; entrada[15] ; saida_quant_um[1]   ; 7.273  ; 7.255  ; 7.663  ; 7.605  ;
+; entrada[15] ; saida_quant_um[2]   ; 7.795  ; 7.761  ; 7.989  ; 7.995  ;
+; entrada[15] ; saida_quant_um[3]   ; 9.711  ; 9.720  ; 10.101 ; 10.070 ;
+; entrada[15] ; saida_quant_um[4]   ; 8.083  ;        ;        ; 8.254  ;
+; entrada[15] ; saida_quant_zero[0] ; 9.100  ; 9.164  ; 9.684  ; 9.708  ;
+; entrada[15] ; saida_quant_zero[1] ; 7.448  ; 7.354  ; 7.836  ; 7.782  ;
+; entrada[15] ; saida_quant_zero[2] ; 7.246  ; 7.225  ; 7.830  ; 7.769  ;
+; entrada[15] ; saida_quant_zero[3] ; 7.395  ; 7.315  ; 7.783  ; 7.743  ;
+; entrada[15] ; saida_quant_zero[4] ;        ; 7.326  ; 7.950  ;        ;
++-------------+---------------------+--------+--------+--------+--------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Propagation Delay                                             ;
++-------------+---------------------+--------+--------+--------+--------+
+; Input Port  ; Output Port         ; RR     ; RF     ; FR     ; FF     ;
++-------------+---------------------+--------+--------+--------+--------+
+; entrada[0]  ; saida_quant_um[0]   ; 10.558 ; 10.437 ; 11.031 ; 10.910 ;
+; entrada[0]  ; saida_quant_um[1]   ; 9.622  ; 9.582  ; 10.095 ; 10.055 ;
+; entrada[0]  ; saida_quant_um[2]   ; 10.209 ; 10.211 ; 10.682 ; 10.684 ;
+; entrada[0]  ; saida_quant_um[3]   ; 11.570 ; 11.547 ; 12.043 ; 12.020 ;
+; entrada[0]  ; saida_quant_um[4]   ; 10.072 ; 10.004 ; 10.545 ; 10.477 ;
+; entrada[0]  ; saida_quant_zero[0] ; 11.694 ; 11.753 ; 12.167 ; 12.226 ;
+; entrada[0]  ; saida_quant_zero[1] ; 9.736  ; 9.671  ; 10.209 ; 10.144 ;
+; entrada[0]  ; saida_quant_zero[2] ; 9.828  ; 9.794  ; 10.301 ; 10.267 ;
+; entrada[0]  ; saida_quant_zero[3] ; 9.377  ; 9.325  ; 9.850  ; 9.798  ;
+; entrada[0]  ; saida_quant_zero[4] ; 9.651  ; 9.592  ; 10.124 ; 10.065 ;
+; entrada[1]  ; saida_quant_um[0]   ; 10.405 ; 10.284 ; 10.782 ; 10.661 ;
+; entrada[1]  ; saida_quant_um[1]   ; 9.469  ; 9.429  ; 9.846  ; 9.806  ;
+; entrada[1]  ; saida_quant_um[2]   ; 10.056 ; 10.058 ; 10.433 ; 10.435 ;
+; entrada[1]  ; saida_quant_um[3]   ; 11.417 ; 11.394 ; 11.794 ; 11.771 ;
+; entrada[1]  ; saida_quant_um[4]   ; 9.919  ; 9.851  ; 10.296 ; 10.228 ;
+; entrada[1]  ; saida_quant_zero[0] ; 11.541 ; 11.600 ; 11.918 ; 11.977 ;
+; entrada[1]  ; saida_quant_zero[1] ; 9.583  ; 9.518  ; 9.960  ; 9.895  ;
+; entrada[1]  ; saida_quant_zero[2] ; 9.675  ; 9.641  ; 10.052 ; 10.018 ;
+; entrada[1]  ; saida_quant_zero[3] ; 9.224  ; 9.172  ; 9.601  ; 9.549  ;
+; entrada[1]  ; saida_quant_zero[4] ; 9.498  ; 9.439  ; 9.875  ; 9.816  ;
+; entrada[2]  ; saida_quant_um[0]   ; 10.210 ; 10.089 ; 10.618 ; 10.497 ;
+; entrada[2]  ; saida_quant_um[1]   ; 9.274  ; 9.234  ; 9.682  ; 9.642  ;
+; entrada[2]  ; saida_quant_um[2]   ; 9.861  ; 9.863  ; 10.269 ; 10.271 ;
+; entrada[2]  ; saida_quant_um[3]   ; 11.222 ; 11.199 ; 11.630 ; 11.607 ;
+; entrada[2]  ; saida_quant_um[4]   ; 9.724  ; 9.656  ; 10.132 ; 10.064 ;
+; entrada[2]  ; saida_quant_zero[0] ; 11.346 ; 11.405 ; 11.754 ; 11.813 ;
+; entrada[2]  ; saida_quant_zero[1] ; 9.388  ; 9.323  ; 9.796  ; 9.731  ;
+; entrada[2]  ; saida_quant_zero[2] ; 9.480  ; 9.446  ; 9.888  ; 9.854  ;
+; entrada[2]  ; saida_quant_zero[3] ; 9.029  ; 8.977  ; 9.437  ; 9.385  ;
+; entrada[2]  ; saida_quant_zero[4] ; 9.303  ; 9.244  ; 9.711  ; 9.652  ;
+; entrada[3]  ; saida_quant_um[0]   ; 10.434 ; 10.336 ; 10.801 ; 10.703 ;
+; entrada[3]  ; saida_quant_um[1]   ; 9.534  ; 9.494  ; 9.901  ; 9.861  ;
+; entrada[3]  ; saida_quant_um[2]   ; 10.121 ; 10.123 ; 10.488 ; 10.490 ;
+; entrada[3]  ; saida_quant_um[3]   ; 11.496 ; 11.473 ; 11.863 ; 11.840 ;
+; entrada[3]  ; saida_quant_um[4]   ; 9.998  ; 9.930  ; 10.365 ; 10.297 ;
+; entrada[3]  ; saida_quant_zero[0] ; 11.570 ; 11.629 ; 11.937 ; 11.996 ;
+; entrada[3]  ; saida_quant_zero[1] ; 9.642  ; 9.577  ; 10.009 ; 9.944  ;
+; entrada[3]  ; saida_quant_zero[2] ; 9.734  ; 9.700  ; 10.101 ; 10.067 ;
+; entrada[3]  ; saida_quant_zero[3] ; 9.292  ; 9.240  ; 9.659  ; 9.607  ;
+; entrada[3]  ; saida_quant_zero[4] ; 9.566  ; 9.507  ; 9.933  ; 9.874  ;
+; entrada[4]  ; saida_quant_um[0]   ; 10.132 ; 10.034 ; 10.494 ; 10.396 ;
+; entrada[4]  ; saida_quant_um[1]   ; 9.232  ; 9.192  ; 9.594  ; 9.554  ;
+; entrada[4]  ; saida_quant_um[2]   ; 9.819  ; 9.821  ; 10.181 ; 10.183 ;
+; entrada[4]  ; saida_quant_um[3]   ; 11.194 ; 11.171 ; 11.556 ; 11.533 ;
+; entrada[4]  ; saida_quant_um[4]   ; 9.696  ; 9.628  ; 10.058 ; 9.990  ;
+; entrada[4]  ; saida_quant_zero[0] ; 11.268 ; 11.327 ; 11.630 ; 11.689 ;
+; entrada[4]  ; saida_quant_zero[1] ; 9.340  ; 9.275  ; 9.702  ; 9.637  ;
+; entrada[4]  ; saida_quant_zero[2] ; 9.432  ; 9.398  ; 9.794  ; 9.760  ;
+; entrada[4]  ; saida_quant_zero[3] ; 8.990  ; 8.938  ; 9.352  ; 9.300  ;
+; entrada[4]  ; saida_quant_zero[4] ; 9.264  ; 9.205  ; 9.626  ; 9.567  ;
+; entrada[5]  ; saida_quant_um[0]   ; 10.324 ; 10.226 ; 10.657 ; 10.559 ;
+; entrada[5]  ; saida_quant_um[1]   ; 9.424  ; 9.384  ; 9.757  ; 9.717  ;
+; entrada[5]  ; saida_quant_um[2]   ; 10.011 ; 10.013 ; 10.344 ; 10.346 ;
+; entrada[5]  ; saida_quant_um[3]   ; 11.386 ; 11.363 ; 11.719 ; 11.696 ;
+; entrada[5]  ; saida_quant_um[4]   ; 9.888  ; 9.820  ; 10.221 ; 10.153 ;
+; entrada[5]  ; saida_quant_zero[0] ; 11.460 ; 11.519 ; 11.793 ; 11.852 ;
+; entrada[5]  ; saida_quant_zero[1] ; 9.532  ; 9.467  ; 9.865  ; 9.800  ;
+; entrada[5]  ; saida_quant_zero[2] ; 9.624  ; 9.590  ; 9.957  ; 9.923  ;
+; entrada[5]  ; saida_quant_zero[3] ; 9.182  ; 9.130  ; 9.515  ; 9.463  ;
+; entrada[5]  ; saida_quant_zero[4] ; 9.456  ; 9.397  ; 9.789  ; 9.730  ;
+; entrada[6]  ; saida_quant_um[0]   ; 10.068 ; 9.945  ; 10.452 ; 10.354 ;
+; entrada[6]  ; saida_quant_um[1]   ; 9.141  ; 9.101  ; 9.554  ; 9.514  ;
+; entrada[6]  ; saida_quant_um[2]   ; 9.728  ; 9.730  ; 10.141 ; 10.143 ;
+; entrada[6]  ; saida_quant_um[3]   ; 11.104 ; 11.086 ; 11.497 ; 11.474 ;
+; entrada[6]  ; saida_quant_um[4]   ; 9.606  ; 9.543  ; 9.999  ; 9.931  ;
+; entrada[6]  ; saida_quant_zero[0] ; 11.203 ; 11.262 ; 11.588 ; 11.647 ;
+; entrada[6]  ; saida_quant_zero[1] ; 9.244  ; 9.179  ; 9.654  ; 9.589  ;
+; entrada[6]  ; saida_quant_zero[2] ; 9.336  ; 9.302  ; 9.746  ; 9.712  ;
+; entrada[6]  ; saida_quant_zero[3] ; 8.889  ; 8.837  ; 9.306  ; 9.254  ;
+; entrada[6]  ; saida_quant_zero[4] ; 9.163  ; 9.104  ; 9.580  ; 9.521  ;
+; entrada[7]  ; saida_quant_um[0]   ; 9.541  ; 9.435  ; 9.938  ; 9.840  ;
+; entrada[7]  ; saida_quant_um[1]   ; 8.848  ; 8.817  ; 9.251  ; 9.229  ;
+; entrada[7]  ; saida_quant_um[2]   ; 9.267  ; 9.269  ; 9.684  ; 9.685  ;
+; entrada[7]  ; saida_quant_um[3]   ; 11.040 ; 11.023 ; 11.465 ; 11.448 ;
+; entrada[7]  ; saida_quant_um[4]   ; 9.542  ; 9.480  ; 9.967  ; 9.905  ;
+; entrada[7]  ; saida_quant_zero[0] ; 10.678 ; 10.737 ; 11.075 ; 11.134 ;
+; entrada[7]  ; saida_quant_zero[1] ; 8.948  ; 8.883  ; 9.359  ; 9.304  ;
+; entrada[7]  ; saida_quant_zero[2] ; 8.878  ; 8.853  ; 9.275  ; 9.250  ;
+; entrada[7]  ; saida_quant_zero[3] ; 8.904  ; 8.852  ; 9.312  ; 9.260  ;
+; entrada[7]  ; saida_quant_zero[4] ; 9.173  ; 9.114  ; 9.584  ; 9.527  ;
+; entrada[8]  ; saida_quant_um[0]   ; 7.987  ; 7.889  ; 8.177  ; 8.066  ;
+; entrada[8]  ; saida_quant_um[1]   ; 7.300  ; 7.278  ; 7.479  ; 7.448  ;
+; entrada[8]  ; saida_quant_um[2]   ; 7.733  ; 7.734  ; 7.898  ; 7.900  ;
+; entrada[8]  ; saida_quant_um[3]   ; 9.517  ; 9.500  ; 9.671  ; 9.654  ;
+; entrada[8]  ; saida_quant_um[4]   ; 8.019  ; 7.957  ; 8.173  ; 8.111  ;
+; entrada[8]  ; saida_quant_zero[0] ; 9.124  ; 9.183  ; 9.314  ; 9.373  ;
+; entrada[8]  ; saida_quant_zero[1] ; 7.423  ; 7.358  ; 7.591  ; 7.536  ;
+; entrada[8]  ; saida_quant_zero[2] ; 7.324  ; 7.299  ; 7.514  ; 7.489  ;
+; entrada[8]  ; saida_quant_zero[3] ; 7.361  ; 7.309  ; 7.535  ; 7.483  ;
+; entrada[8]  ; saida_quant_zero[4] ; 7.635  ; 7.576  ; 7.809  ; 7.750  ;
+; entrada[9]  ; saida_quant_um[0]   ; 7.874  ; 7.776  ; 8.046  ; 7.936  ;
+; entrada[9]  ; saida_quant_um[1]   ; 7.187  ; 7.165  ; 7.349  ; 7.318  ;
+; entrada[9]  ; saida_quant_um[2]   ; 7.224  ; 7.211  ; 7.432  ; 7.409  ;
+; entrada[9]  ; saida_quant_um[3]   ; 9.068  ; 9.051  ; 9.230  ; 9.213  ;
+; entrada[9]  ; saida_quant_um[4]   ; 7.570  ; 7.508  ; 7.732  ; 7.670  ;
+; entrada[9]  ; saida_quant_zero[0] ; 9.011  ; 9.070  ; 9.183  ; 9.242  ;
+; entrada[9]  ; saida_quant_zero[1] ; 7.310  ; 7.245  ; 7.461  ; 7.406  ;
+; entrada[9]  ; saida_quant_zero[2] ; 6.865  ; 6.829  ; 6.999  ; 6.974  ;
+; entrada[9]  ; saida_quant_zero[3] ; 6.920  ; 6.868  ; 7.063  ; 7.011  ;
+; entrada[9]  ; saida_quant_zero[4] ; 7.194  ; 7.135  ; 7.337  ; 7.278  ;
+; entrada[10] ; saida_quant_um[0]   ; 8.885  ; 8.781  ; 9.229  ; 9.119  ;
+; entrada[10] ; saida_quant_um[1]   ; 8.194  ; 8.163  ; 8.532  ; 8.501  ;
+; entrada[10] ; saida_quant_um[2]   ; 8.354  ; 8.341  ; 8.724  ; 8.701  ;
+; entrada[10] ; saida_quant_um[3]   ; 10.198 ; 10.181 ; 10.522 ; 10.505 ;
+; entrada[10] ; saida_quant_um[4]   ; 8.700  ; 8.638  ; 9.024  ; 8.962  ;
+; entrada[10] ; saida_quant_zero[0] ; 10.022 ; 10.081 ; 10.366 ; 10.425 ;
+; entrada[10] ; saida_quant_zero[1] ; 8.295  ; 8.230  ; 8.635  ; 8.570  ;
+; entrada[10] ; saida_quant_zero[2] ; 8.000  ; 7.964  ; 8.327  ; 8.302  ;
+; entrada[10] ; saida_quant_zero[3] ; 8.055  ; 8.003  ; 8.391  ; 8.339  ;
+; entrada[10] ; saida_quant_zero[4] ; 8.329  ; 8.270  ; 8.665  ; 8.606  ;
+; entrada[11] ; saida_quant_um[0]   ; 9.507  ; 9.409  ; 9.909  ; 9.809  ;
+; entrada[11] ; saida_quant_um[1]   ; 8.598  ; 8.566  ; 8.993  ; 8.938  ;
+; entrada[11] ; saida_quant_um[2]   ; 9.193  ; 9.192  ; 9.565  ; 9.567  ;
+; entrada[11] ; saida_quant_um[3]   ; 11.148 ; 11.156 ; 11.530 ; 11.536 ;
+; entrada[11] ; saida_quant_um[4]   ; 9.490  ; 9.443  ; 9.890  ; 9.815  ;
+; entrada[11] ; saida_quant_zero[0] ; 9.989  ; 10.046 ; 10.391 ; 10.448 ;
+; entrada[11] ; saida_quant_zero[1] ; 8.254  ; 8.199  ; 8.643  ; 8.577  ;
+; entrada[11] ; saida_quant_zero[2] ; 8.259  ; 8.234  ; 8.649  ; 8.624  ;
+; entrada[11] ; saida_quant_zero[3] ; 8.273  ; 8.231  ; 8.675  ; 8.633  ;
+; entrada[11] ; saida_quant_zero[4] ; 8.479  ; 8.444  ; 8.868  ; 8.808  ;
+; entrada[12] ; saida_quant_um[0]   ; 9.340  ; 9.225  ; 9.720  ; 9.599  ;
+; entrada[12] ; saida_quant_um[1]   ; 8.416  ; 8.384  ; 8.799  ; 8.744  ;
+; entrada[12] ; saida_quant_um[2]   ; 9.011  ; 9.010  ; 9.371  ; 9.373  ;
+; entrada[12] ; saida_quant_um[3]   ; 10.966 ; 10.974 ; 11.336 ; 11.342 ;
+; entrada[12] ; saida_quant_um[4]   ; 9.308  ; 9.261  ; 9.696  ; 9.621  ;
+; entrada[12] ; saida_quant_zero[0] ; 9.822  ; 9.879  ; 10.202 ; 10.259 ;
+; entrada[12] ; saida_quant_zero[1] ; 8.072  ; 8.017  ; 8.449  ; 8.383  ;
+; entrada[12] ; saida_quant_zero[2] ; 8.065  ; 8.040  ; 8.439  ; 8.414  ;
+; entrada[12] ; saida_quant_zero[3] ; 8.106  ; 8.064  ; 8.486  ; 8.444  ;
+; entrada[12] ; saida_quant_zero[4] ; 8.297  ; 8.273  ; 8.674  ; 8.614  ;
+; entrada[13] ; saida_quant_um[0]   ; 9.527  ; 9.429  ; 9.928  ; 9.829  ;
+; entrada[13] ; saida_quant_um[1]   ; 8.619  ; 8.587  ; 9.010  ; 8.955  ;
+; entrada[13] ; saida_quant_um[2]   ; 9.214  ; 9.213  ; 9.582  ; 9.584  ;
+; entrada[13] ; saida_quant_um[3]   ; 11.169 ; 11.177 ; 11.547 ; 11.553 ;
+; entrada[13] ; saida_quant_um[4]   ; 9.511  ; 9.464  ; 9.907  ; 9.832  ;
+; entrada[13] ; saida_quant_zero[0] ; 10.009 ; 10.066 ; 10.410 ; 10.467 ;
+; entrada[13] ; saida_quant_zero[1] ; 8.275  ; 8.220  ; 8.660  ; 8.594  ;
+; entrada[13] ; saida_quant_zero[2] ; 8.277  ; 8.252  ; 8.669  ; 8.644  ;
+; entrada[13] ; saida_quant_zero[3] ; 8.293  ; 8.251  ; 8.694  ; 8.652  ;
+; entrada[13] ; saida_quant_zero[4] ; 8.500  ; 8.464  ; 8.885  ; 8.825  ;
+; entrada[14] ; saida_quant_um[0]   ; 7.745  ; 7.648  ; 8.083  ; 7.957  ;
+; entrada[14] ; saida_quant_um[1]   ; 7.058  ; 7.036  ; 7.437  ; 7.391  ;
+; entrada[14] ; saida_quant_um[2]   ; 7.514  ; 7.492  ; 7.799  ; 7.801  ;
+; entrada[14] ; saida_quant_um[3]   ; 9.448  ; 9.456  ; 9.827  ; 9.811  ;
+; entrada[14] ; saida_quant_um[4]   ; 7.790  ;        ;        ; 8.049  ;
+; entrada[14] ; saida_quant_zero[0] ; 8.740  ; 8.800  ; 9.079  ; 9.106  ;
+; entrada[14] ; saida_quant_zero[1] ; 7.218  ; 7.138  ; 7.511  ; 7.455  ;
+; entrada[14] ; saida_quant_zero[2] ; 7.071  ; 7.046  ; 7.458  ; 7.409  ;
+; entrada[14] ; saida_quant_zero[3] ; 7.169  ; 7.102  ; 7.462  ; 7.419  ;
+; entrada[14] ; saida_quant_zero[4] ;        ; 7.145  ; 7.576  ;        ;
+; entrada[15] ; saida_quant_um[0]   ; 7.780  ; 7.661  ; 8.109  ; 8.014  ;
+; entrada[15] ; saida_quant_um[1]   ; 6.851  ; 6.829  ; 7.274  ; 7.228  ;
+; entrada[15] ; saida_quant_um[2]   ; 7.307  ; 7.285  ; 7.636  ; 7.638  ;
+; entrada[15] ; saida_quant_um[3]   ; 9.241  ; 9.249  ; 9.664  ; 9.648  ;
+; entrada[15] ; saida_quant_um[4]   ; 7.583  ;        ;        ; 7.886  ;
+; entrada[15] ; saida_quant_zero[0] ; 8.762  ; 8.822  ; 9.178  ; 9.214  ;
+; entrada[15] ; saida_quant_zero[1] ; 7.078  ; 6.998  ; 7.400  ; 7.344  ;
+; entrada[15] ; saida_quant_zero[2] ; 6.931  ; 6.906  ; 7.347  ; 7.298  ;
+; entrada[15] ; saida_quant_zero[3] ; 7.029  ; 6.962  ; 7.351  ; 7.308  ;
+; entrada[15] ; saida_quant_zero[4] ;        ; 7.005  ; 7.465  ;        ;
++-------------+---------------------+--------+--------+--------+--------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------------+
+; Propagation Delay                                                   ;
++-------------+---------------------+-------+-------+--------+--------+
+; Input Port  ; Output Port         ; RR    ; RF    ; FR     ; FF     ;
++-------------+---------------------+-------+-------+--------+--------+
+; entrada[0]  ; saida_quant_um[0]   ; 7.159 ; 7.238 ; 7.865  ; 7.944  ;
+; entrada[0]  ; saida_quant_um[1]   ; 7.099 ; 7.168 ; 7.805  ; 7.874  ;
+; entrada[0]  ; saida_quant_um[2]   ; 7.730 ; 7.824 ; 8.436  ; 8.530  ;
+; entrada[0]  ; saida_quant_um[3]   ; 9.345 ; 9.524 ; 10.051 ; 10.230 ;
+; entrada[0]  ; saida_quant_um[4]   ; 8.178 ; 8.258 ; 8.884  ; 8.964  ;
+; entrada[0]  ; saida_quant_zero[0] ; 8.003 ; 8.158 ; 8.709  ; 8.864  ;
+; entrada[0]  ; saida_quant_zero[1] ; 7.080 ; 7.147 ; 7.786  ; 7.853  ;
+; entrada[0]  ; saida_quant_zero[2] ; 7.475 ; 7.492 ; 8.181  ; 8.198  ;
+; entrada[0]  ; saida_quant_zero[3] ; 7.733 ; 7.792 ; 8.439  ; 8.498  ;
+; entrada[0]  ; saida_quant_zero[4] ; 7.886 ; 7.883 ; 8.592  ; 8.589  ;
+; entrada[1]  ; saida_quant_um[0]   ; 7.058 ; 7.137 ; 7.668  ; 7.747  ;
+; entrada[1]  ; saida_quant_um[1]   ; 6.998 ; 7.067 ; 7.608  ; 7.677  ;
+; entrada[1]  ; saida_quant_um[2]   ; 7.629 ; 7.723 ; 8.239  ; 8.333  ;
+; entrada[1]  ; saida_quant_um[3]   ; 9.244 ; 9.423 ; 9.854  ; 10.033 ;
+; entrada[1]  ; saida_quant_um[4]   ; 8.077 ; 8.157 ; 8.687  ; 8.767  ;
+; entrada[1]  ; saida_quant_zero[0] ; 7.902 ; 8.057 ; 8.512  ; 8.667  ;
+; entrada[1]  ; saida_quant_zero[1] ; 6.979 ; 7.046 ; 7.589  ; 7.656  ;
+; entrada[1]  ; saida_quant_zero[2] ; 7.374 ; 7.391 ; 7.984  ; 8.001  ;
+; entrada[1]  ; saida_quant_zero[3] ; 7.632 ; 7.691 ; 8.242  ; 8.301  ;
+; entrada[1]  ; saida_quant_zero[4] ; 7.785 ; 7.782 ; 8.395  ; 8.392  ;
+; entrada[2]  ; saida_quant_um[0]   ; 6.862 ; 6.941 ; 7.511  ; 7.590  ;
+; entrada[2]  ; saida_quant_um[1]   ; 6.802 ; 6.871 ; 7.451  ; 7.520  ;
+; entrada[2]  ; saida_quant_um[2]   ; 7.433 ; 7.527 ; 8.082  ; 8.176  ;
+; entrada[2]  ; saida_quant_um[3]   ; 9.048 ; 9.227 ; 9.697  ; 9.876  ;
+; entrada[2]  ; saida_quant_um[4]   ; 7.881 ; 7.961 ; 8.530  ; 8.610  ;
+; entrada[2]  ; saida_quant_zero[0] ; 7.706 ; 7.861 ; 8.355  ; 8.510  ;
+; entrada[2]  ; saida_quant_zero[1] ; 6.783 ; 6.850 ; 7.432  ; 7.499  ;
+; entrada[2]  ; saida_quant_zero[2] ; 7.178 ; 7.195 ; 7.827  ; 7.844  ;
+; entrada[2]  ; saida_quant_zero[3] ; 7.436 ; 7.495 ; 8.085  ; 8.144  ;
+; entrada[2]  ; saida_quant_zero[4] ; 7.589 ; 7.586 ; 8.238  ; 8.235  ;
+; entrada[3]  ; saida_quant_um[0]   ; 7.096 ; 7.175 ; 7.744  ; 7.823  ;
+; entrada[3]  ; saida_quant_um[1]   ; 6.871 ; 6.940 ; 7.519  ; 7.588  ;
+; entrada[3]  ; saida_quant_um[2]   ; 7.502 ; 7.596 ; 8.150  ; 8.244  ;
+; entrada[3]  ; saida_quant_um[3]   ; 9.117 ; 9.296 ; 9.765  ; 9.944  ;
+; entrada[3]  ; saida_quant_um[4]   ; 7.950 ; 8.030 ; 8.598  ; 8.678  ;
+; entrada[3]  ; saida_quant_zero[0] ; 7.940 ; 8.095 ; 8.588  ; 8.743  ;
+; entrada[3]  ; saida_quant_zero[1] ; 6.940 ; 6.981 ; 7.588  ; 7.629  ;
+; entrada[3]  ; saida_quant_zero[2] ; 7.253 ; 7.270 ; 7.901  ; 7.918  ;
+; entrada[3]  ; saida_quant_zero[3] ; 7.511 ; 7.570 ; 8.159  ; 8.218  ;
+; entrada[3]  ; saida_quant_zero[4] ; 7.664 ; 7.661 ; 8.312  ; 8.309  ;
+; entrada[4]  ; saida_quant_um[0]   ; 6.872 ; 6.951 ; 7.490  ; 7.569  ;
+; entrada[4]  ; saida_quant_um[1]   ; 6.647 ; 6.716 ; 7.265  ; 7.334  ;
+; entrada[4]  ; saida_quant_um[2]   ; 7.278 ; 7.372 ; 7.896  ; 7.990  ;
+; entrada[4]  ; saida_quant_um[3]   ; 8.893 ; 9.072 ; 9.511  ; 9.690  ;
+; entrada[4]  ; saida_quant_um[4]   ; 7.726 ; 7.806 ; 8.344  ; 8.424  ;
+; entrada[4]  ; saida_quant_zero[0] ; 7.716 ; 7.871 ; 8.334  ; 8.489  ;
+; entrada[4]  ; saida_quant_zero[1] ; 6.716 ; 6.757 ; 7.334  ; 7.375  ;
+; entrada[4]  ; saida_quant_zero[2] ; 7.029 ; 7.046 ; 7.647  ; 7.664  ;
+; entrada[4]  ; saida_quant_zero[3] ; 7.287 ; 7.346 ; 7.905  ; 7.964  ;
+; entrada[4]  ; saida_quant_zero[4] ; 7.440 ; 7.437 ; 8.058  ; 8.055  ;
+; entrada[5]  ; saida_quant_um[0]   ; 6.974 ; 7.053 ; 7.587  ; 7.666  ;
+; entrada[5]  ; saida_quant_um[1]   ; 6.749 ; 6.818 ; 7.362  ; 7.431  ;
+; entrada[5]  ; saida_quant_um[2]   ; 7.380 ; 7.474 ; 7.993  ; 8.087  ;
+; entrada[5]  ; saida_quant_um[3]   ; 8.995 ; 9.174 ; 9.608  ; 9.787  ;
+; entrada[5]  ; saida_quant_um[4]   ; 7.828 ; 7.908 ; 8.441  ; 8.521  ;
+; entrada[5]  ; saida_quant_zero[0] ; 7.818 ; 7.973 ; 8.431  ; 8.586  ;
+; entrada[5]  ; saida_quant_zero[1] ; 6.818 ; 6.859 ; 7.431  ; 7.472  ;
+; entrada[5]  ; saida_quant_zero[2] ; 7.131 ; 7.148 ; 7.744  ; 7.761  ;
+; entrada[5]  ; saida_quant_zero[3] ; 7.389 ; 7.448 ; 8.002  ; 8.061  ;
+; entrada[5]  ; saida_quant_zero[4] ; 7.542 ; 7.539 ; 8.155  ; 8.152  ;
+; entrada[6]  ; saida_quant_um[0]   ; 6.777 ; 6.856 ; 7.429  ; 7.508  ;
+; entrada[6]  ; saida_quant_um[1]   ; 6.498 ; 6.544 ; 7.150  ; 7.196  ;
+; entrada[6]  ; saida_quant_um[2]   ; 7.032 ; 7.126 ; 7.666  ; 7.760  ;
+; entrada[6]  ; saida_quant_um[3]   ; 8.647 ; 8.826 ; 9.281  ; 9.460  ;
+; entrada[6]  ; saida_quant_um[4]   ; 7.342 ; 7.558 ; 7.976  ; 8.192  ;
+; entrada[6]  ; saida_quant_zero[0] ; 7.621 ; 7.776 ; 8.273  ; 8.428  ;
+; entrada[6]  ; saida_quant_zero[1] ; 6.621 ; 6.662 ; 7.273  ; 7.314  ;
+; entrada[6]  ; saida_quant_zero[2] ; 6.779 ; 6.804 ; 7.431  ; 7.456  ;
+; entrada[6]  ; saida_quant_zero[3] ; 7.037 ; 7.096 ; 7.689  ; 7.748  ;
+; entrada[6]  ; saida_quant_zero[4] ; 7.019 ; 7.112 ; 7.669  ; 7.764  ;
+; entrada[7]  ; saida_quant_um[0]   ; 6.413 ; 6.492 ; 7.067  ; 7.146  ;
+; entrada[7]  ; saida_quant_um[1]   ; 6.134 ; 6.180 ; 6.788  ; 6.834  ;
+; entrada[7]  ; saida_quant_um[2]   ; 6.685 ; 6.779 ; 7.321  ; 7.415  ;
+; entrada[7]  ; saida_quant_um[3]   ; 8.300 ; 8.479 ; 8.936  ; 9.115  ;
+; entrada[7]  ; saida_quant_um[4]   ; 7.080 ; 7.211 ; 7.734  ; 7.847  ;
+; entrada[7]  ; saida_quant_zero[0] ; 7.271 ; 7.426 ; 7.925  ; 8.080  ;
+; entrada[7]  ; saida_quant_zero[1] ; 6.271 ; 6.312 ; 6.925  ; 6.966  ;
+; entrada[7]  ; saida_quant_zero[2] ; 6.389 ; 6.406 ; 7.043  ; 7.060  ;
+; entrada[7]  ; saida_quant_zero[3] ; 6.647 ; 6.706 ; 7.301  ; 7.360  ;
+; entrada[7]  ; saida_quant_zero[4] ; 6.800 ; 6.797 ; 7.454  ; 7.451  ;
+; entrada[8]  ; saida_quant_um[0]   ; 5.375 ; 5.454 ; 5.631  ; 5.710  ;
+; entrada[8]  ; saida_quant_um[1]   ; 5.096 ; 5.142 ; 5.352  ; 5.398  ;
+; entrada[8]  ; saida_quant_um[2]   ; 5.630 ; 5.724 ; 5.918  ; 6.012  ;
+; entrada[8]  ; saida_quant_um[3]   ; 7.245 ; 7.424 ; 7.533  ; 7.712  ;
+; entrada[8]  ; saida_quant_um[4]   ; 6.016 ; 6.156 ; 6.311  ; 6.444  ;
+; entrada[8]  ; saida_quant_zero[0] ; 6.233 ; 6.388 ; 6.489  ; 6.644  ;
+; entrada[8]  ; saida_quant_zero[1] ; 5.233 ; 5.274 ; 5.489  ; 5.530  ;
+; entrada[8]  ; saida_quant_zero[2] ; 5.348 ; 5.365 ; 5.609  ; 5.626  ;
+; entrada[8]  ; saida_quant_zero[3] ; 5.606 ; 5.665 ; 5.867  ; 5.926  ;
+; entrada[8]  ; saida_quant_zero[4] ; 5.759 ; 5.756 ; 6.020  ; 6.017  ;
+; entrada[9]  ; saida_quant_um[0]   ; 5.305 ; 5.384 ; 5.569  ; 5.648  ;
+; entrada[9]  ; saida_quant_um[1]   ; 5.026 ; 5.072 ; 5.290  ; 5.336  ;
+; entrada[9]  ; saida_quant_um[2]   ; 5.559 ; 5.653 ; 5.862  ; 5.956  ;
+; entrada[9]  ; saida_quant_um[3]   ; 7.174 ; 7.353 ; 7.477  ; 7.656  ;
+; entrada[9]  ; saida_quant_um[4]   ; 5.945 ; 6.085 ; 6.250  ; 6.388  ;
+; entrada[9]  ; saida_quant_zero[0] ; 6.163 ; 6.318 ; 6.427  ; 6.582  ;
+; entrada[9]  ; saida_quant_zero[1] ; 5.163 ; 5.204 ; 5.427  ; 5.468  ;
+; entrada[9]  ; saida_quant_zero[2] ; 5.277 ; 5.294 ; 5.543  ; 5.560  ;
+; entrada[9]  ; saida_quant_zero[3] ; 5.535 ; 5.594 ; 5.801  ; 5.860  ;
+; entrada[9]  ; saida_quant_zero[4] ; 5.688 ; 5.685 ; 5.954  ; 5.951  ;
+; entrada[10] ; saida_quant_um[0]   ; 5.968 ; 6.047 ; 6.532  ; 6.611  ;
+; entrada[10] ; saida_quant_um[1]   ; 5.689 ; 5.735 ; 6.253  ; 6.299  ;
+; entrada[10] ; saida_quant_um[2]   ; 6.237 ; 6.331 ; 6.808  ; 6.902  ;
+; entrada[10] ; saida_quant_um[3]   ; 7.852 ; 8.031 ; 8.423  ; 8.602  ;
+; entrada[10] ; saida_quant_um[4]   ; 6.637 ; 6.763 ; 7.201  ; 7.334  ;
+; entrada[10] ; saida_quant_zero[0] ; 6.826 ; 6.981 ; 7.390  ; 7.545  ;
+; entrada[10] ; saida_quant_zero[1] ; 5.826 ; 5.867 ; 6.390  ; 6.431  ;
+; entrada[10] ; saida_quant_zero[2] ; 5.946 ; 5.963 ; 6.510  ; 6.527  ;
+; entrada[10] ; saida_quant_zero[3] ; 6.204 ; 6.263 ; 6.768  ; 6.827  ;
+; entrada[10] ; saida_quant_zero[4] ; 6.357 ; 6.354 ; 6.921  ; 6.918  ;
+; entrada[11] ; saida_quant_um[0]   ; 6.446 ; 6.525 ; 7.060  ; 7.139  ;
+; entrada[11] ; saida_quant_um[1]   ; 6.167 ; 6.213 ; 6.781  ; 6.827  ;
+; entrada[11] ; saida_quant_um[2]   ; 6.475 ; 6.593 ; 7.129  ; 7.247  ;
+; entrada[11] ; saida_quant_um[3]   ; 8.066 ; 8.245 ; 8.725  ; 8.904  ;
+; entrada[11] ; saida_quant_um[4]   ; 6.761 ; 6.977 ; 7.420  ; 7.636  ;
+; entrada[11] ; saida_quant_zero[0] ; 6.837 ; 7.024 ; 7.451  ; 7.638  ;
+; entrada[11] ; saida_quant_zero[1] ; 5.837 ; 5.878 ; 6.451  ; 6.492  ;
+; entrada[11] ; saida_quant_zero[2] ; 5.955 ; 5.999 ; 6.569  ; 6.613  ;
+; entrada[11] ; saida_quant_zero[3] ; 5.980 ; 6.039 ; 6.595  ; 6.654  ;
+; entrada[11] ; saida_quant_zero[4] ; 6.005 ; 6.055 ; 6.620  ; 6.670  ;
+; entrada[12] ; saida_quant_um[0]   ; 6.285 ; 6.364 ; 6.894  ; 6.973  ;
+; entrada[12] ; saida_quant_um[1]   ; 6.006 ; 6.052 ; 6.615  ; 6.661  ;
+; entrada[12] ; saida_quant_um[2]   ; 6.329 ; 6.447 ; 6.945  ; 7.063  ;
+; entrada[12] ; saida_quant_um[3]   ; 7.905 ; 8.084 ; 8.540  ; 8.719  ;
+; entrada[12] ; saida_quant_um[4]   ; 6.600 ; 6.816 ; 7.235  ; 7.451  ;
+; entrada[12] ; saida_quant_zero[0] ; 6.676 ; 6.863 ; 7.285  ; 7.472  ;
+; entrada[12] ; saida_quant_zero[1] ; 5.676 ; 5.717 ; 6.285  ; 6.326  ;
+; entrada[12] ; saida_quant_zero[2] ; 5.794 ; 5.838 ; 6.403  ; 6.447  ;
+; entrada[12] ; saida_quant_zero[3] ; 5.819 ; 5.878 ; 6.428  ; 6.487  ;
+; entrada[12] ; saida_quant_zero[4] ; 5.844 ; 5.894 ; 6.453  ; 6.503  ;
+; entrada[13] ; saida_quant_um[0]   ; 6.469 ; 6.548 ; 7.078  ; 7.157  ;
+; entrada[13] ; saida_quant_um[1]   ; 6.190 ; 6.236 ; 6.799  ; 6.845  ;
+; entrada[13] ; saida_quant_um[2]   ; 6.499 ; 6.617 ; 7.140  ; 7.258  ;
+; entrada[13] ; saida_quant_um[3]   ; 8.089 ; 8.268 ; 8.738  ; 8.917  ;
+; entrada[13] ; saida_quant_um[4]   ; 6.784 ; 7.000 ; 7.433  ; 7.649  ;
+; entrada[13] ; saida_quant_zero[0] ; 6.860 ; 7.047 ; 7.469  ; 7.656  ;
+; entrada[13] ; saida_quant_zero[1] ; 5.860 ; 5.901 ; 6.469  ; 6.510  ;
+; entrada[13] ; saida_quant_zero[2] ; 5.978 ; 6.022 ; 6.587  ; 6.631  ;
+; entrada[13] ; saida_quant_zero[3] ; 6.003 ; 6.062 ; 6.612  ; 6.671  ;
+; entrada[13] ; saida_quant_zero[4] ; 6.028 ; 6.078 ; 6.637  ; 6.687  ;
+; entrada[14] ; saida_quant_um[0]   ; 4.999 ; 5.161 ; 5.674  ; 5.748  ;
+; entrada[14] ; saida_quant_um[1]   ; 4.638 ; 4.709 ; 5.396  ; 5.442  ;
+; entrada[14] ; saida_quant_um[2]   ; 4.945 ; 5.063 ; 5.593  ; 5.736  ;
+; entrada[14] ; saida_quant_um[3]   ; 6.252 ; 6.456 ; 7.010  ; 7.189  ;
+; entrada[14] ; saida_quant_um[4]   ; 5.138 ;       ;        ; 5.921  ;
+; entrada[14] ; saida_quant_zero[0] ; 5.821 ; 5.999 ; 6.446  ; 6.649  ;
+; entrada[14] ; saida_quant_zero[1] ; 4.813 ; 4.854 ; 5.330  ; 5.396  ;
+; entrada[14] ; saida_quant_zero[2] ; 4.724 ; 4.793 ; 5.351  ; 5.395  ;
+; entrada[14] ; saida_quant_zero[3] ; 4.783 ; 4.842 ; 5.300  ; 5.384  ;
+; entrada[14] ; saida_quant_zero[4] ;       ; 4.858 ; 5.401  ;        ;
+; entrada[15] ; saida_quant_um[0]   ; 5.182 ; 5.293 ; 5.686  ; 5.822  ;
+; entrada[15] ; saida_quant_um[1]   ; 4.603 ; 4.674 ; 5.217  ; 5.263  ;
+; entrada[15] ; saida_quant_um[2]   ; 4.910 ; 5.028 ; 5.414  ; 5.557  ;
+; entrada[15] ; saida_quant_um[3]   ; 6.217 ; 6.421 ; 6.831  ; 7.010  ;
+; entrada[15] ; saida_quant_um[4]   ; 5.103 ;       ;        ; 5.742  ;
+; entrada[15] ; saida_quant_zero[0] ; 5.871 ; 6.075 ; 6.617  ; 6.796  ;
+; entrada[15] ; saida_quant_zero[1] ; 4.673 ; 4.714 ; 5.309  ; 5.375  ;
+; entrada[15] ; saida_quant_zero[2] ; 4.584 ; 4.653 ; 5.330  ; 5.374  ;
+; entrada[15] ; saida_quant_zero[3] ; 4.643 ; 4.702 ; 5.279  ; 5.363  ;
+; entrada[15] ; saida_quant_zero[4] ;       ; 4.718 ; 5.380  ;        ;
++-------------+---------------------+-------+-------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Minimum Propagation Delay                                         ;
++-------------+---------------------+-------+-------+-------+-------+
+; Input Port  ; Output Port         ; RR    ; RF    ; FR    ; FF    ;
++-------------+---------------------+-------+-------+-------+-------+
+; entrada[0]  ; saida_quant_um[0]   ; 6.556 ; 6.675 ; 7.274 ; 7.393 ;
+; entrada[0]  ; saida_quant_um[1]   ; 6.021 ; 6.079 ; 6.739 ; 6.797 ;
+; entrada[0]  ; saida_quant_um[2]   ; 6.392 ; 6.512 ; 7.110 ; 7.230 ;
+; entrada[0]  ; saida_quant_um[3]   ; 7.325 ; 7.513 ; 8.043 ; 8.231 ;
+; entrada[0]  ; saida_quant_um[4]   ; 6.293 ; 6.458 ; 7.011 ; 7.176 ;
+; entrada[0]  ; saida_quant_zero[0] ; 7.429 ; 7.618 ; 8.147 ; 8.336 ;
+; entrada[0]  ; saida_quant_zero[1] ; 6.076 ; 6.129 ; 6.794 ; 6.847 ;
+; entrada[0]  ; saida_quant_zero[2] ; 6.160 ; 6.217 ; 6.878 ; 6.935 ;
+; entrada[0]  ; saida_quant_zero[3] ; 5.861 ; 5.932 ; 6.579 ; 6.650 ;
+; entrada[0]  ; saida_quant_zero[4] ; 6.031 ; 6.121 ; 6.749 ; 6.839 ;
+; entrada[1]  ; saida_quant_um[0]   ; 6.458 ; 6.577 ; 7.083 ; 7.202 ;
+; entrada[1]  ; saida_quant_um[1]   ; 5.923 ; 5.981 ; 6.548 ; 6.606 ;
+; entrada[1]  ; saida_quant_um[2]   ; 6.294 ; 6.414 ; 6.919 ; 7.039 ;
+; entrada[1]  ; saida_quant_um[3]   ; 7.227 ; 7.415 ; 7.852 ; 8.040 ;
+; entrada[1]  ; saida_quant_um[4]   ; 6.195 ; 6.360 ; 6.820 ; 6.985 ;
+; entrada[1]  ; saida_quant_zero[0] ; 7.331 ; 7.520 ; 7.956 ; 8.145 ;
+; entrada[1]  ; saida_quant_zero[1] ; 5.978 ; 6.031 ; 6.603 ; 6.656 ;
+; entrada[1]  ; saida_quant_zero[2] ; 6.062 ; 6.119 ; 6.687 ; 6.744 ;
+; entrada[1]  ; saida_quant_zero[3] ; 5.763 ; 5.834 ; 6.388 ; 6.459 ;
+; entrada[1]  ; saida_quant_zero[4] ; 5.933 ; 6.023 ; 6.558 ; 6.648 ;
+; entrada[2]  ; saida_quant_um[0]   ; 6.321 ; 6.440 ; 6.965 ; 7.084 ;
+; entrada[2]  ; saida_quant_um[1]   ; 5.786 ; 5.844 ; 6.430 ; 6.488 ;
+; entrada[2]  ; saida_quant_um[2]   ; 6.157 ; 6.277 ; 6.801 ; 6.921 ;
+; entrada[2]  ; saida_quant_um[3]   ; 7.090 ; 7.278 ; 7.734 ; 7.922 ;
+; entrada[2]  ; saida_quant_um[4]   ; 6.058 ; 6.223 ; 6.702 ; 6.867 ;
+; entrada[2]  ; saida_quant_zero[0] ; 7.194 ; 7.383 ; 7.838 ; 8.027 ;
+; entrada[2]  ; saida_quant_zero[1] ; 5.841 ; 5.894 ; 6.485 ; 6.538 ;
+; entrada[2]  ; saida_quant_zero[2] ; 5.925 ; 5.982 ; 6.569 ; 6.626 ;
+; entrada[2]  ; saida_quant_zero[3] ; 5.626 ; 5.697 ; 6.270 ; 6.341 ;
+; entrada[2]  ; saida_quant_zero[4] ; 5.796 ; 5.886 ; 6.440 ; 6.530 ;
+; entrada[3]  ; saida_quant_um[0]   ; 6.438 ; 6.557 ; 7.079 ; 7.198 ;
+; entrada[3]  ; saida_quant_um[1]   ; 5.912 ; 5.970 ; 6.553 ; 6.611 ;
+; entrada[3]  ; saida_quant_um[2]   ; 6.283 ; 6.403 ; 6.924 ; 7.044 ;
+; entrada[3]  ; saida_quant_um[3]   ; 7.233 ; 7.421 ; 7.874 ; 8.062 ;
+; entrada[3]  ; saida_quant_um[4]   ; 6.201 ; 6.366 ; 6.842 ; 7.007 ;
+; entrada[3]  ; saida_quant_zero[0] ; 7.311 ; 7.500 ; 7.952 ; 8.141 ;
+; entrada[3]  ; saida_quant_zero[1] ; 5.955 ; 6.008 ; 6.596 ; 6.649 ;
+; entrada[3]  ; saida_quant_zero[2] ; 6.039 ; 6.096 ; 6.680 ; 6.737 ;
+; entrada[3]  ; saida_quant_zero[3] ; 5.774 ; 5.845 ; 6.415 ; 6.486 ;
+; entrada[3]  ; saida_quant_zero[4] ; 5.944 ; 6.034 ; 6.585 ; 6.675 ;
+; entrada[4]  ; saida_quant_um[0]   ; 6.264 ; 6.383 ; 6.881 ; 7.000 ;
+; entrada[4]  ; saida_quant_um[1]   ; 5.738 ; 5.796 ; 6.355 ; 6.413 ;
+; entrada[4]  ; saida_quant_um[2]   ; 6.109 ; 6.229 ; 6.726 ; 6.846 ;
+; entrada[4]  ; saida_quant_um[3]   ; 7.059 ; 7.247 ; 7.676 ; 7.864 ;
+; entrada[4]  ; saida_quant_um[4]   ; 6.027 ; 6.192 ; 6.644 ; 6.809 ;
+; entrada[4]  ; saida_quant_zero[0] ; 7.137 ; 7.326 ; 7.754 ; 7.943 ;
+; entrada[4]  ; saida_quant_zero[1] ; 5.781 ; 5.834 ; 6.398 ; 6.451 ;
+; entrada[4]  ; saida_quant_zero[2] ; 5.865 ; 5.922 ; 6.482 ; 6.539 ;
+; entrada[4]  ; saida_quant_zero[3] ; 5.600 ; 5.671 ; 6.217 ; 6.288 ;
+; entrada[4]  ; saida_quant_zero[4] ; 5.770 ; 5.860 ; 6.387 ; 6.477 ;
+; entrada[5]  ; saida_quant_um[0]   ; 6.365 ; 6.484 ; 6.952 ; 7.071 ;
+; entrada[5]  ; saida_quant_um[1]   ; 5.839 ; 5.897 ; 6.426 ; 6.484 ;
+; entrada[5]  ; saida_quant_um[2]   ; 6.210 ; 6.330 ; 6.797 ; 6.917 ;
+; entrada[5]  ; saida_quant_um[3]   ; 7.160 ; 7.348 ; 7.747 ; 7.935 ;
+; entrada[5]  ; saida_quant_um[4]   ; 6.128 ; 6.293 ; 6.715 ; 6.880 ;
+; entrada[5]  ; saida_quant_zero[0] ; 7.238 ; 7.427 ; 7.825 ; 8.014 ;
+; entrada[5]  ; saida_quant_zero[1] ; 5.882 ; 5.935 ; 6.469 ; 6.522 ;
+; entrada[5]  ; saida_quant_zero[2] ; 5.966 ; 6.023 ; 6.553 ; 6.610 ;
+; entrada[5]  ; saida_quant_zero[3] ; 5.701 ; 5.772 ; 6.288 ; 6.359 ;
+; entrada[5]  ; saida_quant_zero[4] ; 5.871 ; 5.961 ; 6.458 ; 6.548 ;
+; entrada[6]  ; saida_quant_um[0]   ; 6.268 ; 6.387 ; 6.891 ; 7.010 ;
+; entrada[6]  ; saida_quant_um[1]   ; 5.742 ; 5.800 ; 6.365 ; 6.423 ;
+; entrada[6]  ; saida_quant_um[2]   ; 6.113 ; 6.233 ; 6.736 ; 6.856 ;
+; entrada[6]  ; saida_quant_um[3]   ; 7.043 ; 7.231 ; 7.739 ; 7.927 ;
+; entrada[6]  ; saida_quant_um[4]   ; 6.011 ; 6.176 ; 6.707 ; 6.872 ;
+; entrada[6]  ; saida_quant_zero[0] ; 7.141 ; 7.330 ; 7.764 ; 7.953 ;
+; entrada[6]  ; saida_quant_zero[1] ; 5.784 ; 5.837 ; 6.406 ; 6.459 ;
+; entrada[6]  ; saida_quant_zero[2] ; 5.868 ; 5.925 ; 6.490 ; 6.547 ;
+; entrada[6]  ; saida_quant_zero[3] ; 5.627 ; 5.698 ; 6.201 ; 6.272 ;
+; entrada[6]  ; saida_quant_zero[4] ; 5.797 ; 5.887 ; 6.371 ; 6.461 ;
+; entrada[7]  ; saida_quant_um[0]   ; 5.938 ; 6.057 ; 6.562 ; 6.681 ;
+; entrada[7]  ; saida_quant_um[1]   ; 5.550 ; 5.615 ; 6.174 ; 6.239 ;
+; entrada[7]  ; saida_quant_um[2]   ; 5.826 ; 5.946 ; 6.450 ; 6.570 ;
+; entrada[7]  ; saida_quant_um[3]   ; 7.035 ; 7.223 ; 7.659 ; 7.847 ;
+; entrada[7]  ; saida_quant_um[4]   ; 6.003 ; 6.168 ; 6.627 ; 6.792 ;
+; entrada[7]  ; saida_quant_zero[0] ; 6.812 ; 7.001 ; 7.436 ; 7.625 ;
+; entrada[7]  ; saida_quant_zero[1] ; 5.578 ; 5.631 ; 6.202 ; 6.255 ;
+; entrada[7]  ; saida_quant_zero[2] ; 5.569 ; 5.626 ; 6.193 ; 6.250 ;
+; entrada[7]  ; saida_quant_zero[3] ; 5.582 ; 5.653 ; 6.206 ; 6.277 ;
+; entrada[7]  ; saida_quant_zero[4] ; 5.723 ; 5.820 ; 6.347 ; 6.444 ;
+; entrada[8]  ; saida_quant_um[0]   ; 4.892 ; 5.011 ; 5.178 ; 5.297 ;
+; entrada[8]  ; saida_quant_um[1]   ; 4.504 ; 4.569 ; 4.790 ; 4.855 ;
+; entrada[8]  ; saida_quant_um[2]   ; 4.780 ; 4.900 ; 5.066 ; 5.186 ;
+; entrada[8]  ; saida_quant_um[3]   ; 5.989 ; 6.177 ; 6.275 ; 6.463 ;
+; entrada[8]  ; saida_quant_um[4]   ; 4.957 ; 5.122 ; 5.243 ; 5.408 ;
+; entrada[8]  ; saida_quant_zero[0] ; 5.766 ; 5.955 ; 6.052 ; 6.241 ;
+; entrada[8]  ; saida_quant_zero[1] ; 4.570 ; 4.623 ; 4.822 ; 4.875 ;
+; entrada[8]  ; saida_quant_zero[2] ; 4.523 ; 4.580 ; 4.809 ; 4.866 ;
+; entrada[8]  ; saida_quant_zero[3] ; 4.536 ; 4.607 ; 4.822 ; 4.893 ;
+; entrada[8]  ; saida_quant_zero[4] ; 4.692 ; 4.789 ; 4.967 ; 5.064 ;
+; entrada[9]  ; saida_quant_um[0]   ; 4.826 ; 4.945 ; 5.116 ; 5.235 ;
+; entrada[9]  ; saida_quant_um[1]   ; 4.438 ; 4.503 ; 4.728 ; 4.793 ;
+; entrada[9]  ; saida_quant_um[2]   ; 4.449 ; 4.576 ; 4.779 ; 4.906 ;
+; entrada[9]  ; saida_quant_um[3]   ; 5.711 ; 5.899 ; 6.015 ; 6.203 ;
+; entrada[9]  ; saida_quant_um[4]   ; 4.679 ; 4.844 ; 4.983 ; 5.148 ;
+; entrada[9]  ; saida_quant_zero[0] ; 5.700 ; 5.889 ; 5.990 ; 6.179 ;
+; entrada[9]  ; saida_quant_zero[1] ; 4.501 ; 4.554 ; 4.757 ; 4.810 ;
+; entrada[9]  ; saida_quant_zero[2] ; 4.266 ; 4.323 ; 4.511 ; 4.568 ;
+; entrada[9]  ; saida_quant_zero[3] ; 4.269 ; 4.340 ; 4.542 ; 4.613 ;
+; entrada[9]  ; saida_quant_zero[4] ; 4.439 ; 4.529 ; 4.709 ; 4.801 ;
+; entrada[10] ; saida_quant_um[0]   ; 5.508 ; 5.627 ; 6.071 ; 6.190 ;
+; entrada[10] ; saida_quant_um[1]   ; 5.120 ; 5.185 ; 5.683 ; 5.748 ;
+; entrada[10] ; saida_quant_um[2]   ; 5.205 ; 5.332 ; 5.796 ; 5.923 ;
+; entrada[10] ; saida_quant_um[3]   ; 6.467 ; 6.655 ; 7.032 ; 7.220 ;
+; entrada[10] ; saida_quant_um[4]   ; 5.435 ; 5.600 ; 6.000 ; 6.165 ;
+; entrada[10] ; saida_quant_zero[0] ; 6.382 ; 6.571 ; 6.945 ; 7.134 ;
+; entrada[10] ; saida_quant_zero[1] ; 5.149 ; 5.202 ; 5.713 ; 5.766 ;
+; entrada[10] ; saida_quant_zero[2] ; 5.028 ; 5.085 ; 5.553 ; 5.610 ;
+; entrada[10] ; saida_quant_zero[3] ; 5.031 ; 5.102 ; 5.584 ; 5.655 ;
+; entrada[10] ; saida_quant_zero[4] ; 5.201 ; 5.291 ; 5.751 ; 5.843 ;
+; entrada[11] ; saida_quant_um[0]   ; 5.934 ; 6.053 ; 6.561 ; 6.680 ;
+; entrada[11] ; saida_quant_um[1]   ; 5.392 ; 5.450 ; 6.117 ; 6.175 ;
+; entrada[11] ; saida_quant_um[2]   ; 5.763 ; 5.883 ; 6.449 ; 6.569 ;
+; entrada[11] ; saida_quant_um[3]   ; 7.075 ; 7.270 ; 7.761 ; 7.954 ;
+; entrada[11] ; saida_quant_um[4]   ; 5.948 ; 6.118 ; 6.634 ; 6.807 ;
+; entrada[11] ; saida_quant_zero[0] ; 6.406 ; 6.595 ; 7.033 ; 7.222 ;
+; entrada[11] ; saida_quant_zero[1] ; 5.167 ; 5.220 ; 5.842 ; 5.895 ;
+; entrada[11] ; saida_quant_zero[2] ; 5.213 ; 5.270 ; 5.840 ; 5.897 ;
+; entrada[11] ; saida_quant_zero[3] ; 5.190 ; 5.261 ; 5.817 ; 5.888 ;
+; entrada[11] ; saida_quant_zero[4] ; 5.312 ; 5.409 ; 5.959 ; 6.054 ;
+; entrada[12] ; saida_quant_um[0]   ; 5.828 ; 5.947 ; 6.434 ; 6.553 ;
+; entrada[12] ; saida_quant_um[1]   ; 5.276 ; 5.334 ; 5.988 ; 6.046 ;
+; entrada[12] ; saida_quant_um[2]   ; 5.647 ; 5.767 ; 6.322 ; 6.442 ;
+; entrada[12] ; saida_quant_um[3]   ; 6.959 ; 7.154 ; 7.634 ; 7.827 ;
+; entrada[12] ; saida_quant_um[4]   ; 5.832 ; 6.002 ; 6.507 ; 6.680 ;
+; entrada[12] ; saida_quant_zero[0] ; 6.300 ; 6.489 ; 6.906 ; 7.095 ;
+; entrada[12] ; saida_quant_zero[1] ; 5.051 ; 5.104 ; 5.715 ; 5.768 ;
+; entrada[12] ; saida_quant_zero[2] ; 5.107 ; 5.164 ; 5.713 ; 5.770 ;
+; entrada[12] ; saida_quant_zero[3] ; 5.084 ; 5.155 ; 5.690 ; 5.761 ;
+; entrada[12] ; saida_quant_zero[4] ; 5.196 ; 5.293 ; 5.832 ; 5.927 ;
+; entrada[13] ; saida_quant_um[0]   ; 5.956 ; 6.075 ; 6.580 ; 6.699 ;
+; entrada[13] ; saida_quant_um[1]   ; 5.414 ; 5.472 ; 6.133 ; 6.191 ;
+; entrada[13] ; saida_quant_um[2]   ; 5.785 ; 5.905 ; 6.468 ; 6.588 ;
+; entrada[13] ; saida_quant_um[3]   ; 7.097 ; 7.292 ; 7.780 ; 7.973 ;
+; entrada[13] ; saida_quant_um[4]   ; 5.970 ; 6.140 ; 6.653 ; 6.826 ;
+; entrada[13] ; saida_quant_zero[0] ; 6.428 ; 6.617 ; 7.052 ; 7.241 ;
+; entrada[13] ; saida_quant_zero[1] ; 5.189 ; 5.242 ; 5.861 ; 5.914 ;
+; entrada[13] ; saida_quant_zero[2] ; 5.235 ; 5.292 ; 5.859 ; 5.916 ;
+; entrada[13] ; saida_quant_zero[3] ; 5.212 ; 5.283 ; 5.836 ; 5.907 ;
+; entrada[13] ; saida_quant_zero[4] ; 5.334 ; 5.431 ; 5.978 ; 6.073 ;
+; entrada[14] ; saida_quant_um[0]   ; 4.822 ; 4.943 ; 5.443 ; 5.548 ;
+; entrada[14] ; saida_quant_um[1]   ; 4.434 ; 4.499 ; 5.089 ; 5.139 ;
+; entrada[14] ; saida_quant_um[2]   ; 4.710 ; 4.830 ; 5.305 ; 5.440 ;
+; entrada[14] ; saida_quant_um[3]   ; 6.022 ; 6.217 ; 6.677 ; 6.857 ;
+; entrada[14] ; saida_quant_um[4]   ; 4.895 ;       ;       ; 5.618 ;
+; entrada[14] ; saida_quant_zero[0] ; 5.624 ; 5.813 ; 6.247 ; 6.418 ;
+; entrada[14] ; saida_quant_zero[1] ; 4.510 ; 4.555 ; 5.107 ; 5.167 ;
+; entrada[14] ; saida_quant_zero[2] ; 4.448 ; 4.511 ; 5.105 ; 5.153 ;
+; entrada[14] ; saida_quant_zero[3] ; 4.485 ; 4.548 ; 5.082 ; 5.160 ;
+; entrada[14] ; saida_quant_zero[4] ;       ; 4.578 ; 5.157 ;       ;
+; entrada[15] ; saida_quant_um[0]   ; 4.865 ; 4.978 ; 5.449 ; 5.577 ;
+; entrada[15] ; saida_quant_um[1]   ; 4.332 ; 4.397 ; 4.976 ; 5.026 ;
+; entrada[15] ; saida_quant_um[2]   ; 4.608 ; 4.728 ; 5.192 ; 5.327 ;
+; entrada[15] ; saida_quant_um[3]   ; 5.920 ; 6.115 ; 6.564 ; 6.744 ;
+; entrada[15] ; saida_quant_um[4]   ; 4.793 ;       ;       ; 5.505 ;
+; entrada[15] ; saida_quant_zero[0] ; 5.655 ; 5.850 ; 6.299 ; 6.479 ;
+; entrada[15] ; saida_quant_zero[1] ; 4.445 ; 4.490 ; 5.029 ; 5.089 ;
+; entrada[15] ; saida_quant_zero[2] ; 4.383 ; 4.446 ; 5.027 ; 5.075 ;
+; entrada[15] ; saida_quant_zero[3] ; 4.420 ; 4.483 ; 5.004 ; 5.082 ;
+; entrada[15] ; saida_quant_zero[4] ;       ; 4.513 ; 5.079 ;       ;
++-------------+---------------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------------+
+; Progagation Delay                                                     ;
++-------------+---------------------+--------+--------+--------+--------+
+; Input Port  ; Output Port         ; RR     ; RF     ; FR     ; FF     ;
++-------------+---------------------+--------+--------+--------+--------+
+; entrada[0]  ; saida_quant_um[0]   ; 12.334 ; 12.231 ; 12.870 ; 12.767 ;
+; entrada[0]  ; saida_quant_um[1]   ; 12.180 ; 12.207 ; 12.716 ; 12.743 ;
+; entrada[0]  ; saida_quant_um[2]   ; 13.304 ; 13.298 ; 13.840 ; 13.834 ;
+; entrada[0]  ; saida_quant_um[3]   ; 15.861 ; 15.914 ; 16.397 ; 16.450 ;
+; entrada[0]  ; saida_quant_um[4]   ; 14.229 ; 14.069 ; 14.765 ; 14.605 ;
+; entrada[0]  ; saida_quant_zero[0] ; 13.403 ; 13.424 ; 13.939 ; 13.960 ;
+; entrada[0]  ; saida_quant_zero[1] ; 12.270 ; 12.255 ; 12.806 ; 12.791 ;
+; entrada[0]  ; saida_quant_zero[2] ; 12.822 ; 12.762 ; 13.358 ; 13.298 ;
+; entrada[0]  ; saida_quant_zero[3] ; 13.343 ; 13.308 ; 13.879 ; 13.844 ;
+; entrada[0]  ; saida_quant_zero[4] ; 13.772 ; 13.598 ; 14.308 ; 14.134 ;
+; entrada[1]  ; saida_quant_um[0]   ; 12.146 ; 12.043 ; 12.606 ; 12.503 ;
+; entrada[1]  ; saida_quant_um[1]   ; 11.992 ; 12.019 ; 12.452 ; 12.479 ;
+; entrada[1]  ; saida_quant_um[2]   ; 13.116 ; 13.110 ; 13.576 ; 13.570 ;
+; entrada[1]  ; saida_quant_um[3]   ; 15.673 ; 15.726 ; 16.133 ; 16.186 ;
+; entrada[1]  ; saida_quant_um[4]   ; 14.041 ; 13.881 ; 14.501 ; 14.341 ;
+; entrada[1]  ; saida_quant_zero[0] ; 13.215 ; 13.236 ; 13.675 ; 13.696 ;
+; entrada[1]  ; saida_quant_zero[1] ; 12.082 ; 12.067 ; 12.542 ; 12.527 ;
+; entrada[1]  ; saida_quant_zero[2] ; 12.634 ; 12.574 ; 13.094 ; 13.034 ;
+; entrada[1]  ; saida_quant_zero[3] ; 13.155 ; 13.120 ; 13.615 ; 13.580 ;
+; entrada[1]  ; saida_quant_zero[4] ; 13.584 ; 13.410 ; 14.044 ; 13.870 ;
+; entrada[2]  ; saida_quant_um[0]   ; 11.825 ; 11.722 ; 12.307 ; 12.204 ;
+; entrada[2]  ; saida_quant_um[1]   ; 11.671 ; 11.698 ; 12.153 ; 12.180 ;
+; entrada[2]  ; saida_quant_um[2]   ; 12.795 ; 12.789 ; 13.277 ; 13.271 ;
+; entrada[2]  ; saida_quant_um[3]   ; 15.352 ; 15.405 ; 15.834 ; 15.887 ;
+; entrada[2]  ; saida_quant_um[4]   ; 13.720 ; 13.560 ; 14.202 ; 14.042 ;
+; entrada[2]  ; saida_quant_zero[0] ; 12.894 ; 12.915 ; 13.376 ; 13.397 ;
+; entrada[2]  ; saida_quant_zero[1] ; 11.761 ; 11.746 ; 12.243 ; 12.228 ;
+; entrada[2]  ; saida_quant_zero[2] ; 12.313 ; 12.253 ; 12.795 ; 12.735 ;
+; entrada[2]  ; saida_quant_zero[3] ; 12.834 ; 12.799 ; 13.316 ; 13.281 ;
+; entrada[2]  ; saida_quant_zero[4] ; 13.263 ; 13.089 ; 13.745 ; 13.571 ;
+; entrada[3]  ; saida_quant_um[0]   ; 12.308 ; 12.205 ; 12.764 ; 12.661 ;
+; entrada[3]  ; saida_quant_um[1]   ; 11.860 ; 11.887 ; 12.316 ; 12.343 ;
+; entrada[3]  ; saida_quant_um[2]   ; 12.984 ; 12.978 ; 13.440 ; 13.434 ;
+; entrada[3]  ; saida_quant_um[3]   ; 15.541 ; 15.594 ; 15.997 ; 16.050 ;
+; entrada[3]  ; saida_quant_um[4]   ; 13.909 ; 13.749 ; 14.365 ; 14.205 ;
+; entrada[3]  ; saida_quant_zero[0] ; 13.347 ; 13.398 ; 13.803 ; 13.854 ;
+; entrada[3]  ; saida_quant_zero[1] ; 12.045 ; 11.987 ; 12.501 ; 12.443 ;
+; entrada[3]  ; saida_quant_zero[2] ; 12.504 ; 12.444 ; 12.960 ; 12.900 ;
+; entrada[3]  ; saida_quant_zero[3] ; 13.025 ; 12.990 ; 13.481 ; 13.446 ;
+; entrada[3]  ; saida_quant_zero[4] ; 13.454 ; 13.280 ; 13.910 ; 13.736 ;
+; entrada[4]  ; saida_quant_um[0]   ; 11.870 ; 11.767 ; 12.313 ; 12.210 ;
+; entrada[4]  ; saida_quant_um[1]   ; 11.422 ; 11.449 ; 11.865 ; 11.892 ;
+; entrada[4]  ; saida_quant_um[2]   ; 12.546 ; 12.540 ; 12.989 ; 12.983 ;
+; entrada[4]  ; saida_quant_um[3]   ; 15.103 ; 15.156 ; 15.546 ; 15.599 ;
+; entrada[4]  ; saida_quant_um[4]   ; 13.471 ; 13.311 ; 13.914 ; 13.754 ;
+; entrada[4]  ; saida_quant_zero[0] ; 12.909 ; 12.960 ; 13.352 ; 13.403 ;
+; entrada[4]  ; saida_quant_zero[1] ; 11.607 ; 11.549 ; 12.050 ; 11.992 ;
+; entrada[4]  ; saida_quant_zero[2] ; 12.066 ; 12.006 ; 12.509 ; 12.449 ;
+; entrada[4]  ; saida_quant_zero[3] ; 12.587 ; 12.552 ; 13.030 ; 12.995 ;
+; entrada[4]  ; saida_quant_zero[4] ; 13.016 ; 12.842 ; 13.459 ; 13.285 ;
+; entrada[5]  ; saida_quant_um[0]   ; 12.097 ; 11.994 ; 12.540 ; 12.437 ;
+; entrada[5]  ; saida_quant_um[1]   ; 11.649 ; 11.676 ; 12.092 ; 12.119 ;
+; entrada[5]  ; saida_quant_um[2]   ; 12.773 ; 12.767 ; 13.216 ; 13.210 ;
+; entrada[5]  ; saida_quant_um[3]   ; 15.330 ; 15.383 ; 15.773 ; 15.826 ;
+; entrada[5]  ; saida_quant_um[4]   ; 13.698 ; 13.538 ; 14.141 ; 13.981 ;
+; entrada[5]  ; saida_quant_zero[0] ; 13.136 ; 13.187 ; 13.579 ; 13.630 ;
+; entrada[5]  ; saida_quant_zero[1] ; 11.834 ; 11.776 ; 12.277 ; 12.219 ;
+; entrada[5]  ; saida_quant_zero[2] ; 12.293 ; 12.233 ; 12.736 ; 12.676 ;
+; entrada[5]  ; saida_quant_zero[3] ; 12.814 ; 12.779 ; 13.257 ; 13.222 ;
+; entrada[5]  ; saida_quant_zero[4] ; 13.243 ; 13.069 ; 13.686 ; 13.512 ;
+; entrada[6]  ; saida_quant_um[0]   ; 11.640 ; 11.537 ; 12.133 ; 12.030 ;
+; entrada[6]  ; saida_quant_um[1]   ; 11.116 ; 11.092 ; 11.609 ; 11.585 ;
+; entrada[6]  ; saida_quant_um[2]   ; 12.129 ; 12.152 ; 12.590 ; 12.613 ;
+; entrada[6]  ; saida_quant_um[3]   ; 14.686 ; 14.739 ; 15.147 ; 15.200 ;
+; entrada[6]  ; saida_quant_um[4]   ; 12.782 ; 12.835 ; 13.243 ; 13.296 ;
+; entrada[6]  ; saida_quant_zero[0] ; 12.702 ; 12.730 ; 13.163 ; 13.223 ;
+; entrada[6]  ; saida_quant_zero[1] ; 11.400 ; 11.342 ; 11.861 ; 11.803 ;
+; entrada[6]  ; saida_quant_zero[2] ; 11.596 ; 11.573 ; 12.089 ; 12.066 ;
+; entrada[6]  ; saida_quant_zero[3] ; 12.117 ; 12.082 ; 12.610 ; 12.575 ;
+; entrada[6]  ; saida_quant_zero[4] ; 12.196 ; 12.099 ; 12.687 ; 12.592 ;
+; entrada[7]  ; saida_quant_um[0]   ; 11.043 ; 10.940 ; 11.572 ; 11.469 ;
+; entrada[7]  ; saida_quant_um[1]   ; 10.519 ; 10.495 ; 11.048 ; 11.024 ;
+; entrada[7]  ; saida_quant_um[2]   ; 11.543 ; 11.566 ; 12.040 ; 12.063 ;
+; entrada[7]  ; saida_quant_um[3]   ; 14.100 ; 14.153 ; 14.597 ; 14.650 ;
+; entrada[7]  ; saida_quant_um[4]   ; 12.276 ; 12.249 ; 12.805 ; 12.746 ;
+; entrada[7]  ; saida_quant_zero[0] ; 12.104 ; 12.108 ; 12.633 ; 12.637 ;
+; entrada[7]  ; saida_quant_zero[1] ; 10.802 ; 10.744 ; 11.331 ; 11.273 ;
+; entrada[7]  ; saida_quant_zero[2] ; 10.947 ; 10.924 ; 11.444 ; 11.421 ;
+; entrada[7]  ; saida_quant_zero[3] ; 11.468 ; 11.433 ; 11.965 ; 11.930 ;
+; entrada[7]  ; saida_quant_zero[4] ; 11.833 ; 11.659 ; 12.361 ; 12.187 ;
+; entrada[8]  ; saida_quant_um[0]   ; 9.233  ; 9.130  ; 9.356  ; 9.253  ;
+; entrada[8]  ; saida_quant_um[1]   ; 8.709  ; 8.685  ; 8.832  ; 8.808  ;
+; entrada[8]  ; saida_quant_um[2]   ; 9.699  ; 9.722  ; 9.866  ; 9.889  ;
+; entrada[8]  ; saida_quant_um[3]   ; 12.256 ; 12.309 ; 12.423 ; 12.476 ;
+; entrada[8]  ; saida_quant_um[4]   ; 10.419 ; 10.405 ; 10.608 ; 10.572 ;
+; entrada[8]  ; saida_quant_zero[0] ; 10.294 ; 10.298 ; 10.417 ; 10.421 ;
+; entrada[8]  ; saida_quant_zero[1] ; 8.992  ; 8.934  ; 9.115  ; 9.057  ;
+; entrada[8]  ; saida_quant_zero[2] ; 9.103  ; 9.080  ; 9.270  ; 9.247  ;
+; entrada[8]  ; saida_quant_zero[3] ; 9.624  ; 9.589  ; 9.791  ; 9.756  ;
+; entrada[8]  ; saida_quant_zero[4] ; 10.016 ; 9.842  ; 10.148 ; 9.974  ;
+; entrada[9]  ; saida_quant_um[0]   ; 9.127  ; 9.024  ; 9.209  ; 9.106  ;
+; entrada[9]  ; saida_quant_um[1]   ; 8.603  ; 8.579  ; 8.685  ; 8.661  ;
+; entrada[9]  ; saida_quant_um[2]   ; 9.590  ; 9.613  ; 9.729  ; 9.752  ;
+; entrada[9]  ; saida_quant_um[3]   ; 12.147 ; 12.200 ; 12.286 ; 12.339 ;
+; entrada[9]  ; saida_quant_um[4]   ; 10.313 ; 10.296 ; 10.463 ; 10.435 ;
+; entrada[9]  ; saida_quant_zero[0] ; 10.188 ; 10.192 ; 10.270 ; 10.277 ;
+; entrada[9]  ; saida_quant_zero[1] ; 8.886  ; 8.828  ; 8.968  ; 8.910  ;
+; entrada[9]  ; saida_quant_zero[2] ; 8.994  ; 8.971  ; 9.133  ; 9.110  ;
+; entrada[9]  ; saida_quant_zero[3] ; 9.515  ; 9.480  ; 9.654  ; 9.619  ;
+; entrada[9]  ; saida_quant_zero[4] ; 9.910  ; 9.736  ; 9.999  ; 9.825  ;
+; entrada[10] ; saida_quant_um[0]   ; 10.295 ; 10.192 ; 10.708 ; 10.605 ;
+; entrada[10] ; saida_quant_um[1]   ; 9.771  ; 9.747  ; 10.184 ; 10.160 ;
+; entrada[10] ; saida_quant_um[2]   ; 10.793 ; 10.816 ; 11.215 ; 11.238 ;
+; entrada[10] ; saida_quant_um[3]   ; 13.350 ; 13.403 ; 13.772 ; 13.825 ;
+; entrada[10] ; saida_quant_um[4]   ; 11.529 ; 11.499 ; 11.943 ; 11.921 ;
+; entrada[10] ; saida_quant_zero[0] ; 11.356 ; 11.360 ; 11.769 ; 11.773 ;
+; entrada[10] ; saida_quant_zero[1] ; 10.054 ; 9.996  ; 10.467 ; 10.409 ;
+; entrada[10] ; saida_quant_zero[2] ; 10.197 ; 10.174 ; 10.619 ; 10.596 ;
+; entrada[10] ; saida_quant_zero[3] ; 10.718 ; 10.683 ; 11.140 ; 11.105 ;
+; entrada[10] ; saida_quant_zero[4] ; 11.086 ; 10.912 ; 11.501 ; 11.327 ;
+; entrada[11] ; saida_quant_um[0]   ; 10.973 ; 10.870 ; 11.430 ; 11.327 ;
+; entrada[11] ; saida_quant_um[1]   ; 10.449 ; 10.425 ; 10.906 ; 10.882 ;
+; entrada[11] ; saida_quant_um[2]   ; 11.246 ; 11.254 ; 11.760 ; 11.768 ;
+; entrada[11] ; saida_quant_um[3]   ; 13.494 ; 13.547 ; 14.041 ; 14.094 ;
+; entrada[11] ; saida_quant_um[4]   ; 11.590 ; 11.643 ; 12.137 ; 12.190 ;
+; entrada[11] ; saida_quant_zero[0] ; 11.289 ; 11.387 ; 11.789 ; 11.844 ;
+; entrada[11] ; saida_quant_zero[1] ; 9.987  ; 9.929  ; 10.487 ; 10.429 ;
+; entrada[11] ; saida_quant_zero[2] ; 10.197 ; 10.170 ; 10.654 ; 10.627 ;
+; entrada[11] ; saida_quant_zero[3] ; 10.302 ; 10.267 ; 10.696 ; 10.661 ;
+; entrada[11] ; saida_quant_zero[4] ; 10.320 ; 10.284 ; 10.777 ; 10.678 ;
+; entrada[12] ; saida_quant_um[0]   ; 10.684 ; 10.581 ; 11.136 ; 11.033 ;
+; entrada[12] ; saida_quant_um[1]   ; 10.160 ; 10.136 ; 10.612 ; 10.588 ;
+; entrada[12] ; saida_quant_um[2]   ; 10.992 ; 11.000 ; 11.453 ; 11.461 ;
+; entrada[12] ; saida_quant_um[3]   ; 13.222 ; 13.275 ; 13.723 ; 13.776 ;
+; entrada[12] ; saida_quant_um[4]   ; 11.304 ; 11.371 ; 11.819 ; 11.872 ;
+; entrada[12] ; saida_quant_zero[0] ; 11.021 ; 11.098 ; 11.482 ; 11.550 ;
+; entrada[12] ; saida_quant_zero[1] ; 9.719  ; 9.661  ; 10.180 ; 10.122 ;
+; entrada[12] ; saida_quant_zero[2] ; 9.908  ; 9.881  ; 10.360 ; 10.333 ;
+; entrada[12] ; saida_quant_zero[3] ; 10.055 ; 10.020 ; 10.402 ; 10.367 ;
+; entrada[12] ; saida_quant_zero[4] ; 10.031 ; 10.037 ; 10.483 ; 10.384 ;
+; entrada[13] ; saida_quant_um[0]   ; 11.002 ; 10.899 ; 11.450 ; 11.347 ;
+; entrada[13] ; saida_quant_um[1]   ; 10.478 ; 10.454 ; 10.926 ; 10.902 ;
+; entrada[13] ; saida_quant_um[2]   ; 11.278 ; 11.286 ; 11.770 ; 11.778 ;
+; entrada[13] ; saida_quant_um[3]   ; 13.523 ; 13.576 ; 14.057 ; 14.110 ;
+; entrada[13] ; saida_quant_um[4]   ; 11.619 ; 11.672 ; 12.153 ; 12.206 ;
+; entrada[13] ; saida_quant_zero[0] ; 11.318 ; 11.416 ; 11.799 ; 11.864 ;
+; entrada[13] ; saida_quant_zero[1] ; 10.016 ; 9.958  ; 10.497 ; 10.439 ;
+; entrada[13] ; saida_quant_zero[2] ; 10.226 ; 10.199 ; 10.674 ; 10.647 ;
+; entrada[13] ; saida_quant_zero[3] ; 10.328 ; 10.293 ; 10.716 ; 10.681 ;
+; entrada[13] ; saida_quant_zero[4] ; 10.349 ; 10.310 ; 10.797 ; 10.698 ;
+; entrada[14] ; saida_quant_um[0]   ; 8.661  ; 8.698  ; 9.164  ; 9.049  ;
+; entrada[14] ; saida_quant_um[1]   ; 7.977  ; 7.999  ; 8.640  ; 8.616  ;
+; entrada[14] ; saida_quant_um[2]   ; 8.545  ; 8.553  ; 8.990  ; 9.044  ;
+; entrada[14] ; saida_quant_um[3]   ; 10.516 ; 10.615 ; 11.179 ; 11.232 ;
+; entrada[14] ; saida_quant_um[4]   ; 8.857  ;        ;        ; 9.328  ;
+; entrada[14] ; saida_quant_zero[0] ; 9.660  ; 9.700  ; 10.077 ; 10.165 ;
+; entrada[14] ; saida_quant_zero[1] ; 8.344  ; 8.286  ; 8.558  ; 8.546  ;
+; entrada[14] ; saida_quant_zero[2] ; 8.127  ; 8.146  ; 8.559  ; 8.532  ;
+; entrada[14] ; saida_quant_zero[3] ; 8.279  ; 8.244  ; 8.493  ; 8.504  ;
+; entrada[14] ; saida_quant_zero[4] ;        ; 8.261  ; 8.681  ;        ;
+; entrada[15] ; saida_quant_um[0]   ; 8.970  ; 8.913  ; 9.218  ; 9.207  ;
+; entrada[15] ; saida_quant_um[1]   ; 7.875  ; 7.897  ; 8.341  ; 8.317  ;
+; entrada[15] ; saida_quant_um[2]   ; 8.443  ; 8.451  ; 8.691  ; 8.745  ;
+; entrada[15] ; saida_quant_um[3]   ; 10.414 ; 10.513 ; 10.880 ; 10.933 ;
+; entrada[15] ; saida_quant_um[4]   ; 8.755  ;        ;        ; 9.029  ;
+; entrada[15] ; saida_quant_zero[0] ; 9.725  ; 9.805  ; 10.424 ; 10.458 ;
+; entrada[15] ; saida_quant_zero[1] ; 8.055  ; 7.997  ; 8.536  ; 8.524  ;
+; entrada[15] ; saida_quant_zero[2] ; 7.838  ; 7.857  ; 8.537  ; 8.510  ;
+; entrada[15] ; saida_quant_zero[3] ; 7.990  ; 7.955  ; 8.471  ; 8.482  ;
+; entrada[15] ; saida_quant_zero[4] ;        ; 7.972  ; 8.659  ;        ;
++-------------+---------------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------+
+; Minimum Progagation Delay                                         ;
++-------------+---------------------+-------+-------+-------+-------+
+; Input Port  ; Output Port         ; RR    ; RF    ; FR    ; FF    ;
++-------------+---------------------+-------+-------+-------+-------+
+; entrada[0]  ; saida_quant_um[0]   ; 6.556 ; 6.675 ; 7.274 ; 7.393 ;
+; entrada[0]  ; saida_quant_um[1]   ; 6.021 ; 6.079 ; 6.739 ; 6.797 ;
+; entrada[0]  ; saida_quant_um[2]   ; 6.392 ; 6.512 ; 7.110 ; 7.230 ;
+; entrada[0]  ; saida_quant_um[3]   ; 7.325 ; 7.513 ; 8.043 ; 8.231 ;
+; entrada[0]  ; saida_quant_um[4]   ; 6.293 ; 6.458 ; 7.011 ; 7.176 ;
+; entrada[0]  ; saida_quant_zero[0] ; 7.429 ; 7.618 ; 8.147 ; 8.336 ;
+; entrada[0]  ; saida_quant_zero[1] ; 6.076 ; 6.129 ; 6.794 ; 6.847 ;
+; entrada[0]  ; saida_quant_zero[2] ; 6.160 ; 6.217 ; 6.878 ; 6.935 ;
+; entrada[0]  ; saida_quant_zero[3] ; 5.861 ; 5.932 ; 6.579 ; 6.650 ;
+; entrada[0]  ; saida_quant_zero[4] ; 6.031 ; 6.121 ; 6.749 ; 6.839 ;
+; entrada[1]  ; saida_quant_um[0]   ; 6.458 ; 6.577 ; 7.083 ; 7.202 ;
+; entrada[1]  ; saida_quant_um[1]   ; 5.923 ; 5.981 ; 6.548 ; 6.606 ;
+; entrada[1]  ; saida_quant_um[2]   ; 6.294 ; 6.414 ; 6.919 ; 7.039 ;
+; entrada[1]  ; saida_quant_um[3]   ; 7.227 ; 7.415 ; 7.852 ; 8.040 ;
+; entrada[1]  ; saida_quant_um[4]   ; 6.195 ; 6.360 ; 6.820 ; 6.985 ;
+; entrada[1]  ; saida_quant_zero[0] ; 7.331 ; 7.520 ; 7.956 ; 8.145 ;
+; entrada[1]  ; saida_quant_zero[1] ; 5.978 ; 6.031 ; 6.603 ; 6.656 ;
+; entrada[1]  ; saida_quant_zero[2] ; 6.062 ; 6.119 ; 6.687 ; 6.744 ;
+; entrada[1]  ; saida_quant_zero[3] ; 5.763 ; 5.834 ; 6.388 ; 6.459 ;
+; entrada[1]  ; saida_quant_zero[4] ; 5.933 ; 6.023 ; 6.558 ; 6.648 ;
+; entrada[2]  ; saida_quant_um[0]   ; 6.321 ; 6.440 ; 6.965 ; 7.084 ;
+; entrada[2]  ; saida_quant_um[1]   ; 5.786 ; 5.844 ; 6.430 ; 6.488 ;
+; entrada[2]  ; saida_quant_um[2]   ; 6.157 ; 6.277 ; 6.801 ; 6.921 ;
+; entrada[2]  ; saida_quant_um[3]   ; 7.090 ; 7.278 ; 7.734 ; 7.922 ;
+; entrada[2]  ; saida_quant_um[4]   ; 6.058 ; 6.223 ; 6.702 ; 6.867 ;
+; entrada[2]  ; saida_quant_zero[0] ; 7.194 ; 7.383 ; 7.838 ; 8.027 ;
+; entrada[2]  ; saida_quant_zero[1] ; 5.841 ; 5.894 ; 6.485 ; 6.538 ;
+; entrada[2]  ; saida_quant_zero[2] ; 5.925 ; 5.982 ; 6.569 ; 6.626 ;
+; entrada[2]  ; saida_quant_zero[3] ; 5.626 ; 5.697 ; 6.270 ; 6.341 ;
+; entrada[2]  ; saida_quant_zero[4] ; 5.796 ; 5.886 ; 6.440 ; 6.530 ;
+; entrada[3]  ; saida_quant_um[0]   ; 6.438 ; 6.557 ; 7.079 ; 7.198 ;
+; entrada[3]  ; saida_quant_um[1]   ; 5.912 ; 5.970 ; 6.553 ; 6.611 ;
+; entrada[3]  ; saida_quant_um[2]   ; 6.283 ; 6.403 ; 6.924 ; 7.044 ;
+; entrada[3]  ; saida_quant_um[3]   ; 7.233 ; 7.421 ; 7.874 ; 8.062 ;
+; entrada[3]  ; saida_quant_um[4]   ; 6.201 ; 6.366 ; 6.842 ; 7.007 ;
+; entrada[3]  ; saida_quant_zero[0] ; 7.311 ; 7.500 ; 7.952 ; 8.141 ;
+; entrada[3]  ; saida_quant_zero[1] ; 5.955 ; 6.008 ; 6.596 ; 6.649 ;
+; entrada[3]  ; saida_quant_zero[2] ; 6.039 ; 6.096 ; 6.680 ; 6.737 ;
+; entrada[3]  ; saida_quant_zero[3] ; 5.774 ; 5.845 ; 6.415 ; 6.486 ;
+; entrada[3]  ; saida_quant_zero[4] ; 5.944 ; 6.034 ; 6.585 ; 6.675 ;
+; entrada[4]  ; saida_quant_um[0]   ; 6.264 ; 6.383 ; 6.881 ; 7.000 ;
+; entrada[4]  ; saida_quant_um[1]   ; 5.738 ; 5.796 ; 6.355 ; 6.413 ;
+; entrada[4]  ; saida_quant_um[2]   ; 6.109 ; 6.229 ; 6.726 ; 6.846 ;
+; entrada[4]  ; saida_quant_um[3]   ; 7.059 ; 7.247 ; 7.676 ; 7.864 ;
+; entrada[4]  ; saida_quant_um[4]   ; 6.027 ; 6.192 ; 6.644 ; 6.809 ;
+; entrada[4]  ; saida_quant_zero[0] ; 7.137 ; 7.326 ; 7.754 ; 7.943 ;
+; entrada[4]  ; saida_quant_zero[1] ; 5.781 ; 5.834 ; 6.398 ; 6.451 ;
+; entrada[4]  ; saida_quant_zero[2] ; 5.865 ; 5.922 ; 6.482 ; 6.539 ;
+; entrada[4]  ; saida_quant_zero[3] ; 5.600 ; 5.671 ; 6.217 ; 6.288 ;
+; entrada[4]  ; saida_quant_zero[4] ; 5.770 ; 5.860 ; 6.387 ; 6.477 ;
+; entrada[5]  ; saida_quant_um[0]   ; 6.365 ; 6.484 ; 6.952 ; 7.071 ;
+; entrada[5]  ; saida_quant_um[1]   ; 5.839 ; 5.897 ; 6.426 ; 6.484 ;
+; entrada[5]  ; saida_quant_um[2]   ; 6.210 ; 6.330 ; 6.797 ; 6.917 ;
+; entrada[5]  ; saida_quant_um[3]   ; 7.160 ; 7.348 ; 7.747 ; 7.935 ;
+; entrada[5]  ; saida_quant_um[4]   ; 6.128 ; 6.293 ; 6.715 ; 6.880 ;
+; entrada[5]  ; saida_quant_zero[0] ; 7.238 ; 7.427 ; 7.825 ; 8.014 ;
+; entrada[5]  ; saida_quant_zero[1] ; 5.882 ; 5.935 ; 6.469 ; 6.522 ;
+; entrada[5]  ; saida_quant_zero[2] ; 5.966 ; 6.023 ; 6.553 ; 6.610 ;
+; entrada[5]  ; saida_quant_zero[3] ; 5.701 ; 5.772 ; 6.288 ; 6.359 ;
+; entrada[5]  ; saida_quant_zero[4] ; 5.871 ; 5.961 ; 6.458 ; 6.548 ;
+; entrada[6]  ; saida_quant_um[0]   ; 6.268 ; 6.387 ; 6.891 ; 7.010 ;
+; entrada[6]  ; saida_quant_um[1]   ; 5.742 ; 5.800 ; 6.365 ; 6.423 ;
+; entrada[6]  ; saida_quant_um[2]   ; 6.113 ; 6.233 ; 6.736 ; 6.856 ;
+; entrada[6]  ; saida_quant_um[3]   ; 7.043 ; 7.231 ; 7.739 ; 7.927 ;
+; entrada[6]  ; saida_quant_um[4]   ; 6.011 ; 6.176 ; 6.707 ; 6.872 ;
+; entrada[6]  ; saida_quant_zero[0] ; 7.141 ; 7.330 ; 7.764 ; 7.953 ;
+; entrada[6]  ; saida_quant_zero[1] ; 5.784 ; 5.837 ; 6.406 ; 6.459 ;
+; entrada[6]  ; saida_quant_zero[2] ; 5.868 ; 5.925 ; 6.490 ; 6.547 ;
+; entrada[6]  ; saida_quant_zero[3] ; 5.627 ; 5.698 ; 6.201 ; 6.272 ;
+; entrada[6]  ; saida_quant_zero[4] ; 5.797 ; 5.887 ; 6.371 ; 6.461 ;
+; entrada[7]  ; saida_quant_um[0]   ; 5.938 ; 6.057 ; 6.562 ; 6.681 ;
+; entrada[7]  ; saida_quant_um[1]   ; 5.550 ; 5.615 ; 6.174 ; 6.239 ;
+; entrada[7]  ; saida_quant_um[2]   ; 5.826 ; 5.946 ; 6.450 ; 6.570 ;
+; entrada[7]  ; saida_quant_um[3]   ; 7.035 ; 7.223 ; 7.659 ; 7.847 ;
+; entrada[7]  ; saida_quant_um[4]   ; 6.003 ; 6.168 ; 6.627 ; 6.792 ;
+; entrada[7]  ; saida_quant_zero[0] ; 6.812 ; 7.001 ; 7.436 ; 7.625 ;
+; entrada[7]  ; saida_quant_zero[1] ; 5.578 ; 5.631 ; 6.202 ; 6.255 ;
+; entrada[7]  ; saida_quant_zero[2] ; 5.569 ; 5.626 ; 6.193 ; 6.250 ;
+; entrada[7]  ; saida_quant_zero[3] ; 5.582 ; 5.653 ; 6.206 ; 6.277 ;
+; entrada[7]  ; saida_quant_zero[4] ; 5.723 ; 5.820 ; 6.347 ; 6.444 ;
+; entrada[8]  ; saida_quant_um[0]   ; 4.892 ; 5.011 ; 5.178 ; 5.297 ;
+; entrada[8]  ; saida_quant_um[1]   ; 4.504 ; 4.569 ; 4.790 ; 4.855 ;
+; entrada[8]  ; saida_quant_um[2]   ; 4.780 ; 4.900 ; 5.066 ; 5.186 ;
+; entrada[8]  ; saida_quant_um[3]   ; 5.989 ; 6.177 ; 6.275 ; 6.463 ;
+; entrada[8]  ; saida_quant_um[4]   ; 4.957 ; 5.122 ; 5.243 ; 5.408 ;
+; entrada[8]  ; saida_quant_zero[0] ; 5.766 ; 5.955 ; 6.052 ; 6.241 ;
+; entrada[8]  ; saida_quant_zero[1] ; 4.570 ; 4.623 ; 4.822 ; 4.875 ;
+; entrada[8]  ; saida_quant_zero[2] ; 4.523 ; 4.580 ; 4.809 ; 4.866 ;
+; entrada[8]  ; saida_quant_zero[3] ; 4.536 ; 4.607 ; 4.822 ; 4.893 ;
+; entrada[8]  ; saida_quant_zero[4] ; 4.692 ; 4.789 ; 4.967 ; 5.064 ;
+; entrada[9]  ; saida_quant_um[0]   ; 4.826 ; 4.945 ; 5.116 ; 5.235 ;
+; entrada[9]  ; saida_quant_um[1]   ; 4.438 ; 4.503 ; 4.728 ; 4.793 ;
+; entrada[9]  ; saida_quant_um[2]   ; 4.449 ; 4.576 ; 4.779 ; 4.906 ;
+; entrada[9]  ; saida_quant_um[3]   ; 5.711 ; 5.899 ; 6.015 ; 6.203 ;
+; entrada[9]  ; saida_quant_um[4]   ; 4.679 ; 4.844 ; 4.983 ; 5.148 ;
+; entrada[9]  ; saida_quant_zero[0] ; 5.700 ; 5.889 ; 5.990 ; 6.179 ;
+; entrada[9]  ; saida_quant_zero[1] ; 4.501 ; 4.554 ; 4.757 ; 4.810 ;
+; entrada[9]  ; saida_quant_zero[2] ; 4.266 ; 4.323 ; 4.511 ; 4.568 ;
+; entrada[9]  ; saida_quant_zero[3] ; 4.269 ; 4.340 ; 4.542 ; 4.613 ;
+; entrada[9]  ; saida_quant_zero[4] ; 4.439 ; 4.529 ; 4.709 ; 4.801 ;
+; entrada[10] ; saida_quant_um[0]   ; 5.508 ; 5.627 ; 6.071 ; 6.190 ;
+; entrada[10] ; saida_quant_um[1]   ; 5.120 ; 5.185 ; 5.683 ; 5.748 ;
+; entrada[10] ; saida_quant_um[2]   ; 5.205 ; 5.332 ; 5.796 ; 5.923 ;
+; entrada[10] ; saida_quant_um[3]   ; 6.467 ; 6.655 ; 7.032 ; 7.220 ;
+; entrada[10] ; saida_quant_um[4]   ; 5.435 ; 5.600 ; 6.000 ; 6.165 ;
+; entrada[10] ; saida_quant_zero[0] ; 6.382 ; 6.571 ; 6.945 ; 7.134 ;
+; entrada[10] ; saida_quant_zero[1] ; 5.149 ; 5.202 ; 5.713 ; 5.766 ;
+; entrada[10] ; saida_quant_zero[2] ; 5.028 ; 5.085 ; 5.553 ; 5.610 ;
+; entrada[10] ; saida_quant_zero[3] ; 5.031 ; 5.102 ; 5.584 ; 5.655 ;
+; entrada[10] ; saida_quant_zero[4] ; 5.201 ; 5.291 ; 5.751 ; 5.843 ;
+; entrada[11] ; saida_quant_um[0]   ; 5.934 ; 6.053 ; 6.561 ; 6.680 ;
+; entrada[11] ; saida_quant_um[1]   ; 5.392 ; 5.450 ; 6.117 ; 6.175 ;
+; entrada[11] ; saida_quant_um[2]   ; 5.763 ; 5.883 ; 6.449 ; 6.569 ;
+; entrada[11] ; saida_quant_um[3]   ; 7.075 ; 7.270 ; 7.761 ; 7.954 ;
+; entrada[11] ; saida_quant_um[4]   ; 5.948 ; 6.118 ; 6.634 ; 6.807 ;
+; entrada[11] ; saida_quant_zero[0] ; 6.406 ; 6.595 ; 7.033 ; 7.222 ;
+; entrada[11] ; saida_quant_zero[1] ; 5.167 ; 5.220 ; 5.842 ; 5.895 ;
+; entrada[11] ; saida_quant_zero[2] ; 5.213 ; 5.270 ; 5.840 ; 5.897 ;
+; entrada[11] ; saida_quant_zero[3] ; 5.190 ; 5.261 ; 5.817 ; 5.888 ;
+; entrada[11] ; saida_quant_zero[4] ; 5.312 ; 5.409 ; 5.959 ; 6.054 ;
+; entrada[12] ; saida_quant_um[0]   ; 5.828 ; 5.947 ; 6.434 ; 6.553 ;
+; entrada[12] ; saida_quant_um[1]   ; 5.276 ; 5.334 ; 5.988 ; 6.046 ;
+; entrada[12] ; saida_quant_um[2]   ; 5.647 ; 5.767 ; 6.322 ; 6.442 ;
+; entrada[12] ; saida_quant_um[3]   ; 6.959 ; 7.154 ; 7.634 ; 7.827 ;
+; entrada[12] ; saida_quant_um[4]   ; 5.832 ; 6.002 ; 6.507 ; 6.680 ;
+; entrada[12] ; saida_quant_zero[0] ; 6.300 ; 6.489 ; 6.906 ; 7.095 ;
+; entrada[12] ; saida_quant_zero[1] ; 5.051 ; 5.104 ; 5.715 ; 5.768 ;
+; entrada[12] ; saida_quant_zero[2] ; 5.107 ; 5.164 ; 5.713 ; 5.770 ;
+; entrada[12] ; saida_quant_zero[3] ; 5.084 ; 5.155 ; 5.690 ; 5.761 ;
+; entrada[12] ; saida_quant_zero[4] ; 5.196 ; 5.293 ; 5.832 ; 5.927 ;
+; entrada[13] ; saida_quant_um[0]   ; 5.956 ; 6.075 ; 6.580 ; 6.699 ;
+; entrada[13] ; saida_quant_um[1]   ; 5.414 ; 5.472 ; 6.133 ; 6.191 ;
+; entrada[13] ; saida_quant_um[2]   ; 5.785 ; 5.905 ; 6.468 ; 6.588 ;
+; entrada[13] ; saida_quant_um[3]   ; 7.097 ; 7.292 ; 7.780 ; 7.973 ;
+; entrada[13] ; saida_quant_um[4]   ; 5.970 ; 6.140 ; 6.653 ; 6.826 ;
+; entrada[13] ; saida_quant_zero[0] ; 6.428 ; 6.617 ; 7.052 ; 7.241 ;
+; entrada[13] ; saida_quant_zero[1] ; 5.189 ; 5.242 ; 5.861 ; 5.914 ;
+; entrada[13] ; saida_quant_zero[2] ; 5.235 ; 5.292 ; 5.859 ; 5.916 ;
+; entrada[13] ; saida_quant_zero[3] ; 5.212 ; 5.283 ; 5.836 ; 5.907 ;
+; entrada[13] ; saida_quant_zero[4] ; 5.334 ; 5.431 ; 5.978 ; 6.073 ;
+; entrada[14] ; saida_quant_um[0]   ; 4.822 ; 4.943 ; 5.443 ; 5.548 ;
+; entrada[14] ; saida_quant_um[1]   ; 4.434 ; 4.499 ; 5.089 ; 5.139 ;
+; entrada[14] ; saida_quant_um[2]   ; 4.710 ; 4.830 ; 5.305 ; 5.440 ;
+; entrada[14] ; saida_quant_um[3]   ; 6.022 ; 6.217 ; 6.677 ; 6.857 ;
+; entrada[14] ; saida_quant_um[4]   ; 4.895 ;       ;       ; 5.618 ;
+; entrada[14] ; saida_quant_zero[0] ; 5.624 ; 5.813 ; 6.247 ; 6.418 ;
+; entrada[14] ; saida_quant_zero[1] ; 4.510 ; 4.555 ; 5.107 ; 5.167 ;
+; entrada[14] ; saida_quant_zero[2] ; 4.448 ; 4.511 ; 5.105 ; 5.153 ;
+; entrada[14] ; saida_quant_zero[3] ; 4.485 ; 4.548 ; 5.082 ; 5.160 ;
+; entrada[14] ; saida_quant_zero[4] ;       ; 4.578 ; 5.157 ;       ;
+; entrada[15] ; saida_quant_um[0]   ; 4.865 ; 4.978 ; 5.449 ; 5.577 ;
+; entrada[15] ; saida_quant_um[1]   ; 4.332 ; 4.397 ; 4.976 ; 5.026 ;
+; entrada[15] ; saida_quant_um[2]   ; 4.608 ; 4.728 ; 5.192 ; 5.327 ;
+; entrada[15] ; saida_quant_um[3]   ; 5.920 ; 6.115 ; 6.564 ; 6.744 ;
+; entrada[15] ; saida_quant_um[4]   ; 4.793 ;       ;       ; 5.505 ;
+; entrada[15] ; saida_quant_zero[0] ; 5.655 ; 5.850 ; 6.299 ; 6.479 ;
+; entrada[15] ; saida_quant_zero[1] ; 4.445 ; 4.490 ; 5.029 ; 5.089 ;
+; entrada[15] ; saida_quant_zero[2] ; 4.383 ; 4.446 ; 5.027 ; 5.075 ;
+; entrada[15] ; saida_quant_zero[3] ; 4.420 ; 4.483 ; 5.004 ; 5.082 ;
+; entrada[15] ; saida_quant_zero[4] ;       ; 4.513 ; 5.079 ;       ;
++-------------+---------------------+-------+-------+-------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                           ;
++----------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Pin                  ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ;
++----------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; saida_quant_um[0]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[1]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[2]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[3]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[4]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[5]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[6]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[7]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[8]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[9]    ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[10]   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[11]   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[12]   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[13]   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[14]   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_um[15]   ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[0]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[1]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[2]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[3]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[4]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[5]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[6]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[7]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[8]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[9]  ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[10] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[11] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[12] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[13] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[14] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; saida_quant_zero[15] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_DCLK~        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
+; ~ALTERA_nCEO~        ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
++----------------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; entrada[13]             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[11]             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[12]             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[6]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[2]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[0]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[1]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[5]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[3]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[4]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[7]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[8]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[9]              ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[10]             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[14]             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; entrada[15]             ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
++----------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                  ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++----------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; saida_quant_um[0]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00454 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00454 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[1]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[2]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.35 V              ; -0.00823 V          ; 0.102 V                              ; 0.022 V                              ; 6.39e-010 s                 ; 5.99e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.35 V             ; -0.00823 V         ; 0.102 V                             ; 0.022 V                             ; 6.39e-010 s                ; 5.99e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[3]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.33 V              ; -0.00353 V          ; 0.131 V                              ; 0.073 V                              ; 3.33e-009 s                 ; 3.13e-009 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.33 V             ; -0.00353 V         ; 0.131 V                             ; 0.073 V                             ; 3.33e-009 s                ; 3.13e-009 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[4]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.35 V              ; -0.00823 V          ; 0.102 V                              ; 0.022 V                              ; 6.39e-010 s                 ; 5.99e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.35 V             ; -0.00823 V         ; 0.102 V                             ; 0.022 V                             ; 6.39e-010 s                ; 5.99e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[5]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00454 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00454 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[6]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[7]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[8]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.35 V              ; -0.00823 V          ; 0.102 V                              ; 0.022 V                              ; 6.39e-010 s                 ; 5.99e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.35 V             ; -0.00823 V         ; 0.102 V                             ; 0.022 V                             ; 6.39e-010 s                ; 5.99e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[9]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[10]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[11]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[12]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[13]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[14]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00454 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00454 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[15]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.33 V              ; -0.00342 V          ; 0.134 V                              ; 0.076 V                              ; 3.33e-009 s                 ; 3.16e-009 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.33 V             ; -0.00342 V         ; 0.134 V                             ; 0.076 V                             ; 3.33e-009 s                ; 3.16e-009 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[3]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.35 V              ; -0.00823 V          ; 0.102 V                              ; 0.022 V                              ; 6.39e-010 s                 ; 5.99e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.35 V             ; -0.00823 V         ; 0.102 V                             ; 0.022 V                             ; 6.39e-010 s                ; 5.99e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[4]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.35 V              ; -0.00823 V          ; 0.102 V                              ; 0.022 V                              ; 6.39e-010 s                 ; 5.99e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.35 V             ; -0.00823 V         ; 0.102 V                             ; 0.022 V                             ; 6.39e-010 s                ; 5.99e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[5]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00454 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00454 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[6]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[7]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00454 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00454 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[8]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[9]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.36 V              ; -0.00454 V          ; 0.097 V                              ; 0.012 V                              ; 4.4e-010 s                  ; 4.15e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.36 V             ; -0.00454 V         ; 0.097 V                             ; 0.012 V                             ; 4.4e-010 s                 ; 4.15e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[10] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.33 V              ; -0.00353 V          ; 0.131 V                              ; 0.073 V                              ; 3.33e-009 s                 ; 3.13e-009 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.33 V             ; -0.00353 V         ; 0.131 V                             ; 0.073 V                             ; 3.33e-009 s                ; 3.13e-009 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[11] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.11e-007 V                  ; 2.33 V              ; -0.00353 V          ; 0.131 V                              ; 0.073 V                              ; 3.33e-009 s                 ; 3.13e-009 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 7.11e-007 V                 ; 2.33 V             ; -0.00353 V         ; 0.131 V                             ; 0.073 V                             ; 3.33e-009 s                ; 3.13e-009 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[12] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[13] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[14] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[15] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.06e-006 V                  ; 2.36 V              ; -0.00549 V          ; 0.108 V                              ; 0.017 V                              ; 4.48e-010 s                 ; 4.25e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 1.06e-006 V                 ; 2.36 V             ; -0.00549 V         ; 0.108 V                             ; 0.017 V                             ; 4.48e-010 s                ; 4.25e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.68e-007 V                  ; 2.36 V              ; -0.0226 V           ; 0.073 V                              ; 0.034 V                              ; 3.97e-010 s                 ; 3.26e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 5.68e-007 V                 ; 2.36 V             ; -0.0226 V          ; 0.073 V                             ; 0.034 V                             ; 3.97e-010 s                ; 3.26e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.36e-007 V                  ; 2.35 V              ; -0.00575 V          ; 0.081 V                              ; 0.032 V                              ; 5.3e-010 s                  ; 7.56e-010 s                 ; Yes                        ; Yes                        ; 2.32 V                      ; 9.36e-007 V                 ; 2.35 V             ; -0.00575 V         ; 0.081 V                             ; 0.032 V                             ; 5.3e-010 s                 ; 7.56e-010 s                ; Yes                       ; Yes                       ;
++----------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Corner Signal Integrity Metrics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
++----------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin                  ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++----------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; saida_quant_um[0]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0401 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.61e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0401 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.61e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[1]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[2]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.71 V              ; -0.0352 V           ; 0.147 V                              ; 0.066 V                              ; 4.51e-010 s                 ; 4.15e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.71 V             ; -0.0352 V          ; 0.147 V                             ; 0.066 V                             ; 4.51e-010 s                ; 4.15e-010 s                ; No                        ; Yes                       ;
+; saida_quant_um[3]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.64 V              ; -0.0118 V           ; 0.201 V                              ; 0.173 V                              ; 2.38e-009 s                 ; 2.19e-009 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.64 V             ; -0.0118 V          ; 0.201 V                             ; 0.173 V                             ; 2.38e-009 s                ; 2.19e-009 s                ; No                        ; Yes                       ;
+; saida_quant_um[4]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.71 V              ; -0.0352 V           ; 0.147 V                              ; 0.066 V                              ; 4.51e-010 s                 ; 4.15e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.71 V             ; -0.0352 V          ; 0.147 V                             ; 0.066 V                             ; 4.51e-010 s                ; 4.15e-010 s                ; No                        ; Yes                       ;
+; saida_quant_um[5]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0401 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.61e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0401 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.61e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[6]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[7]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[8]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.71 V              ; -0.0352 V           ; 0.147 V                              ; 0.066 V                              ; 4.51e-010 s                 ; 4.15e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.71 V             ; -0.0352 V          ; 0.147 V                             ; 0.066 V                             ; 4.51e-010 s                ; 4.15e-010 s                ; No                        ; Yes                       ;
+; saida_quant_um[9]    ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[10]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[11]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[12]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[13]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[14]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0401 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.61e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0401 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.61e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_um[15]   ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[0]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.64 V              ; -0.0115 V           ; 0.204 V                              ; 0.12 V                               ; 2.38e-009 s                 ; 2.24e-009 s                 ; No                         ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.64 V             ; -0.0115 V          ; 0.204 V                             ; 0.12 V                              ; 2.38e-009 s                ; 2.24e-009 s                ; No                        ; Yes                       ;
+; saida_quant_zero[1]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[2]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[3]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.71 V              ; -0.0352 V           ; 0.147 V                              ; 0.066 V                              ; 4.51e-010 s                 ; 4.15e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.71 V             ; -0.0352 V          ; 0.147 V                             ; 0.066 V                             ; 4.51e-010 s                ; 4.15e-010 s                ; No                        ; Yes                       ;
+; saida_quant_zero[4]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.71 V              ; -0.0352 V           ; 0.147 V                              ; 0.066 V                              ; 4.51e-010 s                 ; 4.15e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.71 V             ; -0.0352 V          ; 0.147 V                             ; 0.066 V                             ; 4.51e-010 s                ; 4.15e-010 s                ; No                        ; Yes                       ;
+; saida_quant_zero[5]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0401 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.61e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0401 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.61e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[6]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[7]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0401 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.61e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0401 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.61e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[8]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[9]  ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.72 V              ; -0.0401 V           ; 0.163 V                              ; 0.091 V                              ; 2.71e-010 s                 ; 2.61e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.72 V             ; -0.0401 V          ; 0.163 V                             ; 0.091 V                             ; 2.71e-010 s                ; 2.61e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[10] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.64 V              ; -0.0118 V           ; 0.201 V                              ; 0.173 V                              ; 2.38e-009 s                 ; 2.19e-009 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.64 V             ; -0.0118 V          ; 0.201 V                             ; 0.173 V                             ; 2.38e-009 s                ; 2.19e-009 s                ; No                        ; Yes                       ;
+; saida_quant_zero[11] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.7e-008 V                   ; 2.64 V              ; -0.0118 V           ; 0.201 V                              ; 0.173 V                              ; 2.38e-009 s                 ; 2.19e-009 s                 ; No                         ; Yes                        ; 2.62 V                      ; 2.7e-008 V                  ; 2.64 V             ; -0.0118 V          ; 0.201 V                             ; 0.173 V                             ; 2.38e-009 s                ; 2.19e-009 s                ; No                        ; Yes                       ;
+; saida_quant_zero[12] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[13] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[14] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; saida_quant_zero[15] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.02e-008 V                  ; 2.71 V              ; -0.0351 V           ; 0.173 V                              ; 0.098 V                              ; 2.73e-010 s                 ; 2.69e-010 s                 ; Yes                        ; Yes                        ; 2.62 V                      ; 4.02e-008 V                 ; 2.71 V             ; -0.0351 V          ; 0.173 V                             ; 0.098 V                             ; 2.73e-010 s                ; 2.69e-010 s                ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.2e-008 V                   ; 2.74 V              ; -0.061 V            ; 0.159 V                              ; 0.078 V                              ; 2.7e-010 s                  ; 2.2e-010 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.2e-008 V                  ; 2.74 V             ; -0.061 V           ; 0.159 V                             ; 0.078 V                             ; 2.7e-010 s                 ; 2.2e-010 s                 ; No                        ; Yes                       ;
+; ~ALTERA_nCEO~        ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.52e-008 V                  ; 2.7 V               ; -0.012 V            ; 0.274 V                              ; 0.034 V                              ; 3.18e-010 s                 ; 4.96e-010 s                 ; No                         ; Yes                        ; 2.62 V                      ; 3.52e-008 V                 ; 2.7 V              ; -0.012 V           ; 0.274 V                             ; 0.034 V                             ; 3.18e-010 s                ; 4.96e-010 s                ; No                        ; Yes                       ;
++----------------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 16    ; 16   ;
+; Unconstrained Input Port Paths  ; 160   ; 160  ;
+; Unconstrained Output Ports      ; 10    ; 10   ;
+; Unconstrained Output Port Paths ; 160   ; 160  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Thu Aug 31 10:29:11 2023
+Info: Command: quartus_sta Ex5 -c Ex5
+Info: qsta_default_script.tcl version: #1
+Info: high junction temperature operating condition is not set. Assuming a default value of '85'.
+Info: low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning: Synopsys Design Constraints File file not found: 'Ex5.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Warning: Timing characteristics of device EP4CE6E22C6 are preliminary
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1200mV 0C Model
+Info: Started post-fitting delay annotation
+Warning: Timing characteristics of device EP4CE6E22C6 are preliminary
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 256 megabytes
+    Info: Processing ended: Thu Aug 31 10:29:16 2023
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:03
+
+

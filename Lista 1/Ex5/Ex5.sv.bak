@@ -1,0 +1,21 @@
+// Descreva um circuito em System Verilog para determinar o número de bits "1" e o número de bits "0" de um vetor de entrada de 16 bits. Faça a seguir um testbench simple para testar o circuito
+module Ex5(input logic [15:0]entrada,
+output logic [15:0]saida_quant_um, output logic [15:0]saida_quant_zero);//Entrada de 16 bits como a questão pede, e saída de 16 bits para mostrar a quantidade de 1's e 0's
+
+always @ * begin //O always é usado para definir um bloco de cód. que será executado sempre que houver uma mudança nos sinais de entrada do módulo.
+saida_quant_um = 0;//Inicializa a saída com 0
+saida_quant_zero = 0;//Inicializa a saída com 0
+
+for (int i=0; i < 16; i++) begin//Loop para percorrer os 16 bits da entrada
+    if (entrada[i]== 1) begin//Se o bit for 1, incrementa a saída correspondente
+        saida_quant_um = saida_quant_um + 1;
+    end
+    else begin //Se o bit for 0, incrementa a saída correspondente
+        saida_quant_zero = saida_quant_zero + 1;
+    end
+
+    end
+
+end
+
+endmodule
