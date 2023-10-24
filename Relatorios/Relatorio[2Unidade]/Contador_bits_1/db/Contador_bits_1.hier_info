@@ -1,0 +1,34 @@
+|Contador_bits_1
+entrada[0] => Add0.IN2
+entrada[0] => saida_quant_um.DATAA
+entrada[1] => saida_quant_um.OUTPUTSELECT
+entrada[1] => saida_quant_um.OUTPUTSELECT
+entrada[2] => saida_quant_um.OUTPUTSELECT
+entrada[2] => saida_quant_um.OUTPUTSELECT
+entrada[2] => saida_quant_um.OUTPUTSELECT
+entrada[3] => saida_quant_um.OUTPUTSELECT
+entrada[3] => saida_quant_um.OUTPUTSELECT
+entrada[3] => saida_quant_um.OUTPUTSELECT
+entrada[3] => saida_quant_um.OUTPUTSELECT
+entrada[4] => saida_quant_um.OUTPUTSELECT
+entrada[4] => saida_quant_um.OUTPUTSELECT
+entrada[4] => saida_quant_um.OUTPUTSELECT
+entrada[4] => saida_quant_um.OUTPUTSELECT
+entrada[5] => saida_quant_um.OUTPUTSELECT
+entrada[5] => saida_quant_um.OUTPUTSELECT
+entrada[5] => saida_quant_um.OUTPUTSELECT
+entrada[5] => saida_quant_um.OUTPUTSELECT
+entrada[6] => saida_quant_um.OUTPUTSELECT
+entrada[6] => saida_quant_um.OUTPUTSELECT
+entrada[6] => saida_quant_um.OUTPUTSELECT
+entrada[6] => saida_quant_um.OUTPUTSELECT
+entrada[7] => saida_quant_um.OUTPUTSELECT
+entrada[7] => saida_quant_um.OUTPUTSELECT
+entrada[7] => saida_quant_um.OUTPUTSELECT
+entrada[7] => saida_quant_um.OUTPUTSELECT
+saida_quant_um[0] <= saida_quant_um.DB_MAX_OUTPUT_PORT_TYPE
+saida_quant_um[1] <= saida_quant_um.DB_MAX_OUTPUT_PORT_TYPE
+saida_quant_um[2] <= saida_quant_um.DB_MAX_OUTPUT_PORT_TYPE
+saida_quant_um[3] <= saida_quant_um.DB_MAX_OUTPUT_PORT_TYPE
+
+

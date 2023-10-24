@@ -1,0 +1,57 @@
+`timescale 1ns/100ps // Ajusta a escala de tempo para ns
+module Contador_bits_1_tb;
+
+    logic [7:0] entrada;
+    logic [3:0] saida_esperada,saida_quant_um;
+    logic [11:0] vectors [8];
+    int testes;
+    int erros;
+    logic clk, reset;
+
+    Contador_bits_1 dut(.entrada(entrada), .saida_quant_um(saida_quant_um)); // Instancia o testbench
+
+
+    initial 
+        begin
+            $display("Inicializando testbench");
+            $readmemb("modeloDeReferencia.tv", vectors); // Leitura do arquivo de teste
+            testes = 0; erros = 0;
+            reset =1; #20; reset =0; // Reseta o contador
+        end
+
+    always 
+        begin
+            clk =1; #11.5;
+            clk =0; #10;
+        end
+
+    always @(posedge clk)
+        if(~reset)
+        begin
+            {entrada, saida_esperada} = vectors[testes]; // Leitura dos vetores de teste
+        end
+
+    always @(negedge clk)
+        if(~reset)
+        begin
+            assert (saida_quant_um === saida_esperada)
+                $display("|%b | %b | OK", entrada, saida_quant_um); 
+            else
+            begin
+                $display("|%b | %b | ERRO, saida esperada: %b", entrada, saida_quant_um, saida_esperada);
+                erros = erros + 1;
+            end
+
+            testes++;
+
+            if(vectors[testes] === 12'bx)
+            begin
+                $display("Testes finalizados");
+                $display("Total de testes: %0d", testes);
+                $display("Total de erros: %0d", erros);
+                #10
+                $stop;    
+            end
+        end
+endmodule
+    
