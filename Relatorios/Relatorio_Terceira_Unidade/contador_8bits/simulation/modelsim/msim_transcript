@@ -1,0 +1,569 @@
+# Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do contador_8bits_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits {Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/contador_8bits.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:49 on Nov 04,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits" Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/contador_8bits.sv 
+# -- Compiling module contador_8bits
+# 
+# Top level modules:
+# 	contador_8bits
+# End time: 18:06:49 on Nov 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches {Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:06:50 on Nov 04,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches" Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv 
+# -- Compiling module contador_8bits_tb
+# 
+# Top level modules:
+# 	contador_8bits_tb
+# End time: 18:06:50 on Nov 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc" contador_8bits_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" contador_8bits_tb 
+# Start time: 18:06:50 on Nov 04,2023
+# Loading sv_std.std
+# Loading work.contador_8bits_tb
+# Loading work.contador_8bits
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#           Iniciando Testbench
+#            | CLK |   Q    |
+#             ---------------
+#   linha  1 | 1 | 00000000 |
+#   linha  2 | 0 | 00000000 |
+#   linha  3 | 1 | 00000001 |
+#   linha  4 | 0 | 00000001 |
+#   linha  5 | 1 | 00000010 |
+#   linha  6 | 0 | 00000010 |
+#   linha  7 | 1 | 00000011 |
+#   linha  8 | 0 | 00000011 |
+#   linha  9 | 1 | 00000100 |
+#   linha 10 | 0 | 00000100 |
+#   linha 11 | 1 | 00000101 |
+#   linha 12 | 0 | 00000101 |
+#   linha 13 | 1 | 00000110 |
+#   linha 14 | 0 | 00000110 |
+#   linha 15 | 1 | 00000111 |
+#   linha 16 | 0 | 00000111 |
+#   linha 17 | 1 | 00001000 |
+#   linha 18 | 0 | 00001000 |
+#   linha 19 | 1 | 00001001 |
+#   linha 20 | 0 | 00001001 |
+#   linha 21 | 1 | 00001010 |
+#   linha 22 | 0 | 00001010 |
+#   linha 23 | 1 | 00001011 |
+#   linha 24 | 0 | 00001011 |
+#   linha 25 | 1 | 00001100 |
+#   linha 26 | 0 | 00001100 |
+#   linha 27 | 1 | 00001101 |
+#   linha 28 | 0 | 00001101 |
+#   linha 29 | 1 | 00001110 |
+#   linha 30 | 0 | 00001110 |
+#   linha 31 | 1 | 00001111 |
+#   linha 32 | 0 | 00001111 |
+#   linha 33 | 1 | 00010000 |
+#   linha 34 | 0 | 00010000 |
+#   linha 35 | 1 | 00010001 |
+#   linha 36 | 0 | 00010001 |
+#   linha 37 | 1 | 00010010 |
+#   linha 38 | 0 | 00010010 |
+#   linha 39 | 1 | 00010011 |
+#   linha 40 | 0 | 00010011 |
+#   linha 41 | 1 | 00010100 |
+#   linha 42 | 0 | 00010100 |
+#   linha 43 | 1 | 00010101 |
+#   linha 44 | 0 | 00010101 |
+#   linha 45 | 1 | 00010110 |
+#   linha 46 | 0 | 00010110 |
+#   linha 47 | 1 | 00010111 |
+#   linha 48 | 0 | 00010111 |
+#   linha 49 | 1 | 00011000 |
+#   linha 50 | 0 | 00011000 |
+#   linha 51 | 1 | 00011001 |
+#   linha 52 | 0 | 00011001 |
+#   linha 53 | 1 | 00011010 |
+#   linha 54 | 0 | 00011010 |
+#   linha 55 | 1 | 00011011 |
+#   linha 56 | 0 | 00011011 |
+#   linha 57 | 1 | 00011100 |
+#   linha 58 | 0 | 00011100 |
+#   linha 59 | 1 | 00011101 |
+#   linha 60 | 0 | 00011101 |
+#   linha 61 | 1 | 00011110 |
+#   linha 62 | 0 | 00011110 |
+#   linha 63 | 1 | 00011111 |
+#   linha 64 | 0 | 00011111 |
+#   linha 65 | 1 | 00100000 |
+#   linha 66 | 0 | 00100000 |
+#   linha 67 | 1 | 00100001 |
+#   linha 68 | 0 | 00100001 |
+#   linha 69 | 1 | 00100010 |
+#   linha 70 | 0 | 00100010 |
+#   linha 71 | 1 | 00100011 |
+#   linha 72 | 0 | 00100011 |
+#   linha 73 | 1 | 00100100 |
+#   linha 74 | 0 | 00100100 |
+#   linha 75 | 1 | 00100101 |
+#   linha 76 | 0 | 00100101 |
+#   linha 77 | 1 | 00100110 |
+#   linha 78 | 0 | 00100110 |
+#   linha 79 | 1 | 00100111 |
+#   linha 80 | 0 | 00100111 |
+#   linha 81 | 1 | 00101000 |
+#   linha 82 | 0 | 00101000 |
+#   linha 83 | 1 | 00101001 |
+#   linha 84 | 0 | 00101001 |
+#   linha 85 | 1 | 00101010 |
+#   linha 86 | 0 | 00101010 |
+#   linha 87 | 1 | 00101011 |
+#   linha 88 | 0 | 00101011 |
+#   linha 89 | 1 | 00101100 |
+#   linha 90 | 0 | 00101100 |
+#   linha 91 | 1 | 00101101 |
+#   linha 92 | 0 | 00101101 |
+#   linha 93 | 1 | 00101110 |
+#   linha 94 | 0 | 00101110 |
+#   linha 95 | 1 | 00101111 |
+#   linha 96 | 0 | 00101111 |
+#   linha 97 | 1 | 00110000 |
+#   linha 98 | 0 | 00110000 |
+#   linha 99 | 1 | 00110001 |
+#   linha 100 | 0 | 00110001 |
+#   linha 101 | 1 | 00110010 |
+#   linha 102 | 0 | 00110010 |
+#   linha 103 | 1 | 00110011 |
+#   linha 104 | 0 | 00110011 |
+#   linha 105 | 1 | 00110100 |
+#   linha 106 | 0 | 00110100 |
+#   linha 107 | 1 | 00110101 |
+#   linha 108 | 0 | 00110101 |
+#   linha 109 | 1 | 00110110 |
+#   linha 110 | 0 | 00110110 |
+#   linha 111 | 1 | 00110111 |
+#   linha 112 | 0 | 00110111 |
+#   linha 113 | 1 | 00111000 |
+#   linha 114 | 0 | 00111000 |
+#   linha 115 | 1 | 00111001 |
+#   linha 116 | 0 | 00111001 |
+#   linha 117 | 1 | 00111010 |
+#   linha 118 | 0 | 00111010 |
+#   linha 119 | 1 | 00111011 |
+#   linha 120 | 0 | 00111011 |
+#   linha 121 | 1 | 00111100 |
+#   linha 122 | 0 | 00111100 |
+#   linha 123 | 1 | 00111101 |
+#   linha 124 | 0 | 00111101 |
+#   linha 125 | 1 | 00111110 |
+#   linha 126 | 0 | 00111110 |
+#   linha 127 | 1 | 00111111 |
+#   linha 128 | 0 | 00111111 |
+#   linha 129 | 1 | 01000000 |
+#   linha 130 | 0 | 01000000 |
+#   linha 131 | 1 | 01000001 |
+#   linha 132 | 0 | 01000001 |
+#   linha 133 | 1 | 01000010 |
+#   linha 134 | 0 | 01000010 |
+#   linha 135 | 1 | 01000011 |
+#   linha 136 | 0 | 01000011 |
+#   linha 137 | 1 | 01000100 |
+#   linha 138 | 0 | 01000100 |
+#   linha 139 | 1 | 01000101 |
+#   linha 140 | 0 | 01000101 |
+#   linha 141 | 1 | 01000110 |
+#   linha 142 | 0 | 01000110 |
+#   linha 143 | 1 | 01000111 |
+#   linha 144 | 0 | 01000111 |
+#   linha 145 | 1 | 01001000 |
+#   linha 146 | 0 | 01001000 |
+#   linha 147 | 1 | 01001001 |
+#   linha 148 | 0 | 01001001 |
+#   linha 149 | 1 | 01001010 |
+#   linha 150 | 0 | 01001010 |
+#   linha 151 | 1 | 01001011 |
+#   linha 152 | 0 | 01001011 |
+#   linha 153 | 1 | 01001100 |
+#   linha 154 | 0 | 01001100 |
+#   linha 155 | 1 | 01001101 |
+#   linha 156 | 0 | 01001101 |
+#   linha 157 | 1 | 01001110 |
+#   linha 158 | 0 | 01001110 |
+#   linha 159 | 1 | 01001111 |
+#   linha 160 | 0 | 01001111 |
+#   linha 161 | 1 | 01010000 |
+#   linha 162 | 0 | 01010000 |
+#   linha 163 | 1 | 01010001 |
+#   linha 164 | 0 | 01010001 |
+#   linha 165 | 1 | 01010010 |
+#   linha 166 | 0 | 01010010 |
+#   linha 167 | 1 | 01010011 |
+#   linha 168 | 0 | 01010011 |
+#   linha 169 | 1 | 01010100 |
+#   linha 170 | 0 | 01010100 |
+#   linha 171 | 1 | 01010101 |
+#   linha 172 | 0 | 01010101 |
+#   linha 173 | 1 | 01010110 |
+#   linha 174 | 0 | 01010110 |
+#   linha 175 | 1 | 01010111 |
+#   linha 176 | 0 | 01010111 |
+#   linha 177 | 1 | 01011000 |
+#   linha 178 | 0 | 01011000 |
+#   linha 179 | 1 | 01011001 |
+#   linha 180 | 0 | 01011001 |
+#   linha 181 | 1 | 01011010 |
+#   linha 182 | 0 | 01011010 |
+#   linha 183 | 1 | 01011011 |
+#   linha 184 | 0 | 01011011 |
+#   linha 185 | 1 | 01011100 |
+#   linha 186 | 0 | 01011100 |
+#   linha 187 | 1 | 01011101 |
+#   linha 188 | 0 | 01011101 |
+#   linha 189 | 1 | 01011110 |
+#   linha 190 | 0 | 01011110 |
+#   linha 191 | 1 | 01011111 |
+#   linha 192 | 0 | 01011111 |
+#   linha 193 | 1 | 01100000 |
+#   linha 194 | 0 | 01100000 |
+#   linha 195 | 1 | 01100001 |
+#   linha 196 | 0 | 01100001 |
+#   linha 197 | 1 | 01100010 |
+#   linha 198 | 0 | 01100010 |
+#   linha 199 | 1 | 01100011 |
+#   linha 200 | 0 | 01100011 |
+#   linha 201 | 1 | 01100100 |
+#   linha 202 | 0 | 01100100 |
+#   linha 203 | 1 | 01100101 |
+#   linha 204 | 0 | 01100101 |
+#   linha 205 | 1 | 01100110 |
+#   linha 206 | 0 | 01100110 |
+#   linha 207 | 1 | 01100111 |
+#   linha 208 | 0 | 01100111 |
+#   linha 209 | 1 | 01101000 |
+#   linha 210 | 0 | 01101000 |
+#   linha 211 | 1 | 01101001 |
+#   linha 212 | 0 | 01101001 |
+#   linha 213 | 1 | 01101010 |
+#   linha 214 | 0 | 01101010 |
+#   linha 215 | 1 | 01101011 |
+#   linha 216 | 0 | 01101011 |
+#   linha 217 | 1 | 01101100 |
+#   linha 218 | 0 | 01101100 |
+#   linha 219 | 1 | 01101101 |
+#   linha 220 | 0 | 01101101 |
+#   linha 221 | 1 | 01101110 |
+#   linha 222 | 0 | 01101110 |
+#   linha 223 | 1 | 01101111 |
+#   linha 224 | 0 | 01101111 |
+#   linha 225 | 1 | 01110000 |
+#   linha 226 | 0 | 01110000 |
+#   linha 227 | 1 | 01110001 |
+#   linha 228 | 0 | 01110001 |
+#   linha 229 | 1 | 01110010 |
+#   linha 230 | 0 | 01110010 |
+#   linha 231 | 1 | 01110011 |
+#   linha 232 | 0 | 01110011 |
+#   linha 233 | 1 | 01110100 |
+#   linha 234 | 0 | 01110100 |
+#   linha 235 | 1 | 01110101 |
+#   linha 236 | 0 | 01110101 |
+#   linha 237 | 1 | 01110110 |
+#   linha 238 | 0 | 01110110 |
+#   linha 239 | 1 | 01110111 |
+#   linha 240 | 0 | 01110111 |
+#   linha 241 | 1 | 01111000 |
+#   linha 242 | 0 | 01111000 |
+#   linha 243 | 1 | 01111001 |
+#   linha 244 | 0 | 01111001 |
+#   linha 245 | 1 | 01111010 |
+#   linha 246 | 0 | 01111010 |
+#   linha 247 | 1 | 01111011 |
+#   linha 248 | 0 | 01111011 |
+#   linha 249 | 1 | 01111100 |
+#   linha 250 | 0 | 01111100 |
+#   linha 251 | 1 | 01111101 |
+#   linha 252 | 0 | 01111101 |
+#   linha 253 | 1 | 01111110 |
+#   linha 254 | 0 | 01111110 |
+#   linha 255 | 1 | 01111111 |
+#   linha 256 | 0 | 01111111 |
+#   linha 257 | 1 | 10000000 |
+#   linha 258 | 0 | 10000000 |
+#   linha 259 | 1 | 10000001 |
+#   linha 260 | 0 | 10000001 |
+#   linha 261 | 1 | 10000010 |
+#   linha 262 | 0 | 10000010 |
+#   linha 263 | 1 | 10000011 |
+#   linha 264 | 0 | 10000011 |
+#   linha 265 | 1 | 10000100 |
+#   linha 266 | 0 | 10000100 |
+#   linha 267 | 1 | 10000101 |
+#   linha 268 | 0 | 10000101 |
+#   linha 269 | 1 | 10000110 |
+#   linha 270 | 0 | 10000110 |
+#   linha 271 | 1 | 10000111 |
+#   linha 272 | 0 | 10000111 |
+#   linha 273 | 1 | 10001000 |
+#   linha 274 | 0 | 10001000 |
+#   linha 275 | 1 | 10001001 |
+#   linha 276 | 0 | 10001001 |
+#   linha 277 | 1 | 10001010 |
+#   linha 278 | 0 | 10001010 |
+#   linha 279 | 1 | 10001011 |
+#   linha 280 | 0 | 10001011 |
+#   linha 281 | 1 | 10001100 |
+#   linha 282 | 0 | 10001100 |
+#   linha 283 | 1 | 10001101 |
+#   linha 284 | 0 | 10001101 |
+#   linha 285 | 1 | 10001110 |
+#   linha 286 | 0 | 10001110 |
+#   linha 287 | 1 | 10001111 |
+#   linha 288 | 0 | 10001111 |
+#   linha 289 | 1 | 10010000 |
+#   linha 290 | 0 | 10010000 |
+#   linha 291 | 1 | 10010001 |
+#   linha 292 | 0 | 10010001 |
+#   linha 293 | 1 | 10010010 |
+#   linha 294 | 0 | 10010010 |
+#   linha 295 | 1 | 10010011 |
+#   linha 296 | 0 | 10010011 |
+#   linha 297 | 1 | 10010100 |
+#   linha 298 | 0 | 10010100 |
+#   linha 299 | 1 | 10010101 |
+#   linha 300 | 0 | 10010101 |
+#   linha 301 | 1 | 10010110 |
+#   linha 302 | 0 | 10010110 |
+#   linha 303 | 1 | 10010111 |
+#   linha 304 | 0 | 10010111 |
+#   linha 305 | 1 | 10011000 |
+#   linha 306 | 0 | 10011000 |
+#   linha 307 | 1 | 10011001 |
+#   linha 308 | 0 | 10011001 |
+#   linha 309 | 1 | 10011010 |
+#   linha 310 | 0 | 10011010 |
+#   linha 311 | 1 | 10011011 |
+#   linha 312 | 0 | 10011011 |
+#   linha 313 | 1 | 10011100 |
+#   linha 314 | 0 | 10011100 |
+#   linha 315 | 1 | 10011101 |
+#   linha 316 | 0 | 10011101 |
+#   linha 317 | 1 | 10011110 |
+#   linha 318 | 0 | 10011110 |
+#   linha 319 | 1 | 10011111 |
+#   linha 320 | 0 | 10011111 |
+#   linha 321 | 1 | 10100000 |
+#   linha 322 | 0 | 10100000 |
+#   linha 323 | 1 | 10100001 |
+#   linha 324 | 0 | 10100001 |
+#   linha 325 | 1 | 10100010 |
+#   linha 326 | 0 | 10100010 |
+#   linha 327 | 1 | 10100011 |
+#   linha 328 | 0 | 10100011 |
+#   linha 329 | 1 | 10100100 |
+#   linha 330 | 0 | 10100100 |
+#   linha 331 | 1 | 10100101 |
+#   linha 332 | 0 | 10100101 |
+#   linha 333 | 1 | 10100110 |
+#   linha 334 | 0 | 10100110 |
+#   linha 335 | 1 | 10100111 |
+#   linha 336 | 0 | 10100111 |
+#   linha 337 | 1 | 10101000 |
+#   linha 338 | 0 | 10101000 |
+#   linha 339 | 1 | 10101001 |
+#   linha 340 | 0 | 10101001 |
+#   linha 341 | 1 | 10101010 |
+#   linha 342 | 0 | 10101010 |
+#   linha 343 | 1 | 10101011 |
+#   linha 344 | 0 | 10101011 |
+#   linha 345 | 1 | 10101100 |
+#   linha 346 | 0 | 10101100 |
+#   linha 347 | 1 | 10101101 |
+#   linha 348 | 0 | 10101101 |
+#   linha 349 | 1 | 10101110 |
+#   linha 350 | 0 | 10101110 |
+#   linha 351 | 1 | 10101111 |
+#   linha 352 | 0 | 10101111 |
+#   linha 353 | 1 | 10110000 |
+#   linha 354 | 0 | 10110000 |
+#   linha 355 | 1 | 10110001 |
+#   linha 356 | 0 | 10110001 |
+#   linha 357 | 1 | 10110010 |
+#   linha 358 | 0 | 10110010 |
+#   linha 359 | 1 | 10110011 |
+#   linha 360 | 0 | 10110011 |
+#   linha 361 | 1 | 10110100 |
+#   linha 362 | 0 | 10110100 |
+#   linha 363 | 1 | 10110101 |
+#   linha 364 | 0 | 10110101 |
+#   linha 365 | 1 | 10110110 |
+#   linha 366 | 0 | 10110110 |
+#   linha 367 | 1 | 10110111 |
+#   linha 368 | 0 | 10110111 |
+#   linha 369 | 1 | 10111000 |
+#   linha 370 | 0 | 10111000 |
+#   linha 371 | 1 | 10111001 |
+#   linha 372 | 0 | 10111001 |
+#   linha 373 | 1 | 10111010 |
+#   linha 374 | 0 | 10111010 |
+#   linha 375 | 1 | 10111011 |
+#   linha 376 | 0 | 10111011 |
+#   linha 377 | 1 | 10111100 |
+#   linha 378 | 0 | 10111100 |
+#   linha 379 | 1 | 10111101 |
+#   linha 380 | 0 | 10111101 |
+#   linha 381 | 1 | 10111110 |
+#   linha 382 | 0 | 10111110 |
+#   linha 383 | 1 | 10111111 |
+#   linha 384 | 0 | 10111111 |
+#   linha 385 | 1 | 11000000 |
+#   linha 386 | 0 | 11000000 |
+#   linha 387 | 1 | 11000001 |
+#   linha 388 | 0 | 11000001 |
+#   linha 389 | 1 | 11000010 |
+#   linha 390 | 0 | 11000010 |
+#   linha 391 | 1 | 11000011 |
+#   linha 392 | 0 | 11000011 |
+#   linha 393 | 1 | 11000100 |
+#   linha 394 | 0 | 11000100 |
+#   linha 395 | 1 | 11000101 |
+#   linha 396 | 0 | 11000101 |
+#   linha 397 | 1 | 11000110 |
+#   linha 398 | 0 | 11000110 |
+#   linha 399 | 1 | 11000111 |
+#   linha 400 | 0 | 11000111 |
+#   linha 401 | 1 | 11001000 |
+#   linha 402 | 0 | 11001000 |
+#   linha 403 | 1 | 11001001 |
+#   linha 404 | 0 | 11001001 |
+#   linha 405 | 1 | 11001010 |
+#   linha 406 | 0 | 11001010 |
+#   linha 407 | 1 | 11001011 |
+#   linha 408 | 0 | 11001011 |
+#   linha 409 | 1 | 11001100 |
+#   linha 410 | 0 | 11001100 |
+#   linha 411 | 1 | 11001101 |
+#   linha 412 | 0 | 11001101 |
+#   linha 413 | 1 | 11001110 |
+#   linha 414 | 0 | 11001110 |
+#   linha 415 | 1 | 11001111 |
+#   linha 416 | 0 | 11001111 |
+#   linha 417 | 1 | 11010000 |
+#   linha 418 | 0 | 11010000 |
+#   linha 419 | 1 | 11010001 |
+#   linha 420 | 0 | 11010001 |
+#   linha 421 | 1 | 11010010 |
+#   linha 422 | 0 | 11010010 |
+#   linha 423 | 1 | 11010011 |
+#   linha 424 | 0 | 11010011 |
+#   linha 425 | 1 | 11010100 |
+#   linha 426 | 0 | 11010100 |
+#   linha 427 | 1 | 11010101 |
+#   linha 428 | 0 | 11010101 |
+#   linha 429 | 1 | 11010110 |
+#   linha 430 | 0 | 11010110 |
+#   linha 431 | 1 | 11010111 |
+#   linha 432 | 0 | 11010111 |
+#   linha 433 | 1 | 11011000 |
+#   linha 434 | 0 | 11011000 |
+#   linha 435 | 1 | 11011001 |
+#   linha 436 | 0 | 11011001 |
+#   linha 437 | 1 | 11011010 |
+#   linha 438 | 0 | 11011010 |
+#   linha 439 | 1 | 11011011 |
+#   linha 440 | 0 | 11011011 |
+#   linha 441 | 1 | 11011100 |
+#   linha 442 | 0 | 11011100 |
+#   linha 443 | 1 | 11011101 |
+#   linha 444 | 0 | 11011101 |
+#   linha 445 | 1 | 11011110 |
+#   linha 446 | 0 | 11011110 |
+#   linha 447 | 1 | 11011111 |
+#   linha 448 | 0 | 11011111 |
+#   linha 449 | 1 | 11100000 |
+#   linha 450 | 0 | 11100000 |
+#   linha 451 | 1 | 11100001 |
+#   linha 452 | 0 | 11100001 |
+#   linha 453 | 1 | 11100010 |
+#   linha 454 | 0 | 11100010 |
+#   linha 455 | 1 | 11100011 |
+#   linha 456 | 0 | 11100011 |
+#   linha 457 | 1 | 11100100 |
+#   linha 458 | 0 | 11100100 |
+#   linha 459 | 1 | 11100101 |
+#   linha 460 | 0 | 11100101 |
+#   linha 461 | 1 | 11100110 |
+#   linha 462 | 0 | 11100110 |
+#   linha 463 | 1 | 11100111 |
+#   linha 464 | 0 | 11100111 |
+#   linha 465 | 1 | 11101000 |
+#   linha 466 | 0 | 11101000 |
+#   linha 467 | 1 | 11101001 |
+#   linha 468 | 0 | 11101001 |
+#   linha 469 | 1 | 11101010 |
+#   linha 470 | 0 | 11101010 |
+#   linha 471 | 1 | 11101011 |
+#   linha 472 | 0 | 11101011 |
+#   linha 473 | 1 | 11101100 |
+#   linha 474 | 0 | 11101100 |
+#   linha 475 | 1 | 11101101 |
+#   linha 476 | 0 | 11101101 |
+#   linha 477 | 1 | 11101110 |
+#   linha 478 | 0 | 11101110 |
+#   linha 479 | 1 | 11101111 |
+#   linha 480 | 0 | 11101111 |
+#   linha 481 | 1 | 11110000 |
+#   linha 482 | 0 | 11110000 |
+#   linha 483 | 1 | 11110001 |
+#   linha 484 | 0 | 11110001 |
+#   linha 485 | 1 | 11110010 |
+#   linha 486 | 0 | 11110010 |
+#   linha 487 | 1 | 11110011 |
+#   linha 488 | 0 | 11110011 |
+#   linha 489 | 1 | 11110100 |
+#   linha 490 | 0 | 11110100 |
+#   linha 491 | 1 | 11110101 |
+#   linha 492 | 0 | 11110101 |
+#   linha 493 | 1 | 11110110 |
+#   linha 494 | 0 | 11110110 |
+#   linha 495 | 1 | 11110111 |
+#   linha 496 | 0 | 11110111 |
+#   linha 497 | 1 | 11111000 |
+#   linha 498 | 0 | 11111000 |
+#   linha 499 | 1 | 11111001 |
+#   linha 500 | 0 | 11111001 |
+#   linha 501 | 1 | 11111010 |
+#   linha 502 | 0 | 11111010 |
+#   linha 503 | 1 | 11111011 |
+#   linha 504 | 0 | 11111011 |
+#   linha 505 | 1 | 11111100 |
+#   linha 506 | 0 | 11111100 |
+#   linha 507 | 1 | 11111101 |
+#   linha 508 | 0 | 11111101 |
+#   linha 509 | 1 | 11111110 |
+#   linha 510 | 0 | 11111110 |
+#   linha 511 | 1 | 11111111 |
+#   linha 512 | 0 | 11111111 |
+# Testes Efetuados = 512
+# Erros Encontrados = 0
+# ** Note: $stop    : Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv(71)
+#    Time: 10260 ns  Iteration: 0  Instance: /contador_8bits_tb
+# Break in Module contador_8bits_tb at Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv line 71
+# End time: 18:07:18 on Nov 04,2023, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
