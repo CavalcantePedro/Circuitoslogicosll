@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/simulation/modelsim
+vcontador_sequencia_0_1_2_3_10_13
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1699132544
+!i10b 1
+!s100 m;=^5gag9fk^TUg3m79[B0
+IE8NhkG`bO7db56[N^W26U2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 contador_sequencia_0_1_2_3_10_13_sv_unit
+S1
+R0
+w1699132263
+8Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/contador_sequencia_0_1_2_3_10_13.sv
+FZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/contador_sequencia_0_1_2_3_10_13.sv
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1699132543.000000
+!s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/contador_sequencia_0_1_2_3_10_13.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/contador_sequencia_0_1_2_3_10_13.sv|
+!i113 1
+Z4 o-sv -work work
+!s92 -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13
+Z5 tCvgOpt 0
+vcontador_sequencia_0_1_2_3_10_13_tb
+R1
+!s110 1699132546
+!i10b 1
+!s100 82b[k6ijKgNzLeR5h6SQD2
+IIa32o36U:b32V=Zg1M]@;2
+R2
+!s105 contador_sequencia_0_1_2_3_10_13_tb_sv_unit
+S1
+R0
+w1699132372
+8Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv
+FZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1699132545.000000
+!s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv|
+!i113 1
+R4
+!s92 -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches
+R5

@@ -1,0 +1,85 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+12
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+contador_sequencia_0_1_2_3_10_13
+# storage
+db|contador_sequencia_0_1_2_3_10_13.(0).cnf
+db|contador_sequencia_0_1_2_3_10_13.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+contador_sequencia_0_1_2_3_10_13.sv
+c6a09f6f1762a9ced9a7b3b8479b816
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+S0
+0
+PARAMETER_SIGNED_DEC
+DEF
+S1
+1
+PARAMETER_SIGNED_DEC
+DEF
+S2
+2
+PARAMETER_SIGNED_DEC
+DEF
+S3
+3
+PARAMETER_SIGNED_DEC
+DEF
+S10
+4
+PARAMETER_SIGNED_DEC
+DEF
+S13
+5
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,9 @@
+|contador_sequencia_0_1_2_3_10_13
+y[0] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+clk => estado_atual~1.DATAIN
+reset => estado_atual~3.DATAIN
+
+
