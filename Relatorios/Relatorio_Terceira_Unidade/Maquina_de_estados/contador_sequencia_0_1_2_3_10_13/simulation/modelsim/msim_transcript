@@ -1,43 +1,72 @@
 # Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
-# do contador_sequencia_0_1_2_3_10_13_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
+# do contador_sequencia_0_1_2_3_10_13_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
 # }
-# vlib rtl_work
-# vmap work rtl_work
+# vlib gate_work
+# vmap work gate_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
+# vmap work gate_work 
 # Copying C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13 {Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/contador_sequencia_0_1_2_3_10_13.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:15:43 on Nov 04,2023
-# vlog -reportprogress 300 -sv -work work "+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13" Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/contador_sequencia_0_1_2_3_10_13.sv 
-# -- Compiling module contador_sequencia_0_1_2_3_10_13
-# 
-# Top level modules:
-# 	contador_sequencia_0_1_2_3_10_13
-# End time: 18:15:44 on Nov 04,2023, Elapsed time: 0:00:01
+# vcom -93 -work work {contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:17:28 on Nov 06,2023
+# vcom -reportprogress 300 -93 -work work contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity contador_sequencia_0_1_2_3_10_13
+# -- Compiling architecture structure of contador_sequencia_0_1_2_3_10_13
+# End time: 00:17:29 on Nov 06,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches {Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:15:45 on Nov 04,2023
+# Start time: 00:17:29 on Nov 06,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches" Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv 
 # -- Compiling module contador_sequencia_0_1_2_3_10_13_tb
 # 
 # Top level modules:
 # 	contador_sequencia_0_1_2_3_10_13_tb
-# End time: 18:15:46 on Nov 04,2023, Elapsed time: 0:00:01
+# End time: 00:17:30 on Nov 06,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc" contador_sequencia_0_1_2_3_10_13_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" contador_sequencia_0_1_2_3_10_13_tb 
-# Start time: 18:15:46 on Nov 04,2023
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_vhd_slow.sdo -L altera -L cycloneive -L gate_work -L work -voptargs="+acc" contador_sequencia_0_1_2_3_10_13_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -sdftyp /dut=contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_vhd_slow.sdo -L altera -L cycloneive -L gate_work -L work -voptargs=""+acc"" contador_sequencia_0_1_2_3_10_13_tb 
+# Start time: 00:17:30 on Nov 06,2023
 # Loading sv_std.std
 # Loading work.contador_sequencia_0_1_2_3_10_13_tb
-# Loading work.contador_sequencia_0_1_2_3_10_13
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.contador_sequencia_0_1_2_3_10_13(structure)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading instances from contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_vhd_slow.sdo
+# Loading timing data from contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_vhd_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /contador_sequencia_0_1_2_3_10_13_tb File: Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv
 # 
 # add wave *
 # view structure
@@ -68,5 +97,5 @@
 # ** Note: $stop    : Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv(62)
 #    Time: 320 ns  Iteration: 0  Instance: /contador_sequencia_0_1_2_3_10_13_tb
 # Break in Module contador_sequencia_0_1_2_3_10_13_tb at Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/Maquina_de_estados/contador_sequencia_0_1_2_3_10_13/Testsbenches/contador_sequencia_0_1_2_3_10_13_tb.sv line 62
-# End time: 18:16:12 on Nov 04,2023, Elapsed time: 0:00:26
+# End time: 00:18:35 on Nov 06,2023, Elapsed time: 0:01:05
 # Errors: 0, Warnings: 0

@@ -27,9 +27,9 @@ V[>fK_d3]c3NQmKd75o[co1
 !s100 cJXE;M9aE?X]?Z[G30Qbi2
 Z12 OV;C;10.5b;63
 31
-Z13 !s110 1699131397
+Z13 !s110 1699236152
 !i10b 1
-Z14 !s108 1699131396.000000
+Z14 !s108 1699236151.000000
 Z15 !s90 -reportprogress|300|-93|-work|work|registrador_6_1200mv_85c_slow.vho|
 Z16 !s107 registrador_6_1200mv_85c_slow.vho|
 !i113 1
@@ -61,7 +61,7 @@ R17
 R18
 vregistrador_tb
 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1699131398
+!s110 1699236153
 !i10b 1
 !s100 AzNeUO2d<7Be_NI^GO[=M1
 IKQ^eWG[AzJ?o:W`jO@Ek43
@@ -77,7 +77,7 @@ OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1699131397.000000
+!s108 1699236152.000000
 !s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv|
 !i113 1

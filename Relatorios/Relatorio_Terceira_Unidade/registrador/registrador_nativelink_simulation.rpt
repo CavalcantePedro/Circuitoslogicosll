@@ -18,4 +18,5 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script c:/altera/91sp2/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File registrador_run_msim_gate_vhdl.do already exists - backing up current file as registrador_run_msim_gate_vhdl.do.bak
 Info: Spawning ModelSim-Altera Simulation software 

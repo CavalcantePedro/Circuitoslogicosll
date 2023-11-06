@@ -17,12 +17,12 @@ module contador_8bits_tb;
   );
   
   
-  initial // No inicio de toda execução
+  initial // No inicio de toda execuï¿½ï¿½o
      begin
        $display ("          Iniciando Testbench");
        $display ("           | CLK |   Q    |");
        $display ("            ---------------");
-       $readmemb("contador_8bits.tv", vectors); //Carrega os vetores descritos em flop.tv
+       $readmemb("contador_8bits.tv", vectors); 
        counter = 0; errors = 0;  // Inicializa contadores
        rst = 1; #20; rst = 0; // Reset em 1 por 20 ns
        clrn = 0; #5; clrn = 1; 
@@ -34,8 +34,6 @@ module contador_8bits_tb;
        clkSimulation = 1; #10; // clock em 1 dura 12 ns
        clkSimulation = 0; #10; // clock em 0 dura 7 ns
       end
-       
-   
        
     always @ (posedge clkSimulation) // Sempre que o clock subir vetores lidos do arquivo
       if(~rst)
@@ -50,8 +48,6 @@ module contador_8bits_tb;
              $display ("  linha %2d | %b | %b |", counter+1, clk, q_expected);
              counter++;
             end
-             
-      
           else begin
            $display ("  linha %2d | %b | %b |", counter+1, clk, q);
            if(q !== q_expected) begin
@@ -62,7 +58,6 @@ module contador_8bits_tb;
             end
         end
         counter++;
-        
         if (counter === 512) //Quando os vetores de teste acabarem
          begin
           $display("Testes Efetuados = %0d", counter);
@@ -70,11 +65,6 @@ module contador_8bits_tb;
           #10
           $stop;
          end
-       
-        
-      
-         end 
-          
+         end           
       end
-      
   endmodule    

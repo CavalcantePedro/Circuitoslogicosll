@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {registrador_6_1200mv_85c_slow.vho}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:56:36 on Nov 04,2023
+# Start time: 23:02:31 on Nov 05,2023
 # vcom -reportprogress 300 -93 -work work registrador_6_1200mv_85c_slow.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -25,27 +25,25 @@
 # -- Loading package cycloneive_components
 # -- Compiling entity registrador
 # -- Compiling architecture structure of registrador
-# End time: 17:56:37 on Nov 04,2023, Elapsed time: 0:00:01
+# End time: 23:02:32 on Nov 05,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches {Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:56:37 on Nov 04,2023
+# Start time: 23:02:32 on Nov 05,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches" Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv 
 # -- Compiling module registrador_tb
 # 
 # Top level modules:
 # 	registrador_tb
-# End time: 17:56:38 on Nov 04,2023, Elapsed time: 0:00:01
+# End time: 23:02:33 on Nov 05,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=registrador_6_1200mv_85c_vhd_slow.sdo -L altera -L cycloneive -L gate_work -L work -voptargs="+acc" registrador_tb
 # vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -sdftyp /dut=registrador_6_1200mv_85c_vhd_slow.sdo -L altera -L cycloneive -L gate_work -L work -voptargs=""+acc"" registrador_tb 
-# Start time: 17:56:38 on Nov 04,2023
+# Start time: 23:02:33 on Nov 05,2023
 # Loading sv_std.std
 # Loading work.registrador_tb
-# SDF 10.5b Compiler 2016.10 Oct  5 2016
-# 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -594,5 +592,5 @@
 # ** Note: $stop    : Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv(80)
 #    Time: 10260 ns  Iteration: 0  Instance: /registrador_tb
 # Break in Module registrador_tb at Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv line 80
-# End time: 17:57:38 on Nov 04,2023, Elapsed time: 0:01:00
+# End time: 23:11:19 on Nov 05,2023, Elapsed time: 0:08:46
 # Errors: 0, Warnings: 0

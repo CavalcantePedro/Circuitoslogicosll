@@ -1,17 +1,17 @@
 Info: Start Nativelink Simulation process
-Info: NativeLink has detected Verilog design -- Verilog simulation models will be used
 
 ========= EDA Simulation Settings =====================
 
-Sim Mode              :  RTL
+Sim Mode              :  Gate
 Family                :  cycloneive
 Quartus root          :  c:/altera/91sp2/quartus/bin/
 Quartus sim root      :  c:/altera/91sp2/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
-Simulation Language   :  verilog
+Simulation Language   :  vhdl
+Version               :  93
 Simulation Mode       :  GUI
-Sim Output File       :  contador_sequencia_0_1_2_3_10_13.vho
-Sim SDF file          :  contador_sequencia_0_1_2_3_10_13__vhdl.sdo
+Sim Output File       :  contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_slow.vho
+Sim SDF File       :  contador_sequencia_0_1_2_3_10_13_6_1200mv_85c_vhd_slow.sdo
 Sim dir               :  simulation\modelsim
 
 =======================================================

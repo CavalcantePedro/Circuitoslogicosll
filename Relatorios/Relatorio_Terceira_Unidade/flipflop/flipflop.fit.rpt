@@ -1,5 +1,5 @@
 Fitter report for flipflop
-Sat Nov 04 17:39:08 2023
+Sun Nov 05 22:14:58 2023
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +------------------------------------+----------------------------------------------+
-; Fitter Status                      ; Successful - Sat Nov 04 17:39:07 2023        ;
+; Fitter Status                      ; Successful - Sun Nov 05 22:14:58 2023        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; flipflop                                     ;
 ; Top-level Entity Name              ; flipflop                                     ;
@@ -210,7 +210,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in Z:/Circuitoslogicosll/Relatorios/Relatorio[3Unidade]/flipflop/flipflop.pin.
+The pin-out file can be found in Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/flipflop/flipflop.pin.
 
 
 +-------------------------------------------------------------------+
@@ -827,7 +827,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sat Nov 04 17:39:00 2023
+    Info: Processing started: Sun Nov 05 22:14:53 2023
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off flipflop -c flipflop
 Info: Automatically selected device EP4CE6E22C6 for design flipflop
 Info: high junction temperature operating condition is not set. Assuming a default value of '85'.
@@ -903,8 +903,8 @@ Warning: Timing characteristics of device EP4CE6E22C6 are preliminary
 Info: Delay annotation completed successfully
 Info: Quartus II Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 288 megabytes
-    Info: Processing ended: Sat Nov 04 17:39:08 2023
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Processing ended: Sun Nov 05 22:14:59 2023
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
 
 

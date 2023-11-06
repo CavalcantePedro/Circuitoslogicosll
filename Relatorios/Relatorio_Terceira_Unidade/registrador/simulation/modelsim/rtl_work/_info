@@ -10,36 +10,36 @@ cModel Technology
 Z0 dZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/simulation/modelsim
 vregistrador
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1699131301
+Z2 !s110 1699235146
 !i10b 1
 !s100 I9HAm9`91VUf]U>77ejA22
 Io5Zn1o7ff;3XElNijk=jI1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 registrador_sv_unit
 S1
 R0
-w1699131035
+w1699235561
 8Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/registrador.sv
 FZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/registrador.sv
 L0 1
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1699131300.000000
+!s108 1699235145.000000
 !s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/registrador.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/registrador.sv|
 !i113 1
-Z4 o-sv -work work
+Z5 o-sv -work work
 !s92 -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador
-Z5 tCvgOpt 0
+Z6 tCvgOpt 0
 vregistrador_tb
 R1
-!s110 1699131302
+R2
 !i10b 1
 !s100 AzNeUO2d<7Be_NI^GO[=M1
 IKQ^eWG[AzJ?o:W`jO@Ek43
-R2
+R3
 !s105 registrador_tb_sv_unit
 S1
 R0
@@ -47,14 +47,14 @@ w1699131225
 8Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv
 FZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv
 L0 3
-R3
+R4
 r1
 !s85 0
 31
-!s108 1699131301.000000
+!s108 1699235146.000000
 !s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches/registrador_tb.sv|
 !i113 1
-R4
-!s92 -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches
 R5
+!s92 -sv -work work +incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/registrador/Testsbenches
+R6

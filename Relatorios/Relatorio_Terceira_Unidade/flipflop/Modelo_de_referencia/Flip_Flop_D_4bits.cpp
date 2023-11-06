@@ -20,11 +20,11 @@ int main() {
         for(b=0; b<=1; b++) {
             for(c=0; c<=1; c++) {
                 for(d=0; d<=1; d++) {
-                    clock = 0; // gera o Clock para os Flip-Flops (sensível à borda de subida)
-                    fprintf(fp, "%d%d%d%d_%d_%d%d%d%d\n", a, b, c, d, clock, anterior_a, anterior_b, anterior_c, anterior_d);  // escreve a combinaçao pela primeira vez
-					clock = 1; // gera o clock para os Flip-Flops (sensível à borda de subida)
-                    fprintf(fp, "%d%d%d%d_%d_%d%d%d%d\n", a, b, c, d, clock, a, b, c, d); // escreve a combinação pela segunda vez
-                    anterior_a = a; // armazena a combinação atual
+                    clock = 0; // gera o Clock para os Flip-Flops (sensï¿½vel ï¿½ borda de subida)
+                    fprintf(fp, "%d%d%d%d_%d_%d%d%d%d\n", a, b, c, d, clock, anterior_a, anterior_b, anterior_c, anterior_d);  // escreve a combinaï¿½ao pela primeira vez
+					clock = 1; // gera o clock para os Flip-Flops (sensï¿½vel ï¿½ borda de subida)
+                    fprintf(fp, "%d%d%d%d_%d_%d%d%d%d\n", a, b, c, d, clock, a, b, c, d); // escreve a combinaï¿½ï¿½o pela segunda vez
+                    anterior_a = a; // armazena a combinaï¿½ï¿½o atual
                     anterior_b = b;
                     anterior_c = c;
                     anterior_d = d;
@@ -33,16 +33,7 @@ int main() {
             }
         }
     }
-
     
-
-
-
-
-
-
-
-
     fclose(fp); // fecha o arquivo
     printf("Arquivo gerado com sucesso.\n");
     return 0;

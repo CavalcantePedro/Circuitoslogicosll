@@ -17,7 +17,7 @@ module contador_sequencia_0_1_2_3_10_13_tb;
   );
   
   
-  initial // No inicio de toda execução
+  initial // No inicio de toda execuï¿½ï¿½o
      begin
        $display (" Iniciando Testbench");
        $display ("          RESET|CLK|  Y  |");
@@ -33,9 +33,7 @@ module contador_sequencia_0_1_2_3_10_13_tb;
        clkSimulation = 1; #10; // clock em 1 dura 12 ns
        clkSimulation = 0; #10; // clock em 0 dura 7 ns
       end
-       
-   
-       
+        
     always @ (posedge clkSimulation) // Sempre que o clock subir vetores lidos do arquivo
       if(~rst)
        begin

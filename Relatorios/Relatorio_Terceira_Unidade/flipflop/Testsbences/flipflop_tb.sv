@@ -16,7 +16,7 @@ module flipflop_tb;
   );
   
   
-  initial // No inicio de toda execução
+  initial // No inicio de toda execuï¿½ï¿½o
      begin
        $display ("           Iniciando Testbench");
        $display ("             | D | CLK | Q |");
@@ -66,9 +66,6 @@ module flipflop_tb;
           #10
           $stop;
          end
-       
-        
-      
          end 
           
       end

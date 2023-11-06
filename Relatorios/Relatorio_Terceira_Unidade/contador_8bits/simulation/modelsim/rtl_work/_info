@@ -10,7 +10,7 @@ cModel Technology
 Z0 dZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/simulation/modelsim
 vcontador_8bits
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1699132009
+!s110 1699236793
 !i10b 1
 !s100 TIeMWd]FFNX5MN`W3H>4:1
 IT<YF5Fj@KV>ehajS<lmRP2
@@ -26,7 +26,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1699132009.000000
+!s108 1699236792.000000
 !s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/contador_8bits.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/contador_8bits.sv|
 !i113 1
@@ -35,15 +35,15 @@ Z4 o-sv -work work
 Z5 tCvgOpt 0
 vcontador_8bits_tb
 R1
-!s110 1699132010
+!s110 1699236794
 !i10b 1
-!s100 E;]7j>S[CbV45jI_ge1MN1
-I1N?2zK3`QhfmFiNHnifai2
+!s100 ATZi:dWI5j:07@jZg7]880
+ImNZ>[=59lf^176=5=fj^a0
 R2
 !s105 contador_8bits_tb_sv_unit
 S1
 R0
-w1699131732
+w1699239836
 8Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv
 FZ:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv
 L0 3
@@ -51,7 +51,7 @@ R3
 r1
 !s85 0
 31
-!s108 1699132010.000000
+!s108 1699236793.000000
 !s107 Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches|Z:/Circuitoslogicosll/Relatorios/Relatorio_Terceira_Unidade/contador_8bits/Testsbenches/contador_8bits_tb.sv|
 !i113 1
